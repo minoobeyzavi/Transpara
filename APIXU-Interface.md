@@ -1,23 +1,23 @@
-<h3>Interface Instructions</h3>
+<h1>Interface Instructions</h1>
 
 1. Install new JSON Interface on Server.</br>
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
 3. Enter the following:</br>
 Base Address: https://api.apixu.com/v1/
 
-<h1>Current Weather</h1>
+<h3>Current Weather</h3>
 Request URI: Object name and parameter</br>
 Result Base Path:</br>
 Value Field:</br>
 Timestamp:</br>
 
-<h1>Forecast (Trend Data)</h1>
+<h3>Forecast (Trend Data)</h3>
 Request URI: Object name and parameter</br>
 Result Base Path:  </br>
 Value Field:</br>
 Timestamp:</br>
 
-<h1>Historical Data</h1>
+<h3>Historical Data</h3>
 Request URI: Object name and parameter</br>
 Result Base Path:</br>
 Value Field:</br>
@@ -25,10 +25,10 @@ Timestamp:</br>
 
 4. Test
 
-<h3>Questions:</h3>
+<h1>Questions</h1>
 What Data?
 
-<h3>API Notes</h3>
+<h1>API Notes</h1>
 Real-time weather</br>
 10 day weather forecast</br>
 Astronomy</br>
