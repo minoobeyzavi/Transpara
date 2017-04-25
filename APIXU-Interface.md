@@ -1,7 +1,34 @@
-Questions:</br>
-What Data? HTTP or HTTPS? Weather Icons?
+<h3>Interface Instructions</h3>
 
+1. Install new JSON Interface on Server.</br>
+2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.
+3. Enter the following:
+Base Address: https://api.apixu.com/v1/
 
+<h4>Current Weather</h4>
+Request URI: Object name and parameter
+Result Base Path:
+Value Field:
+Timestamp:
+
+<h4>Forecast (Trend Data)</h4>
+Request URI: Object name and parameter
+Result Base Path:  
+Value Field:
+Timestamp:
+
+<h4>Historical Data</h4>
+Request URI: Object name and parameter
+Result Base Path:
+Value Field:
+Timestamp:
+
+4. Test
+
+<h3>Questions:</h3>
+What Data?
+
+<h3>API Notes</h3>
 Real-time weather</br>
 10 day weather forecast</br>
 Astronomy</br>
@@ -66,11 +93,3 @@ Search/Autocomplete:
 
 Returns matching cities/towns as an array of Location object w/o tz_id, localtime_epoch and localtime.</br>
 Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localtime
-
-
-
-<h4>Interface</h4>
-
-Install JSON Interface on Server.</br>
-Clear out Reques URIs and write them from scratch.
-
