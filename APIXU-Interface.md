@@ -6,13 +6,13 @@
 Base Address: https://api.apixu.com/v1/
 
 <h3>Current Weather</h3>
-Request URI: Object name and parameter</br>
+Request URI: current.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
 Result Base Path:</br>
 Value Field:</br>
 Timestamp:</br>
 
 <h3>Forecast (Trend Data)</h3>
-Request URI: Object name and parameter</br>
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
 Result Base Path:  </br>
 Value Field:</br>
 Timestamp:</br>
@@ -38,8 +38,7 @@ Search or Autocomplete API</br>
 Historical weather
 
 
-Examples:</br>
-
+<b>Examples</b></br>
 http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London</br>
 http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7</br>
 forcast: Number of days between 1 and 10. If not provided then only today's weather is returned.</br>
@@ -52,9 +51,7 @@ iata:<3 digit airport code> q=iata:DXB</br>
 auto:ip IP lookup q=auto:ip</br>
 IP address q=100.0.0.1</br>
 
-
-Details:
-
+<b>Details</b></br>
 forecast: 'dt' should be between today and next 10 day dt=2017-04-21.</br>
 history: 'dt' should be on or after dt=2015-01-01 or unixdt=1490227200.</br>
 history: 'end_dt' or 'unixend_dt' should be on or after dt=2015-01-01.</br>
@@ -62,16 +59,12 @@ history: 'end_dt' should be greater than 'dt' and difference should not be more 
 Restricting forecast or history output to a specific hour in a given day: 5 pm -> hour=17</br>
 lang=fr -> French; returns 'condition:text'.
 
-
-Current Weather:
-
+<b>Current Weather</b></br>
 Current Object: last_updated, last_updated_epoch, temp_c, temp_f, feelslike_c	, feelslike_f,</br>
 condition:text	, condition:icon, condition:code, wind_mph, wind_kph, wind_degree, wind_dir, wind_degree,</br>
 pressure_mb, pressure_in, precip_mm, precip_in, humidity, cloud, feelslike_c, feelslike_f, is_day
 
-
-Forcast & Hisotry:
-
+<b>Forcast & Hisotry</b></br>
 Forecast Object: astronomy data, day weather forecast and hourly interval weather information for a given city.</br>
 forecastday: Parent element. forecastday -> day, forecastday -> astro, forecastday -> hour, date, date_epoch
 
@@ -85,11 +78,6 @@ wind_kph, wind_degree, wind_dir, pressure_mb, pressure_in, precip_mm, precip_in,
 feelslike_f, windchill_c, windchill_f, heatindex_c, heatindex_f, dewpoint_c, dewpoint_f, will_it_rain, will_it_snow,</br>
 is_day, vis_km, vis_miles
 
-http://www.apixu.com/doc/conditions.json -> Multi-language translations of weather condition text</br>
-https://cdn.apixu.com/weather.zip -> Weather Icons
-
-
-Search/Autocomplete:
-
+<b>Search/Autocomplete</b></br>
 Returns matching cities/towns as an array of Location object w/o tz_id, localtime_epoch and localtime.</br>
 Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localtime
