@@ -34,16 +34,17 @@ Result Base Path: forecast
 Value Field: forecastday.avgtemp_f
 Timestamp Field: forecastday.date
 ```
-and enter start and end dates manually.
+and enter start & end dates manually.
 ### Historical Data
 ```
-Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01
+Request URI: history.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-04-01
 Result Base Path: forecast
 Value Field: forecastday.avgtemp_f
 Timestamp Field: forecastday.date
 ```
 
 4. Test
+5. Add KPIs to Designer
 
 ## Questions
 What data do we want to return?
