@@ -47,7 +47,7 @@ Timestamp Field: forecastday.date
 5. Add KPIs to Designer
 
 ## Questions
-What data do we want to return?
+What data and/or Timestamp do we want to return?
 
 ## API Notes
 Real-time weather</br>
