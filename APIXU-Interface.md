@@ -51,8 +51,8 @@ Timestamp Field: forecastday.date
 ## Questions
 What data and/or Timestamps do we want to return?
 
-</br>
-</br>
+
+
 ### API Notes
 
 Real-time weather</br>
