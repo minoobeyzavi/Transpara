@@ -53,7 +53,7 @@ Astronomy</br>
 Time zone</br>
 Location data</br>
 Search or Autocomplete API</br>
-Historical weather</b>
+Historical weather</br>
 
 <b>Examples</b></br>
 http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London</br>
