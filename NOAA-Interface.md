@@ -15,7 +15,7 @@ Value Field: temp_f
 Timestamp Field: last_updated
 ```
 
-### Forecast (Trend Data)</h3>
+### Forecast (Trend Data)
 ```
 Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&days=7
 Result Base Path: forecast
@@ -51,4 +51,4 @@ Timestamp Field: forecastday.date
 
 ## NOAA Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
-Token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
+</br>Token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
