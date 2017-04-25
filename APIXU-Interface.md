@@ -1,27 +1,27 @@
 <h3>Interface Instructions</h3>
 
 1. Install new JSON Interface on Server.</br>
-2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.
-3. Enter the following:
+2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
+3. Enter the following:</br>
 Base Address: https://api.apixu.com/v1/
 
-<h4>Current Weather</h4>
-Request URI: Object name and parameter
-Result Base Path:
-Value Field:
-Timestamp:
+<h1>Current Weather</h1>
+Request URI: Object name and parameter</br>
+Result Base Path:</br>
+Value Field:</br>
+Timestamp:</br>
 
-<h4>Forecast (Trend Data)</h4>
-Request URI: Object name and parameter
-Result Base Path:  
-Value Field:
-Timestamp:
+<h1>Forecast (Trend Data)</h1>
+Request URI: Object name and parameter</br>
+Result Base Path:  </br>
+Value Field:</br>
+Timestamp:</br>
 
-<h4>Historical Data</h4>
-Request URI: Object name and parameter
-Result Base Path:
-Value Field:
-Timestamp:
+<h1>Historical Data</h1>
+Request URI: Object name and parameter</br>
+Result Base Path:</br>
+Value Field:</br>
+Timestamp:</br>
 
 4. Test
 
