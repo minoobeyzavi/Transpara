@@ -1,17 +1,17 @@
-Questions:
+Questions:</br>
 What Data? HTTP or HTTPS? Weather Icons?
 
 
-Real-time weather
-10 day weather forecast
-Astronomy
-Time zone
-Location data
-Search or Autocomplete API
+Real-time weather</br>
+10 day weather forecast</br>
+Astronomy</br>
+Time zone</br>
+Location data</br>
+Search or Autocomplete API</br>
 Historical weather
 
 
-Examples:
+Examples:</br>
 
 http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London
 http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
