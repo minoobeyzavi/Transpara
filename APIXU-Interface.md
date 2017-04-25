@@ -43,10 +43,10 @@ Timestamp -> </br>
 
 4. Test
 
-<h2>Questions</h2>
+## Questions
 What Data Do We Need?
 
-<h2>API Notes</h2>
+#### API Notes
 Real-time weather</br>
 10 day weather forecast</br>
 Astronomy</br>
