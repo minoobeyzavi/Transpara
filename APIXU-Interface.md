@@ -53,7 +53,7 @@ What data and/or Timestamps do we want to return?
 
 
 
-### API Notes
+## API Notes
 
 Real-time weather</br>
 10 day weather forecast</br>
