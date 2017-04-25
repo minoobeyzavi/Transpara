@@ -10,7 +10,6 @@ Request URI
 ```
 current.json?key=32b04bb6f545444db9b12806172204&q=94103
 ```
-</br>
 Result Base Path -> </br>
 Value Field -> </br>
 Timestamp -> </br>
