@@ -67,7 +67,6 @@ http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
 http://api.apixu.com/v1/search.json?key=<YOUR_API_KEY>&q=lond
 ```
 Forcast: Number of days between 1 and 10. If not provided then only today's weather is returned.</br>
-</br>
 Latitude and Longitude q=48.8567,2.3508</br>
 city name q=Paris</br>
 zip q=10001</br>
