@@ -69,7 +69,8 @@ Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localt
 
 
 
-Interface:
+<h4>Interface</h4>
 
-Install JSON Interface on Server.
+Install JSON Interface on Server.</br>
+Clear out Reques URIs and write them from scratch.
 
