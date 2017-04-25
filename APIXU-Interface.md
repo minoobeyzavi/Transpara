@@ -31,7 +31,7 @@ Timestamp Field: forecastday.date
 ```
 or
 ```
-Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt={STARTDATE}&end_dt={ENDDATE}
 Result Base Path: forecast
 Value Field: forecastday.avgtemp_f
 Timestamp Field: forecastday.date
@@ -49,7 +49,7 @@ Timestamp Field: forecastday.date
 5. Add KPIs to Designer
 
 ## Questions
-What data and/or Timestamp do we want to return?
+What data and/or Timestamps do we want to return?
 
 ## API Notes
 Real-time weather</br>
