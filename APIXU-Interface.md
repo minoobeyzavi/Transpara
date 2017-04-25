@@ -12,15 +12,15 @@ current.json?key=32b04bb6f545444db9b12806172204&q=94103
 ```
 Result Base Path:
 ```
-
+current.
 ```
 Value Field:
 ```
-
+temp_f
 ```
 Timestamp Field:
 ```
-
+last_updated
 ```
 
 ### Forecast (Trend Data)</h3>
