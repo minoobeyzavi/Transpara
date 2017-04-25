@@ -27,7 +27,9 @@ Timestamp:
 Request URI:
 ```
 forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&days=7
-OR
+```
+#### OR
+```
 forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01&end_dt=2017-01-20
 ```
 Result Base Path -> </br>
