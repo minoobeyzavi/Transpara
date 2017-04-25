@@ -6,11 +6,10 @@
 Base Address: https://api.apixu.com/v1/
 
 ### Current Weather
-Request URI 
+```Request URI -> current.json?key=32b04bb6f545444db9b12806172204&q=94103
 ```
-  current.json?key=32b04bb6f545444db9b12806172204&q=94103
+```Result Base Path ->
 ```
-Result Base Path -> </br>
 Value Field -> </br>
 Timestamp -> </br>
 
