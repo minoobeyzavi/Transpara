@@ -1,16 +1,15 @@
-<h2>Interface Instructions</h2>
+## Interface Instructions
 
 1. Install new JSON Interface on Server.</br>
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
 3. Enter the following:</br>
 Base Address: https://api.apixu.com/v1/
 
-### Current Weather</h3>
+### Current Weather
 Request URI 
-```python
-  a=a
 ```
   current.json?key=32b04bb6f545444db9b12806172204&q=94103
+```
 Result Base Path -> </br>
 Value Field -> </br>
 Timestamp -> </br>
