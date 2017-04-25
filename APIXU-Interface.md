@@ -48,7 +48,7 @@ Timestamp -> </br>
 4. Test
 
 ## Questions
-What Data Do We Want to Return?
+What data do we want to return?
 
 ## API Notes
 Real-time weather</br>
