@@ -3,7 +3,9 @@
 1. Install new JSON Interface on Server.</br>
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
 3. Enter the following:</br>
+```
 Base Address: https://api.apixu.com/v1/
+```
 
 ### Current Weather
 ```
