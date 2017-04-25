@@ -60,7 +60,7 @@ Location data</br>
 Search or Autocomplete API</br>
 Historical weather</br>
 
-<b>Examples</b></br>
+<b>Examples</b>
 ```
 http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London
 http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
