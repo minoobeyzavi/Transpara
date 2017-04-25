@@ -6,61 +6,34 @@
 Base Address: https://api.apixu.com/v1/
 
 ### Current Weather
-Request URI:
 ```
-current.json?key=32b04bb6f545444db9b12806172204&q=94103
-```
-Result Base Path:
-```
-current.
-```
-Value Field:
-```
-temp_f
-```
-Timestamp Field:
-```
-last_updated
+Request URI: current.json?key=32b04bb6f545444db9b12806172204&q=94103
+Result Base Path: current.
+Value Field: temp_f
+Timestamp Field: last_updated
 ```
 
 ### Forecast (Trend Data)</h3>
-Request URI:
 ```
-forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&days=7
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&days=7
+Result Base Path: 
+Value Field: 
+Timestamp Field:
 ```
 #### OR
 ```
-forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01&end_dt=2017-01-20
-```
-Result Base Path:
-```
-
-```
-Value Field:
-```
-
-```
-Timestamp Field:
-```
-
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01&end_dt=2017-01-20
+Result Base Path: 
+Value Field: 
+Timestamp Field: 
 ```
 
 ### Historical Data
-Request URI:
 ```
-forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01
-```
-Result Base Path:
-```
-
-```
-Value Field:
-```
-
-```
-Timestamp Field:
-```
-
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01
+Result Base Path: 
+Value Field: 
+Timestamp Field: 
 ```
 
 4. Test
