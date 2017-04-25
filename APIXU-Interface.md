@@ -1,4 +1,3 @@
-/*
 Questions:
 What Data? HTTP or HTTPS? Weather Icons?
 
@@ -67,10 +66,10 @@ Search/Autocomplete:
 
 Returns matching cities/towns as an array of Location object w/o tz_id, localtime_epoch and localtime.
 Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localtime
-*/
 
-/*
+
+
 Interface:
 
 Install JSON Interface on Server.
-*/
+
