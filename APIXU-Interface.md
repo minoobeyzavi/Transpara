@@ -45,8 +45,8 @@ Value Field: forecastday.avgtemp_f
 Timestamp Field: forecastday.date
 ```
 
-4. Test
-5. Add KPIs to Designer
+4. Test.
+5. Add corresponding KPIs to the designer.
 
 ## Questions
 What data and/or Timestamps do we want to return?
