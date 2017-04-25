@@ -1,4 +1,4 @@
-<h1>Interface Instructions</h1>
+<h2>Interface Instructions</h2>
 
 1. Install new JSON Interface on Server.</br>
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
@@ -6,27 +6,27 @@
 Base Address: https://api.apixu.com/v1/
 
 <h3>Current Weather</h3>
-Request URI: current.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
-Result Base Path:</br>
-Value Field:</br>
-Timestamp:</br>
+<b>Request URI</b> current.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+<b>Result Base Path</b></br>
+<b>Value Field</b></br>
+<b>Timestamp</b></br>
 
 <h3>Forecast (Trend Data)</h3>
-Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
-Result Base Path:  </br>
-Value Field:</br>
-Timestamp:</br>
+Request URI</b> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+<b>Result Base Path</b></br>
+<b>Value Field</b></br>
+<b>Timestamp</b></br>
 
 <h3>Historical Data</h3>
-Request URI: Object name and parameter</br>
-Result Base Path:</br>
-Value Field:</br>
-Timestamp:</br>
+<b>Request URI</b> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+<b>Result Base Path</b></br>
+<b>Value Field</b></br>
+<b>Timestamp</b></br>
 
 4. Test
 
 <h2>Questions</h2>
-What Data?
+What Data Do We Need?
 
 <h2>API Notes</h2>
 Real-time weather</br>
@@ -35,8 +35,7 @@ Astronomy</br>
 Time zone</br>
 Location data</br>
 Search or Autocomplete API</br>
-Historical weather
-
+Historical weather</b>
 
 <b>Examples</b></br>
 http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London</br>
