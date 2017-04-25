@@ -1,4 +1,5 @@
--- What Data? HTTP or HTTPS?
+-- What Data? HTTP or HTTPS? Weather Icons?
+
 
 -- Real-time weather
 -- 10 day weather forecast
@@ -7,6 +8,7 @@
 -- Location data
 -- Search or Autocomplete API
 -- Historical weather
+
 
 -- Examples:
 
@@ -22,6 +24,7 @@
 -- auto:ip IP lookup q=auto:ip
 -- IP address q=100.0.0.1
 
+
 -- Details:
 
 -- forecast: 'dt' should be between today and next 10 day dt=2017-04-21.
@@ -31,11 +34,13 @@
 -- Restricting forecast or history output to a specific hour in a given day: 5 pm -> hour=17
 -- lang=fr -> French; returns 'condition:text'.
 
+
 -- Current Weather:
 
 -- Current Object: last_updated, last_updated_epoch, temp_c, temp_f, feelslike_c	, feelslike_f,
 -- condition:text	, condition:icon, condition:code, wind_mph, wind_kph, wind_degree, wind_dir, wind_degree,
 -- pressure_mb, pressure_in, precip_mm, precip_in, humidity, cloud, feelslike_c, feelslike_f, is_day
+
 
 -- Forcast & Hisotry:
 
@@ -53,6 +58,14 @@
 -- is_day, vis_km, vis_miles
 
 -- http://www.apixu.com/doc/conditions.json -> Multi-language translations of weather condition text
+-- https://cdn.apixu.com/weather.zip -> Weather Icons
+
+
+-- Search/Autocomplete:
+
+-- Returns matching cities/towns as an array of Location object w/o tz_id, localtime_epoch and localtime.
+-- Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localtime
+
 
 -- Interfaces:
 
