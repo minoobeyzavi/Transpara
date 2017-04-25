@@ -6,22 +6,22 @@
 Base Address: https://api.apixu.com/v1/
 
 <h3>Current Weather</h3>
-<b>Request URI</b> current.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
-<b>Result Base Path</b></br>
-<b>Value Field</b></br>
-<b>Timestamp</b></br>
+Request URI -> current.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+Result Base Path -> </br>
+Value Field -> </br>
+Timestamp -> </br>
 
 <h3>Forecast (Trend Data)</h3>
-Request URI</b> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
-<b>Result Base Path</b></br>
-<b>Value Field</b></br>
-<b>Timestamp</b></br>
+Request URI -> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+Result Base Path -> </br>
+Value Field -> </br>
+Timestamp -> </br>
 
 <h3>Historical Data</h3>
-<b>Request URI</b> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
-<b>Result Base Path</b></br>
-<b>Value Field</b></br>
-<b>Timestamp</b></br>
+Request URI -> forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+Result Base Path -> </br>
+Value Field -> </br>
+Timestamp -> </br>
 
 4. Test
 
