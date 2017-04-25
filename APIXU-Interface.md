@@ -23,19 +23,19 @@ Timestamp:
 
 ```
 
-<h3>Forecast (Trend Data)</h3>
+### Forecast (Trend Data)</h3>
 Request URI:
 ```
-forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+forecast.json?key=32b04bb6f545444db9b12806172204&q=94103
 ```
 Result Base Path -> </br>
 Value Field -> </br>
 Timestamp -> </br>
 
-<h3>Historical Data</h3>
+### Historical Data
 Request URI:
 ```
-forecast.json?key=32b04bb6f545444db9b12806172204&q=94103</br>
+forecast.json?key=32b04bb6f545444db9b12806172204&q=94103
 ```
 Result Base Path -> </br>
 Value Field -> </br>
