@@ -61,10 +61,13 @@ Search or Autocomplete API</br>
 Historical weather</br>
 
 <b>Examples</b></br>
-http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London</br>
-http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7</br>
-forcast: Number of days between 1 and 10. If not provided then only today's weather is returned.</br>
-http://api.apixu.com/v1/search.json?key=<YOUR_API_KEY>&q=lond</br>
+```
+http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London
+http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
+http://api.apixu.com/v1/search.json?key=<YOUR_API_KEY>&q=lond
+```
+Forcast: Number of days between 1 and 10. If not provided then only today's weather is returned.</br>
+</br>
 Latitude and Longitude q=48.8567,2.3508</br>
 city name q=Paris</br>
 zip q=10001</br>
@@ -74,10 +77,10 @@ auto:ip IP lookup q=auto:ip</br>
 IP address q=100.0.0.1</br>
 
 <b>Details</b></br>
-forecast: 'dt' should be between today and next 10 day dt=2017-04-21.</br>
-history: 'dt' should be on or after dt=2015-01-01 or unixdt=1490227200.</br>
-history: 'end_dt' or 'unixend_dt' should be on or after dt=2015-01-01.</br>
-history: 'end_dt' should be greater than 'dt' and difference should not be more than 30 days.</br>
+Forecast: 'dt' should be between today and next 10 day dt=2017-04-21.</br>
+History: 'dt' should be on or after dt=2015-01-01 or unixdt=1490227200.</br>
+History: 'end_dt' or 'unixend_dt' should be on or after dt=2015-01-01.</br>
+History: 'end_dt' should be greater than 'dt' and difference should not be more than 30 days.</br>
 Restricting forecast or history output to a specific hour in a given day: 5 pm -> hour=17</br>
 lang=fr -> French; returns 'condition:text'.
 
