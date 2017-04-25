@@ -5,7 +5,7 @@
 3. Enter the following:</br>
 Base Address: https://api.apixu.com/v1/
 
-<h3>Current Weather</h3>
+### Current Weather</h3>
 Request URI 
 ```python
   a=a
