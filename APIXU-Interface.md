@@ -16,24 +16,31 @@ Timestamp Field: last_updated
 ### Forecast (Trend Data)</h3>
 ```
 Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&days=7
-Result Base Path: 
-Value Field: 
-Timestamp Field:
+Result Base Path: forecast
+Value Field: forecastday.avgtemp_f
+Timestamp Field: forecastday.date
 ```
 or
 ```
 Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01&end_dt=2017-01-20
-Result Base Path: 
-Value Field: 
-Timestamp Field: 
+Result Base Path: forecast
+Value Field: forecastday.avgtemp_f
+Timestamp Field: forecastday.date
 ```
-
+or
+```
+Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103
+Result Base Path: forecast
+Value Field: forecastday.avgtemp_f
+Timestamp Field: forecastday.date
+```
+and enter start and end dates manually.
 ### Historical Data
 ```
 Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt=2017-01-01
-Result Base Path: 
-Value Field: 
-Timestamp Field: 
+Result Base Path: forecast
+Value Field: forecastday.avgtemp_f
+Timestamp Field: forecastday.date
 ```
 
 4. Test
