@@ -1,6 +1,7 @@
  ## Interface Instructions
  
  1. Install new JSON Interface on Server.</br>
+ 2. Using [Postman](https://www.getpostman.com/docs/introduction):
  2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  3. Enter the following:</br>
  ```
