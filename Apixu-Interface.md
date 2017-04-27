@@ -4,7 +4,7 @@
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
 3. Enter the following:</br>
 ```
-Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
+Base Address: https://api.apixu.com/v1/
 ```
 
 ### Current Data
