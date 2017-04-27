@@ -15,7 +15,7 @@
   Timestamp Field: last_updated
   ```
   
- +### Forecast (Trend Data)
+ ### Forecast (Trend Data)
  ```
  Request URI: forecast.json?key=32b04bb6f545444db9b12806172204&q=94103&dt={STARTDATE}&end_dt={ENDDATE}
  Result Base Path: forecast
