@@ -49,10 +49,6 @@ Timestamp Field: forecastday.date
 5. Add corresponding KPIs to the designer.
 
 
-## NOAA Notes
-https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
-</br>Token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
-
 ## Apixu Notes
   
   Real-time weather</br>
