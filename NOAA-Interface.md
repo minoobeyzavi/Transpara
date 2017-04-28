@@ -1,4 +1,4 @@
- ## Commnt regarding NOAA
+ ## Comments regarding NOAA
  
  1. Install new JSON Interface on Server.</br>
  2. Using [Postman](https://www.getpostman.com/docs/introduction):
