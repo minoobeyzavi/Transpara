@@ -5,6 +5,9 @@
  
  Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy".
  
+ ### Question:
+ How to pass the results to our Visual KPI software using Postman?
+ 
  3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  4. Enter the following:</br>
  ```
