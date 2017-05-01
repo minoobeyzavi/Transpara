@@ -17,6 +17,12 @@ cd zookeeper-3.4.6
 cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
+Check Zookeeper is running:
+
+```
+echo stat | nc localhost 2181 | grep Mode
+```
+You should see: "Mode: standalone".
 
 Return to druid-0.10.0 directory and issue the command:
 
