@@ -44,6 +44,7 @@ java `cat conf-quickstart/druid/coordinator/jvm.config | xargs` -cp "conf-quicks
 java `cat conf-quickstart/druid/overlord/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/overlord:lib/*" io.druid.cli.Main server overlord
 java `cat conf-quickstart/druid/middleManager/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/middleManager:lib/*" io.druid.cli.Main server middleManager
 ```
+
 #### Load batch data
 
 Submit an <i>ingestion</i> task in a new terminal window from the druid-0.10.0 directory:
@@ -69,3 +70,5 @@ Refresh the console periodically, and you should see a "SUCCESS" status for the 
 
 Progress of loading data: http://localhost:8081/#/
 You should see datasource "wikiticker" with a blue circle indicating "fully available".
+
+(Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
