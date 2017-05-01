@@ -1,5 +1,4 @@
-## Working Instructions to Load Batch Data
-[//]: # (and Query on Linux)
+## Working Instructions to Load Batch Data and Query on Linux
 
 Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to use Oracle JDK 8 and not OpenJDK 8.
 
@@ -72,5 +71,60 @@ Successful submission prints the task ID:
 
 [//]: # (Progress of loading data: http://localhost:8081/#/)
 [//]: # (You should see datasource "wikiticker" with a blue circle indicating "fully available".)
+
+#### JSON-Based Query
+
+Basic format:
+```
+curl -X POST '<queryable_host>:<port>/druid/v2/?pretty' -H 'Content-Type:application/json' -d @<query_json_file>
+```
+
+Example:
+```
+curl -L -H'Content-Type: application/json' -XPOST --data-binary @quickstart/wikiticker-top-pages.json http://localhost:8082/druid/v2/?pretty
+```
+Finds the most edited articles in this dataset:
+```
+{
+    "edits" : 15,
+    "page" : "Anthony Martial"
+  }, {
+    "edits" : 13,
+    "page" : "Template talk:Connected contributor"
+  }, {
+    "edits" : 12,
+    "page" : "Chronologie de la Lorraine"
+  }, {
+    "edits" : 12,
+    "page" : "Wikipedia:Files for deletion/2015 September 12"
+  }, {
+    "edits" : 12,
+    "page" : "Гомосексуальный образ жизни"
+  }, {
+    "edits" : 11,
+    "page" : "Constructive vote of no confidence"
+  }, {
+    "edits" : 11,
+    "page" : "Homo naledi"
+  }, {
+    "edits" : 11,
+    "page" : "Kim Davis (county clerk)"
+  }, {
+    "edits" : 11,
+    "page" : "Vorlage:Revert-Statistik"
+  }, {
+    "edits" : 11,
+    "page" : "Конституция Японской империи"
+  }, {
+    "edits" : 10,
+    "page" : "The Naked Brothers Band (TV series)"
+  }, {
+    "edits" : 10,
+    "page" : "User talk:Buster40004"
+  }, {
+    "edits" : 10,
+    "page" : "User:Valmir144/sandbox"
+  }
+  ```
 
 (Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
