@@ -17,7 +17,7 @@ cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
 
-Return to ... directory. In that directory, issue the command:
+Return to druid-0.10.0 directory and issue the command:
 ```
 bin/init
 ```
