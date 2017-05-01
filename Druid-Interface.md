@@ -1,4 +1,4 @@
-## Druid: Working Instruct to Load Batch Data and Query 
+## Working Instructions to Load Batch Data and Query 
 
 #### Install Druid
 
