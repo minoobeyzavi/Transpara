@@ -51,4 +51,4 @@ It prints the task ID:
 Status of your ingestion task: http://localhost:8090/console.html
 Refresh the console periodically, and you should see a "SUCCESS" status for the task.
 
-http://localhost:8081/#/
+Progress of loading data: http://localhost:8081/#/
