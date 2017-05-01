@@ -1,4 +1,5 @@
-## Working Instructions to Load Batch Data and Query on Linux
+## Working Instructions to Load Batch Data
+[//]: # (and Query on Linux)
 
 Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to use Oracle JDK 8 and not OpenJDK 8.
 
@@ -66,10 +67,10 @@ Successful submission prints the task ID:
 ```
 [//]: # (<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/taskID.png"></div>)
 
-Status of your ingestion task: http://localhost:8090/console.html
-Refresh the console periodically, and you should see a "SUCCESS" status for the task.
+[//]: # (Status of your ingestion task: http://localhost:8090/console.html)
+[//]: # (Refresh the console periodically, and you should see a "SUCCESS" status for the task.)
 
-Progress of loading data: http://localhost:8081/#/
-You should see datasource "wikiticker" with a blue circle indicating "fully available".
+[//]: # (Progress of loading data: http://localhost:8081/#/)
+[//]: # (You should see datasource "wikiticker" with a blue circle indicating "fully available".)
 
 (Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
