@@ -9,6 +9,7 @@ cd druid-*
 ```
 
 #### Start Zookeeper
+
 ```
 curl http://www.gtlib.gatech.edu/pub/apache/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz -o zookeeper-3.4.6.tar.gz
 tar -xzf zookeeper-3.4.6.tar.gz
@@ -17,12 +18,16 @@ cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
 
-Return to <b>druid-0.10.0</b> directory and issue the command:
+Return to druid-0.10.0 directory and issue the command:
+
 ```
 bin/init
 ```
 
 #### Start Druid
+
+In different terminal windows:
+
 ```
 java `cat conf-quickstart/druid/historical/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/historical:lib/*" io.druid.cli.Main server historical
 java `cat conf-quickstart/druid/broker/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/broker:lib/*" io.druid.cli.Main server broker
