@@ -1,4 +1,6 @@
-## Working Instructions to Load Batch Data and Query 
+## Working Instructions to Load Batch Data and Query on Linux
+
+Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to use Oracle JDK 8 and not OpenJDK 8.
 
 #### Install Druid
 
@@ -17,7 +19,7 @@ cd zookeeper-3.4.6
 cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
-Check Zookeeper is running:
+To check Zookeeper is running:
 
 ```
 echo stat | nc localhost 2181 | grep Mode
@@ -48,7 +50,14 @@ Submit an <i>ingestion</i> task in a new terminal window from the druid-0.10.0 d
 ```
 curl -X 'POST' -H 'Content-Type:application/json' -d @quickstart/wikiticker-index.json localhost:8090/druid/indexer/v1/task
 ```
-It prints the task ID:
+(If required) to allow connection to Localhost port 8090 through the firewall:
+
+```
+sudo ufw disable
+sudo ufw allow 8090
+```
+
+Successful submission prints the task ID:
 
 ```
 {"task":"index_hadoop_wikipedia_2013-10-09T21:30:32.802Z"}
