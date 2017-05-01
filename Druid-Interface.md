@@ -31,7 +31,7 @@ Return to druid-0.10.0 directory and issue the command:
 ```
 bin/init
 ```
-Note: The above command is required everytime before starting a Druid service when no other Druid services are running but after the first time, the log directory inside druid-0.10.0 directory should be removed before running this command.
+[//]: # (Note: The above command is required everytime before starting a Druid service when no other Druid services are running but after the first time, the log directory inside druid-0.10.0 directory should be removed before running this command.)
 
 #### Start Druid
 
