@@ -64,7 +64,7 @@ Successful submission prints the task ID:
 ```
 {"task":"index_hadoop_wikiticker_2017-04-29T01:07:37.247Z"}
 ```
-![Alt text] (https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/taskID.png)
+![img] (https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/taskID.png)
 
 Status of your ingestion task: http://localhost:8090/console.html
 Refresh the console periodically, and you should see a "SUCCESS" status for the task.
