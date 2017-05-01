@@ -52,3 +52,4 @@ Status of your ingestion task: http://localhost:8090/console.html
 Refresh the console periodically, and you should see a "SUCCESS" status for the task.
 
 Progress of loading data: http://localhost:8081/#/
+You should see datasource "wikiticker" with a blue circle indicating "fully available".
