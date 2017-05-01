@@ -1,4 +1,4 @@
-## Working Instructions to Load Bath Data (and Query?) 
+## Druid: Working Instruct to Load Batch Data and Query 
 
 #### Install Druid
 
