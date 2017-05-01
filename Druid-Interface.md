@@ -47,3 +47,8 @@ It prints the task ID:
 ```
 {"task":"index_hadoop_wikipedia_2013-10-09T21:30:32.802Z"}
 ```
+
+Status of your ingestion task: http://localhost:8090/console.html
+Refresh the console periodically, and you should see a "SUCCESS" status for the task.
+
+http://localhost:8081/#/
