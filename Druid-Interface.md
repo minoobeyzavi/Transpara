@@ -35,3 +35,15 @@ java `cat conf-quickstart/druid/coordinator/jvm.config | xargs` -cp "conf-quicks
 java `cat conf-quickstart/druid/overlord/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/overlord:lib/*" io.druid.cli.Main server overlord
 java `cat conf-quickstart/druid/middleManager/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/middleManager:lib/*" io.druid.cli.Main server middleManager
 ```
+#### Load batch data
+
+Submit an <i>ingestion</i> task in a new terminal window from the druid-0.10.0 directory:
+
+```
+curl -X 'POST' -H 'Content-Type:application/json' -d @quickstart/wikiticker-index.json localhost:8090/druid/indexer/v1/task
+```
+It prints the task ID:
+
+```
+{"task":"index_hadoop_wikipedia_2013-10-09T21:30:32.802Z"}
+```
