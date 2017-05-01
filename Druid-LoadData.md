@@ -1,6 +1,6 @@
 ## Working Instructions to Load Batch Data and Query on Linux
 
-Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to use Oracle JDK 8 and not OpenJDK 8.
+Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to have installed Oracle JDK 8 and not OpenJDK 8.
 
 #### Install Druid
 
