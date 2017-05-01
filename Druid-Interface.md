@@ -1,5 +1,13 @@
 ## Working Instructions to Load Bath Data (and Query?) 
 
+#### Install Druid
+
+```
+curl -O http://static.druid.io/artifacts/releases/druid-0.10.0-bin.tar.gz
+tar -xzf druid-0.10.0-bin.tar.gz
+cd druid-*
+```
+
 #### Start Zookeeper
 ```
 curl http://www.gtlib.gatech.edu/pub/apache/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.tar.gz -o zookeeper-3.4.6.tar.gz
