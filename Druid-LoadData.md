@@ -126,5 +126,14 @@ Finds the most edited articles in this dataset:
     "page" : "User:Valmir144/sandbox"
   }
   ```
+Reference:
+```
+-L              If server has been moved, redo request on the new location.
+-H              Extra header to include in the request.
+-X              Custom request method.
+Post            Post request.
+--data-binary   Post data exactly as specified with no extra processing.
+@               What comes after @ is the file name.
+```
 
 (Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
