@@ -137,7 +137,7 @@ Body: binary
 Choose Files: wikiticker-top-pages.json
 
 ```
-<a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a>finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset.
+<a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset.
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman.png"></img></div>
 
