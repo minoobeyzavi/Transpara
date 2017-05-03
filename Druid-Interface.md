@@ -133,12 +133,12 @@ Finds the most edited articles in this dataset:
 ```
 Base Address: http://172.0.1.8:8082/druid/v2/
 Method: POST
-Body: Binary
+Body: binary
 Choose Files: wikiticker-top-pages.json
 
 ```
 
-<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postmanScreenshot.png"></img></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman.png"></img></div>
 
 #### Reference
 ```
