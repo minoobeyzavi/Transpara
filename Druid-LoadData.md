@@ -128,6 +128,7 @@ Finds the most edited articles in this dataset:
   ```
 Reference:
 ```
+Depending on what druid.storage.type is set to, Druid will upload segments to some Deep Storage. Local disk is used as the default deep storage.
 -L              If server has been moved, redo request on the new location.
 -H              Extra header to include in the request.
 -X              Custom request method.
