@@ -1,4 +1,4 @@
-## Working Instructions to Load Batch Data into Druid and Query Data on Linux
+## Load Batch Data to Druid on Linux and Query with Postman on Windows
 
 Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to have installed Oracle JDK 8 and not OpenJDK 8.
 
@@ -72,7 +72,7 @@ Refresh the console periodically, and you should see a "SUCCESS" status for the 
 Progress of loading data: http://localhost:8081/#/
 You should see datasource "wikiticker" with a blue circle indicating "fully available".
 
-#### JSON-Based Query
+#### JSON-Based Query (testing on Linux)
 
 Basic format:
 ```
@@ -126,7 +126,21 @@ Finds the most edited articles in this dataset:
     "page" : "User:Valmir144/sandbox"
   }
   ```
-Reference:
+(Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
+
+#### Postman Extension
+
+```
+Base Address: http://172.0.1.8:8082/druid/v2/
+Method: POST
+Body: Binary
+Choose Files: wikiticker-top-pages.json
+
+```
+
+<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postmanScreenshot.png"></img></div>
+
+#### Reference
 ```
 Depending on what druid.storage.type is set to, Druid will upload segments to some Deep Storage.
 Local disk is used as the default deep storage.
@@ -138,5 +152,3 @@ Post            Post request.
 --data-binary   Post data exactly as specified with no extra processing.
 @               What comes after @ is the file name.
 ```
-
-(Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
