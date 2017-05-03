@@ -78,6 +78,7 @@ Basic format:
 ```
 curl -X POST '<queryable_host>:<port>/druid/v2/?pretty' -H 'Content-Type:application/json' -d @<query_json_file>
 ```
+Note: For further explanation see <b>Reference</b> at the bottom of the page.
 
 Example:
 ```
