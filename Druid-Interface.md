@@ -1,4 +1,4 @@
-## Load Batch Data to Druid on Linux -> Query with Postman on Windows
+## Load Batch Data to Druid on Linux :: Query with Postman on Windows
 
 Notes: The following specifically installs Druid 0.10.0 (the latest version as of April 2017), rather than using the latest version link in Druid's Quickstart. Please make sure to have installed Oracle JDK 8 and not OpenJDK 8.
 
