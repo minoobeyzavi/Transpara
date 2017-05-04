@@ -19,6 +19,8 @@ cd zookeeper-3.4.6
 cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
+[//]: # (Note: You only need to start Zookeeper once in the Linux server and it will always be avaiable.)
+
 To check Zookeeper is running:
 
 ```
@@ -31,7 +33,6 @@ Return to druid-0.10.0 directory and issue the command:
 ```
 bin/init
 ```
-[//]: # (Note: The above command is required everytime before starting a Druid service when no other Druid services are running but after the first time, the log directory inside druid-0.10.0 directory should be removed before running this command.)
 
 #### Start Druid
 
