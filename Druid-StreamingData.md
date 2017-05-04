@@ -87,3 +87,17 @@ Returns the following, indicating that the HTTP server received 25 events from y
 {"result":{"received":25,"sent":25}}
 ```
 Note: This takes a few seconds to finish the first time you run it, as Druid resources must be allocated to the ingestion task.
+
+#### Reference
+```
+Depending on what druid.storage.type is set to, Druid will upload segments to some Deep Storage.
+Local disk is used as the default deep storage.
+
+-L              If server has been moved, redo request on the new location.
+-H              Extra header to include in the request.
+-X              Custom request method.
+Post            Post request.
+--data-binary   Post data exactly as specified with no extra processing.
+@               What comes after @ is the file name.
+@-              Display information after a completed transfer with the format from stdin.
+```
