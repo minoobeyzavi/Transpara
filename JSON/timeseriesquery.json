@@ -1,10 +1,7 @@
 {
   "queryType": "timeseries",
   "dataSource": "pageviews",
-  "granularity": "second",
+  "granularity": "none",
   "descending": "true",
-  "intervals": [ "2017-05-05T21:26:20Z/2017-05-05T21:26:40Z" ],
-  "aggregations": [
-  { "type": "longSum", "name": "user", "fieldName": "time" }
-],
+  "intervals": [ "2017-05-05T21:26:20Z/2017-05-05T21:26:40Z" ]
 }
