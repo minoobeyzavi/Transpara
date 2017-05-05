@@ -63,6 +63,9 @@ Configuration file : <a href="https://raw.githubusercontent.com/druid-io/druid/m
 
 ```
 bin/tranquility server -configFile <path_to_druid_distro>/conf-quickstart/tranquility/server.json
+
+With <path_to_druid_distro>:
+bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
 <i>The dimensions</i> (attributes you can filter and split on) for this datasource are flexible. It's configured for schemaless dimensions, meaning it will accept any field in your JSON input as a dimension. <i>The metrics</i> (also called measures; values you can aggregate) in this datasource are:
