@@ -96,6 +96,25 @@ Prepare for pushing a stream to Druid by writing a custom Tranquility Server con
     Which field should be treated as a timestamp? This belongs in the "column" field of the "timestampSpec".
     Which fields should be treated as dimensions? This belongs in the "dimensions" field of the "dimensionsSpec".
     Which fields should be treated as measures? This belongs in the "metricsSpec" field.
+    
+Let's use a small JSON pageviews dataset as an example, with records like:
+
+```
+{"time": "2000-01-01T00:00:00Z", "url": "/foo/bar", "user": "alice", "latencyMs": 32}
+```
+
+#### Restarting the server
+In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json">pageviews-server.json</a> into druid-0.10.0/conf-quickstart/tranquility/: 
+
+```
+curl -O https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json
+```
+
+Restart the server to pick up the new configuration file by stopping Tranquility (CTRL-C) and starting it up again.
+
+```
+bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/pageviews-server.json
+```
 
 #### JSON-Based Query (testing on Linux)
 
