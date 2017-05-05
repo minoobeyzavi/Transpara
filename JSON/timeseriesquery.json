@@ -3,5 +3,5 @@
   "dataSource": "pageviews",
   "granularity": "none",
   "descending": "true",
-  "intervals": [ "2017-05-05T21:26:20Z/2017-05-05T21:26:40Z" ]
+  "intervals": [ "2017-05-05T00:00:00Z/2017-05-06T00:00:00Z" ]
 }
