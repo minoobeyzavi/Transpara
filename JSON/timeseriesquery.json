@@ -1,0 +1,12 @@
+{
+  "queryType": "timeseries",
+  "dataSource": "sample_datasource",
+  "granularity": "day",
+  "aggregations": [
+    { "type": "longSum", "name": "sample_name1", "fieldName": "sample_fieldName1" }
+  ],
+  "intervals": [ "2012-01-01T00:00:00.000/2012-01-04T00:00:00.000" ],
+  "context" : {
+    "skipEmptyBuckets": "true"
+  }
+}
