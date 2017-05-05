@@ -1,6 +1,7 @@
 {
   "queryType": "topN",
   "dataSource": "pageviews",
+  "dimension": "user",
   "threshold": 5,
   "granularity": "none",
   "intervals": [
