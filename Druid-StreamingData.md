@@ -47,7 +47,7 @@ java `cat conf-quickstart/druid/overlord/jvm.config | xargs` -cp "conf-quickstar
 java `cat conf-quickstart/druid/middleManager/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/middleManager:lib/*" io.druid.cli.Main server middleManager
 ```
 
-#### Load streaming data
+#### Load Streaming Data
 
 To load streaming data, we are going to push events into Druid over a simple HTTP API. To do this we will use Tranquility, a high level data producer library for Druid.
 
