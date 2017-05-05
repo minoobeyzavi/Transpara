@@ -89,7 +89,7 @@ Returns the following, indicating that the HTTP server received 25 events from y
 ```
 Note: This takes a few seconds to finish the first time you run it, as Druid resources must be allocated to the ingestion task.
 
-#### Writing an Ingestion Spec
+#### Writing an Ingestion Spec (Load Your Own Streaming Data)
 Prepare for pushing a stream to Druid by writing a custom Tranquility Server configuration similar to <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
 
     What should the dataset be called? This is the "dataSource" field of the "dataSchema".
