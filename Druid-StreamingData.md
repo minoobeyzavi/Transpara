@@ -143,7 +143,7 @@ Note: For further explanation see <b>Reference</b> at the bottom of the page.
 
 Example:
 ```
-curl -L -H'Content-Type: application/json' -XPOST --data-binary @quickstart/wikiticker-top-pages.json http://localhost:8082/druid/v2/?pretty
+curl -L -H'Content-Type: application/json' -XPOST --data-binary @timeseriesquery.json http://localhost:8082/druid/v2/?pretty
 ```
 Finds the most edited articles in this dataset:
 ```
