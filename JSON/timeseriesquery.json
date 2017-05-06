@@ -1,18 +1,12 @@
 {
-  "queryType": "topN",
+  "queryType": "select",
   "dataSource": "pageviews",
-  "dimension": "view",
-  "metric": "latency",
-  "threshold": 3,
+  "descending": "false",
+  "dimensions":[],
+  "metrics":[],
   "granularity": "all",
   "intervals": [
     "2017-05-05T00:00:00Z/2017-05-06T00:00:00Z"
   ],
-  "aggregations" : [
-  {
-    "type" : "longSum",
-    "name" : "latency",
-    "fieldName" : "latencyMs"
-  }
- ]
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":5}
 }
