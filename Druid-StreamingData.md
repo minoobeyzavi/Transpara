@@ -143,9 +143,9 @@ Note: For further explanation see <b>Reference</b> at the bottom of the page.
 
 Example:
 ```
-curl -L -H'Content-Type: application/json' -XPOST --data-binary @timeseriesquery.json http://localhost:8082/druid/v2/?pretty
+curl -L -H'Content-Type: application/json' -XPOST --data-binary @query.json http://localhost:8082/druid/v2/?pretty
 ```
-Finds the most edited articles in this dataset:
+Finds all page views between two arbitrary time intervals:
 ```
 
 ```
@@ -156,7 +156,7 @@ Finds the most edited articles in this dataset:
 Base Address: http://172.0.1.8:8082/druid/v2/
 Method: POST
 Body: binary
-Choose Files: wikiticker-top-pages.json
+Choose Files: query.json
 
 ```
 <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
