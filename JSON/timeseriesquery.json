@@ -1,9 +1,9 @@
 {
   "queryType": "topN",
   "dataSource": "pageviews",
-  "dimension": "user",
-  "threshold": 5,
-  "granularity": "none",
+  "dimension": "view",
+  "threshold": 3,
+  "granularity": "all",
   "intervals": [
     "2017-05-05T00:00:00Z/2017-05-06T00:00:00Z"
   ]
