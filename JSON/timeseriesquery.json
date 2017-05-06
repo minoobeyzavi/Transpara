@@ -2,7 +2,7 @@
   "queryType": "topN",
   "dataSource": "pageviews",
   "dimension": "view",
-  "metric": "latencyMs",
+  "metric": "latency",
   "threshold": 3,
   "granularity": "all",
   "intervals": [
