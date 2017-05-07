@@ -1,7 +1,7 @@
 {
   "queryType": "select",
   "dataSource": "pageviews",
-  "descending": "false",
+  "descending": "true",
   "dimensions":[],
   "metrics":[],
   "granularity": "none",
