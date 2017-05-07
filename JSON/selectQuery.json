@@ -1,12 +1,10 @@
 {
   "queryType": "groupBy",
   "dataSource": "pageviews",
-  "descending": "false",
   "dimensions":["time"],
-  "metrics":["time"],
+  "metrics":[],
   "granularity": "none",
   "intervals": [
     "2017-05-05T00:00:00Z/2017-05-06T00:00:00Z"
-  ],
-  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
+  ]
 }
