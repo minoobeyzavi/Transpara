@@ -1,5 +1,5 @@
 {
-  "queryType": "select",
+  "queryType": "groupBy",
   "dataSource": "pageviews",
   "descending": "false",
   "dimensions":["time"],
