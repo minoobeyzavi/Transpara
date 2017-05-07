@@ -2,7 +2,7 @@
   "queryType": "select",
   "dataSource": "pageviews",
   "descending": "false",
-  "dimensions":[],
+  "dimensions":["time"],
   "metrics":[],
   "granularity": "none",
   "intervals": [
