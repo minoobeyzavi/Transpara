@@ -1,7 +1,7 @@
-{"time": "2017-05-08T16:58:46Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 32}
-{"time": "2017-05-08T16:58:47Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 11}
-{"time": "2017-05-08T16:58:48Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 45}
-{"time": "2017-05-08T16:58:50Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 45}
-{"time": "2017-05-08T16:58:54Z", "url": "/", "user": "Julie", "latencyMs": 45}
-{"time": "2017-05-08T16:58:55Z", "url": "/", "user": "Julie", "latencyMs": 12}
-{"time": "2017-05-08T16:59:11Z", "url": "/", "user": "Julie", "latencyMs": 12}
+{"time": "2017-05-08T17:13:51Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 32}
+{"time": "2017-05-08T17:13:52Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 11}
+{"time": "2017-05-08T17:13:54Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 45}
+{"time": "2017-05-08T17:13:55Z", "url": "/foo/bar", "user": "Julie", "latencyMs": 45}
+{"time": "2017-05-08T17:13:58Z", "url": "/", "user": "Julie", "latencyMs": 45}
+{"time": "2017-05-08T17:14:51Z", "url": "/", "user": "Julie", "latencyMs": 12}
+{"time": "2017-05-08T17:14:51Z", "url": "/", "user": "Julie", "latencyMs": 12}
