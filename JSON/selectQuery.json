@@ -1,6 +1,6 @@
 {
   "queryType": "select",
-  "dataSource": "pageviews",
+  "dataSource": "pageview",
   "descending": "false",
   "dimensions":[],
   "metrics":[],
@@ -8,5 +8,5 @@
   "intervals": [
     "2017-05-05T00:00:00Z/2017-05-06T00:00:00Z"
   ],
-  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
+  "pagingSpec":{"fromNext": "false", "pagingIdentifiers": {}, "threshold":25}
 }
