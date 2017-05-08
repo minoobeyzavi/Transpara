@@ -104,7 +104,7 @@ Let's use a small JSON pageviews dataset as an example, with records like:
 ```
 
 #### Restarting the server
-In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json">pageviews-server.json</a> into druid-0.10.0/conf-quickstart/tranquility/: 
+In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/server.json">server.json</a> into druid-0.10.0/conf-quickstart/tranquility/: 
 
 ```
 curl -O https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json
@@ -113,39 +113,33 @@ curl -O https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-se
 Restart the server to pick up the new configuration file by stopping Tranquility (CTRL-C) and starting it up again.
 
 ```
-bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/pageviews-server.json
+bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
 #### JSON-Based Query (testing on Linux)
 
 Save custom query in a JSON file.
-JSON query format:
+selectQuery.json:
 ```
 {
-  "queryType": "timeseries",
-  "dataSource": "sample_datasource",
-  "granularity": "day",
-  "aggregations": [
-    { "type": "longSum", "name": "sample_name1", "fieldName": "sample_fieldName1" }
+  "queryType": "select",
+  "dataSource": "clicks",
+  "descending": "false",
+  "dimensions":[],
+  "metrics":[],
+  "granularity": "all",
+  "intervals": [
+    "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
   ],
-  "intervals": [ "2012-01-01T00:00:00.000/2012-01-04T00:00:00.000" ],
-  "context" : {
-    "skipEmptyBuckets": "true"
-  }
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
 }
 ```
 
-Post the query with the Basic format:
+Post the query:
 ```
-curl -X POST '<queryable_host>:<port>/druid/v2/?pretty' -H 'Content-Type:application/json' -d @<query_json_file>
+curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
 ```
-Note: For further explanation see <b>Reference</b> at the bottom of the page.
-
-Example:
-```
-curl -L -H'Content-Type: application/json' -XPOST --data-binary @query.json http://localhost:8082/druid/v2/?pretty
-```
-Finds all page views between two arbitrary time intervals:
+A select query displays raw Druid rows:
 ```
 
 ```
@@ -156,7 +150,7 @@ Finds all page views between two arbitrary time intervals:
 Base Address: http://172.0.1.8:8082/druid/v2/
 Method: POST
 Body: binary
-Choose Files: query.json
+Choose Files: selectQuery.json
 
 ```
 <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
