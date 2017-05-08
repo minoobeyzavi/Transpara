@@ -115,6 +115,19 @@ Restart the server to pick up the new configuration file by stopping Tranquility
 ```
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
+#### Sending Data
+
+Druid streaming ingestion requires relatively current messages (relative to a slack time controlled by the windowPeriod value), so you should replace 2000-01-01T00:00:00Z in these messages with the current time in ISO8601 format. You can get this by running:
+
+```
+python -c 'import datetime; print(datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))'
+```
+
+Update the timestamps in the JSON above, and save it to a file named pageviews.json. Then send it to Druid by running:
+
+```
+curl -XPOST -H'Content-Type: application/json' --data-binary @pageviews.json http://localhost:8200/v1/post/pageviews
+```
 
 #### JSON-Based Query (testing on Linux)
 
