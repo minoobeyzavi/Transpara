@@ -4,9 +4,9 @@
   "descending": "false",
   "dimensions":[],
   "metrics":[],
-  "granularity": "none",
+  "granularity": "second",
   "intervals": [
     "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
   ],
-  "pagingSpec":{"fromNext": "false", "pagingIdentifiers": {}, "threshold":25}
+  "pagingSpec":{"fromNext": "false", "pagingIdentifiers": {}, "threshold":7}
 }
