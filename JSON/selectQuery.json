@@ -8,5 +8,5 @@
   "intervals": [
     "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
   ],
-  "pagingSpec":{"fromNext": "false", "pagingIdentifiers": {}, "threshold":7}
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":7}
 }
