@@ -5,10 +5,6 @@
   "searchDimensions": [
     "time"
   ],
-  "query": {
-    "type": "",
-    "value": ""
-  },
   "sort" : {
     "type": "lexicographic"
   },
