@@ -30,6 +30,8 @@ Choose Files: historicalSelect.json
 
 ```
 
+<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-streamingData.png"></img></div>
+
 #### Reference
 ```
 Depending on what druid.storage.type is set to, Druid will upload segments to some Deep Storage.
