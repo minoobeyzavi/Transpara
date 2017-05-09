@@ -21,15 +21,11 @@ Example:
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
-
-
 In a new termianl window:
 ```
 
 bin/generate-example-metrics | curl -XPOST -H'Content-Type: application/json' --data-binary @- http://localhost:8200/v1/post/metrics
 ```
-
-
 
 #### Load Your Own Streaming Data
 Prepare for pushing a stream to Druid by writing a custom Tranquility Server configuration similar to <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
@@ -74,14 +70,12 @@ Returns the following, indicating that the HTTP server received 25 events from y
 ```
 {"result":{"received":3,"sent":3}}
 ```
+This dataset is always going to be available when Druid services are running.
 
 #### JSON-Based Query
 
 Dimensions: attributes you can filter and split on.
 Metrics: values you can aggregate.
-
-Save custom query in a JSON file.
-selectQuery.json:
 ```
 {
   "queryType": "select",
@@ -97,11 +91,12 @@ selectQuery.json:
 }
 ```
 
-Post the query on Linux:
+To post the query on Linux:
 ```
+curl -O https://raw.githubusercontent.com/minoobeyzavi/Visual-KPI/master/JSON/selectQuery.json
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
 ```
-A select query displays raw Druid rows in the time interval specified (inculding the start date and before the end date) in the dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
+A select query displays raw Druid rows in the time interval specified (inculding the start date and before the end date).
 ```
 
 [ {
@@ -153,7 +148,7 @@ Body: binary
 Choose Files: selectQuery.json
 
 ```
-<a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
+
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-streamingData.png"></img></div>
 
