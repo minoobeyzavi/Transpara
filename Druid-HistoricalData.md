@@ -1,5 +1,6 @@
 ## Retrieve Historcial Data
 
+#### JSON-Based Query
 ```
 {
   "queryType": "select",
@@ -14,8 +15,32 @@
   "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
 }
 ```
+Finds Druid rows in the time interval specified (inculding the start date and before the end date) in the dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
 
-Post the query:
+```
+[ {
+  "timestamp" : "2017-05-08T20:22:28.000Z",
+  "result" : {
+    "pagingIdentifiers" : {
+      "clicks_2017-05-08T20:22:28.000Z_2017-05-08T20:22:29.000Z_2017-05-08T20:26:19.711Z" : 0
+    },
+    "dimensions" : [ "user", "url", "latencyMs" ],
+    "metrics" : [ ],
+    "events" : [ {
+      "segmentId" : "clicks_2017-05-08T20:22:28.000Z_2017-05-08T20:22:29.000Z_2017-05-08T20:26:19.711Z",
+      "offset" : 0,
+      "event" : {
+        "timestamp" : "2017-05-08T20:22:28.000Z",
+        "url" : "/foo/bar",
+        "user" : "Alice",
+        "latencyMs" : "32"
+      }
+    } ]
+  }
+} ]
+```
+
+Post the query on Linux:
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @historicalSelect.json http://localhost:8082/druid/v2/?pretty
 ```
