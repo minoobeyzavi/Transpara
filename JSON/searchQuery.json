@@ -3,7 +3,7 @@
   "dataSource": "clicks",
   "granularity": "all",
   "searchDimensions": [
-    "time"
+    "time", "url", "user", "latencyMs"
   ],
   "query": {
     "type": "insensitive_contains",
