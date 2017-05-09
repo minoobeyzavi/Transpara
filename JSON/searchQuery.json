@@ -7,7 +7,7 @@
   ],
   "query": {
     "type": "insensitive_contains",
-    "value": "2017-05-08T20:22:29Z"
+    "value": "2017"
   },
   "sort" : {
     "type": "lexicographic"
