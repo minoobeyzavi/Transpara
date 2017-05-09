@@ -1,0 +1,18 @@
+{
+  "queryType": "search",
+  "dataSource": "clicks",
+  "granularity": "all",
+  "searchDimensions": [
+    "time"
+  ],
+  "query": {
+    "type": "",
+    "value": ""
+  },
+  "sort" : {
+    "type": "lexicographic"
+  },
+  "intervals": [
+    "2017-05-08T20:22:28Z/2017-05-08T20:22:40Z"
+  ]
+}
