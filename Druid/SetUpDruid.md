@@ -19,8 +19,7 @@ cd zookeeper-3.4.6
 cp conf/zoo_sample.cfg conf/zoo.cfg
 ./bin/zkServer.sh start
 ```
-
-To check Zookeeper is running:
+You only need to start Zookeeper once in the Linux server and it will always be avaiable. To check Zookeeper is running:
 
 ```
 echo stat | nc localhost 2181 | grep Mode
