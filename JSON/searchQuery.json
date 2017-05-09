@@ -6,7 +6,7 @@
   "metrics":[],
   "granularity": "all",
   "intervals": [
-    "2017-05-08T20:22:28Z/2017-05-08T20:22:30Z"
+    "2017-05-08T20:22:28Z/2017-05-08T20:22:28Z"
   ],
   "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
 }
