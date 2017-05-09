@@ -1,19 +1,12 @@
 {
-  "queryType": "search",
+  "queryType": "select",
   "dataSource": "clicks",
+  "descending": "false",
+  "dimensions":[],
+  "metrics":[],
   "granularity": "all",
-  "searchDimensions": [
-    "time", "url", "user", "latencyMs"
-  ],
-  "query": {
-    "type": "contains",
-    "case_sensitive" : false,
-    "value": "2017"
-  },
-  "sort" : {
-    "type": "lexicographic"
-  },
   "intervals": [
-    "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
-  ]
+    "2017-05-08T20:22:28Z/2017-05-08T20:22:30Z"
+  ],
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
 }
