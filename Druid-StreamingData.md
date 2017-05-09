@@ -117,6 +117,12 @@ bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quicksta
 ```
 #### Sending Data
 
+```
+{"time": "2017-05-08T19:42:52Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 32}
+{"time": "2017-05-08T19:42:53Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 11}
+{"time": "2017-05-08T19:42:54Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 45}
+```
+
 Druid streaming ingestion requires relatively current messages (relative to a slack time controlled by the windowPeriod value), so you should replace 2000-01-01T00:00:00Z in these messages with the current time in ISO8601 format. You can get this by running:
 
 ```
@@ -155,6 +161,44 @@ curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.jso
 A select query displays raw Druid rows:
 ```
 
+[ {
+  "timestamp" : "2017-05-08T19:42:52.000Z",
+  "result" : {
+    "pagingIdentifiers" : {
+      "clicks_2017-05-08T19:00:00.000Z_2017-05-08T20:00:00.000Z_2017-05-08T19:48:33.015Z" : 2
+    },
+    "dimensions" : [ "user", "url", "latencyMs" ],
+    "metrics" : [ ],
+    "events" : [ {
+      "segmentId" : "clicks_2017-05-08T19:00:00.000Z_2017-05-08T20:00:00.000Z_2017-05-08T19:48:33.015Z",
+      "offset" : 0,
+      "event" : {
+        "timestamp" : "2017-05-08T19:42:52.000Z",
+        "url" : "/foo/bar",
+        "user" : "Alice",
+        "latencyMs" : "32"
+      }
+    }, {
+      "segmentId" : "clicks_2017-05-08T19:00:00.000Z_2017-05-08T20:00:00.000Z_2017-05-08T19:48:33.015Z",
+      "offset" : 1,
+      "event" : {
+        "timestamp" : "2017-05-08T19:42:53.000Z",
+        "url" : "/foo/bar",
+        "user" : "Alice",
+        "latencyMs" : "11"
+      }
+    }, {
+      "segmentId" : "clicks_2017-05-08T19:00:00.000Z_2017-05-08T20:00:00.000Z_2017-05-08T19:48:33.015Z",
+      "offset" : 2,
+      "event" : {
+        "timestamp" : "2017-05-08T19:42:54.000Z",
+        "url" : "/foo/bar",
+        "user" : "Alice",
+        "latencyMs" : "45"
+      }
+    } ]
+  }
+} ]
 ```
 
 #### Postman Extension
