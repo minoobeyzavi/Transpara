@@ -15,32 +15,21 @@ Configuration file : <a href="https://raw.githubusercontent.com/druid-io/druid/m
 #### Start the Tranquility server process
 
 ```
-bin/tranquility server -configFile <path_to_druid_distro>/conf-quickstart/tranquility/server.json
+bin/tranquility server -configFile <path_to_druid_distribution>/conf-quickstart/tranquility/server.json
 
-With <path_to_druid_distro>:
+Example:
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
-<i>The dimensions</i> (attributes you can filter and split on) for this datasource are flexible. It's configured for schemaless dimensions, meaning it will accept any field in your JSON input as a dimension. <i>The metrics</i> (also called measures; values you can aggregate) in this datasource are:
 
-    count
-    value_sum (derived from value in the input)
-    value_min (derived from value in the input)
-    value_max (derived from value in the input)
 
-In a new termianl window, generate some random sample metrics to load into this datasource:
-
+In a new termianl window:
 ```
-cd druid-0.10.0
+
 bin/generate-example-metrics | curl -XPOST -H'Content-Type: application/json' --data-binary @- http://localhost:8200/v1/post/metrics
 ```
 
-Returns the following, indicating that the HTTP server received 25 events from you, and sent 25 to Druid:
 
-```
-{"result":{"received":25,"sent":25}}
-```
-Note: This takes a few seconds to finish the first time you run it, as Druid resources must be allocated to the ingestion task.
 
 #### Load Your Own Streaming Data
 Prepare for pushing a stream to Druid by writing a custom Tranquility Server configuration similar to <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
@@ -49,12 +38,6 @@ Prepare for pushing a stream to Druid by writing a custom Tranquility Server con
     Which field should be treated as a timestamp? This belongs in the "column" field of the "timestampSpec".
     Which fields should be treated as dimensions? This belongs in the "dimensions" field of the "dimensionsSpec".
     Which fields should be treated as measures? This belongs in the "metricsSpec" field.
-    
-Let's use a small JSON pageviews dataset as an example, with records like:
-
-```
-{"time": "2000-01-01T00:00:00Z", "url": "/foo/bar", "user": "alice", "latencyMs": 32}
-```
 
 #### Restarting the server
 In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/server.json">server.json</a> into druid-0.10.0/conf-quickstart/tranquility/: 
@@ -62,8 +45,6 @@ In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visu
 ```
 curl -O https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json
 ```
-
-Restart the server to pick up the new configuration file by stopping Tranquility (CTRL-C) and starting it up again.
 
 ```
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
@@ -88,7 +69,16 @@ Update the timestamps in the JSON above, and save it to a file named pageviews.j
 curl -XPOST -H'Content-Type: application/json' --data-binary @pageviews.json http://localhost:8200/v1/post/pageviews
 ```
 
+Returns the following, indicating that the HTTP server received 25 events from you, and sent 25 to Druid:
+
+```
+{"result":{"received":3,"sent":3}}
+```
+
 #### JSON-Based Query
+
+Dimensions: attributes you can filter and split on.
+Metrics: values you can aggregate.
 
 Save custom query in a JSON file.
 selectQuery.json:
@@ -167,7 +157,6 @@ Choose Files: selectQuery.json
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-streamingData.png"></img></div>
 
-(Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
 
 #### Reference
 ```
