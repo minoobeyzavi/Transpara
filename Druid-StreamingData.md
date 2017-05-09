@@ -135,7 +135,7 @@ Update the timestamps in the JSON above, and save it to a file named pageviews.j
 curl -XPOST -H'Content-Type: application/json' --data-binary @pageviews.json http://localhost:8200/v1/post/pageviews
 ```
 
-#### JSON-Based Query (testing on Linux)
+#### JSON-Based Query
 
 Save custom query in a JSON file.
 selectQuery.json:
@@ -154,11 +154,11 @@ selectQuery.json:
 }
 ```
 
-Post the query:
+Post the query on Linux:
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
 ```
-A select query displays raw Druid rows:
+A select query displays raw Druid rows in the time interval specified (inculding the start date and before the end date) in the dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
 ```
 
 [ {
