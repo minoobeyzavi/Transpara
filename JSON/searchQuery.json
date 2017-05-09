@@ -6,7 +6,8 @@
     "time", "url", "user", "latencyMs"
   ],
   "query": {
-    "type": "insensitive_contains",
+    "type": "contains",
+    "case_sensitive" : false,
     "value": "2017"
   },
   "sort" : {
