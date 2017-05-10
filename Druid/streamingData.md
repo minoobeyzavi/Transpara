@@ -4,17 +4,14 @@ To load streaming data, we are going to push events into Druid over a simple HTT
 
 #### Start Tranquility
 
-To download file:
+Download Tranquility and modify the server <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">configuration file</a>:
 
 ```
 cd druid-0.10.0
 curl -O http://static.druid.io/tranquility/releases/tranquility-distribution-0.8.0.tgz
 tar -xzf tranquility-distribution-0.8.0.tgz
+sudo nano conf-quickstart/tranquility/server.json
 ```
-
-To prepare for pushing a stream of a new dataset to Druid, modifying the tranquility server <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">configuration file</a>:
-
-    sudo nano conf-quickstart/tranquility/server.json
 
 Name of the dataset --> "datasources" and "dataSource"
 Name of the timestamp attribute --> "column" field of the "timestampSpec"
