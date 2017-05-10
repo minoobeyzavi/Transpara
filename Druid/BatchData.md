@@ -2,7 +2,7 @@
 
 #### Submit Loading Task
 
-To load data into Druid, you can submit an ingestion task pointing to the file. wikiticker-index.json loads the wikiticker-2015-09-12-sampled.json dataset. To submit this task, POST it to Druid in a new terminal window:
+To load data into Druid, you can submit an ingestion task pointing to the file. <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> loads the <a href="https://raw.githubusercontent.com/vogievetsky/crossing-the-chasm/master/wikiticker-2015-09-12-sampled.json">wikiticker-2015-09-12-sampled.json</a> dataset. To submit this task, POST it to Druid in a new terminal window:
 
 ```
 cd druid-0.10.0
