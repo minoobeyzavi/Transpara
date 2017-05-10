@@ -1,6 +1,7 @@
 ## Lookup Historcial Values
 
-#### JSON-Based Query
+A Select Query finds Druid rows with the timestamp being in the interval specified (inculding the start date and before the end date). With threshold being set to 1, we would only receive one row with values exactly corresponding or closest to the start date of the interval.
+
 ```
 {
   "queryType": "select",
@@ -15,8 +16,13 @@
   "pagingSpec":{"pagingIdentifiers": {}, "threshold":1}
 }
 ```
-A Select Query finds Druid rows with the timestamp being in the interval specified (inculding the start date and before the end date). With threshold being set to 1, we would only receive one row with values corresponding to the start date of the interval.
 
+Post the query on Linux:
+```
+curl -L -H'Content-Type: application/json' -XPOST --data-binary @historicalSelect.json http://localhost:8082/druid/v2/?pretty
+```
+
+Output:
 ```
 [ {
   "timestamp" : "2017-05-08T20:22:28.000Z",
@@ -38,11 +44,6 @@ A Select Query finds Druid rows with the timestamp being in the interval specifi
     } ]
   }
 } ]
-```
-
-Post the query on Linux:
-```
-curl -L -H'Content-Type: application/json' -XPOST --data-binary @historicalSelect.json http://localhost:8082/druid/v2/?pretty
 ```
 
 #### Postman Extension
