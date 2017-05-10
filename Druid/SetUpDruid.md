@@ -36,7 +36,7 @@ bin/init
 
 #### Start Druid
 
-To use Druid's services, they should always be up and running in the server. Run each service in a separate terminal window:
+To use Druid's services, <b>they should always be up and running in the server</b>. Run each service in a separate terminal window:
 
 ```
 java `cat conf-quickstart/druid/historical/jvm.config | xargs` -cp "conf-quickstart/druid/_common:conf-quickstart/druid/historical:lib/*" io.druid.cli.Main server historical
