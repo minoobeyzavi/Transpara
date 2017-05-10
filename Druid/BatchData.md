@@ -17,12 +17,8 @@ Successful submission prints the task ID:
 ```
 This dataset is always going to be available when Druid services are running.
 
-** Status of your ingestion task: http://localhost:8090/console.html.
-Refresh to see a "SUCCESS" status for the task.
-
-** Progress of loading data: http://localhost:8081/#/.
-You should see datasource "wikiticker" with a blue circle indicating "fully available".
-
+    Status of your ingestion task: http://localhost:8090/console.html.
+    Progress of loading data: http://localhost:8081/#/.
 
 #### Submit Query
 
