@@ -1,0 +1,12 @@
+{
+  "queryType": "select",
+  "dataSource": "clicks",
+  "descending": "false",
+  "dimensions":[],
+  "metrics":[],
+  "granularity": "all",
+  "intervals": [
+    "2017-05-08T20:22:28Z/2017-05-08T20:22:40Z"
+  ],
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":1}
+}
