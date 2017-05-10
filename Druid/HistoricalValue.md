@@ -1,4 +1,4 @@
-## Lookup Historcial Values
+## Historcial Values
 
 A Select Query finds Druid rows with the timestamp being in the interval specified (inculding the start date and before the end date). With threshold being set to 1, we would only receive one row with values exactly corresponding or closest to the start date of the interval.
 
