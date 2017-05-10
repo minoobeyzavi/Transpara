@@ -1,4 +1,4 @@
-## Druid Instructions:
+## Druid Interface:
 
 1. <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Druid/SetUpDruid.md">Set up Druid</a>
 2. <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Druid/BatchData.md">Load and Query Batch Data</a>
