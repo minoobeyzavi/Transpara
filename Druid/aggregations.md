@@ -12,3 +12,7 @@ Add "druid-stats" to the list of extensions:
 druid.extensions.loadList=[..., "druid-stats",...]
 ```
 
+#### Average
+
+#### Standard Deviation
+
