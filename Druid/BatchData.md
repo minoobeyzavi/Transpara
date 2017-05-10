@@ -1,10 +1,11 @@
-## Load & Query Batch Data
+## Load and Query Batch Data
 
 #### Load Data
 
-Submit an <i>ingestion</i> task in a new terminal window from the druid-0.10.0 directory:
+In a new terminal window:
 
 ```
+cd druid-0.10.0
 curl -X 'POST' -H 'Content-Type:application/json' -d @quickstart/wikiticker-index.json localhost:8090/druid/indexer/v1/task
 ```
 
