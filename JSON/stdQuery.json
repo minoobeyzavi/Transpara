@@ -1,0 +1,23 @@
+{
+  "queryType": "groupBy",
+  "dataSource": "clicks",
+  "dimensions": ["latencyMs"],
+  "granularity": "all",
+  "aggregations": [
+    {
+      "type": "variance",
+      "name": "index_var",
+      "fieldName": "index"
+    }
+  ],
+  "postAggregations": [
+    {
+      "type": "stddev",
+      "name": "index_stddev",
+      "fieldName": "index_var"
+    }
+  ],
+  "intervals": [
+    "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
+  ]
+}
