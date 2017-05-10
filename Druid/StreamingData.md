@@ -3,12 +3,19 @@
 To load streaming data, we are going to push events into Druid over a simple HTTP API. To do this we will use Tranquility, a high level data producer library for Druid.
 
 #### Download Tranquility
+
 ```
 curl -O http://static.druid.io/tranquility/releases/tranquility-distribution-0.8.0.tgz
 tar -xzf tranquility-distribution-0.8.0.tgz
 cd tranquility-distribution-0.8.0
 ```
-Configuration file : <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a> as part of the Druid distribution for a metrics datasource.
+
+Prepare for pushing a stream to Druid by modifying the Tranquility Server configuration file  <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
+
+    "dataSource": name of the dataset
+    "column" field of the "timestampSpec": name of the timestamp attribute
+    "dimensions" field of the "dimensionsSpec": list of attributes with string values
+    "metricsSpec" field: list of attributes with numeric values
 
 #### Start Tranquility
 
@@ -19,21 +26,7 @@ Example:
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
-In a new termianl window:
-```
-
-bin/generate-example-metrics | curl -XPOST -H'Content-Type: application/json' --data-binary @- http://localhost:8200/v1/post/metrics
-```
-
-#### Load Your Own Streaming Data
-Prepare for pushing a stream to Druid by writing a custom Tranquility Server configuration similar to <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
-
-    "dataSource": name of the dataset
-    "column" field of the "timestampSpec": name of the timestamp attribute
-    "dimensions" field of the "dimensionsSpec": list of attributes with string values
-    "metricsSpec" field: list of attributes with numeric values
-
-#### Sending Data
+#### Load Data
 
 ```
 {"time": "2017-05-08T19:42:52Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 32}
@@ -41,13 +34,13 @@ Prepare for pushing a stream to Druid by writing a custom Tranquility Server con
 {"time": "2017-05-08T19:42:54Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 45}
 ```
 
-Druid streaming ingestion requires relatively current messages (relative to a slack time controlled by the windowPeriod value), so you should replace 2000-01-01T00:00:00Z in these messages with the current time in ISO8601 format. You can get this by running:
+Druid streaming ingestion requires relatively current messages (relative to a slack time controlled by the windowPeriod value), so you should replace 2000-01-01T00:00:00Z in these messages with the current time in ISO8601 format. You can get this in a new terminal window:
 
 ```
 python -c 'import datetime; print(datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))'
 ```
 
-Update the timestamps in the JSON above, and save it to a file named pageviews.json. Then send it to Druid by running:
+Update the timestamps in the JSON above, and save it to a file named pageviews.json, then POST it to Druid:
 
 ```
 curl -XPOST -H'Content-Type: application/json' --data-binary @pageviews.json http://localhost:8200/v1/post/pageviews
@@ -61,7 +54,9 @@ Returns the following, indicating that the HTTP server received 25 events from y
 This dataset is always going to be available when Druid services are running.
 (If you see "sent":0 this likely means that your timestamps are not recent enough. Try adjusting your timestamps and re-sending your data.)
 
-#### Query
+#### Select Query
+
+A select query displays raw Druid rows in the time interval specified.
 
 ```
 {
@@ -78,12 +73,19 @@ This dataset is always going to be available when Druid services are running.
 }
 ```
 
-Download and post the query on Linux:
+Download JSON file:
 ```
 curl -O https://raw.githubusercontent.com/minoobeyzavi/Visual-KPI/master/JSON/selectQuery.json
+```
+Specify the timestamp interval according to your dataset:
+```
+sudo nano selectQuery.json
+```
+POST the query:
+```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
 ```
-A select query displays raw Druid rows in the time interval specified (inculding the start date and before the end date).
+Sample output:
 ```
 
 [ {
@@ -153,5 +155,4 @@ Metrics         Values you can aggregate.
 Post            Post request.
 --data-binary   Post data exactly as specified with no extra processing.
 @               What comes after @ is the file name.
-@-              Display information after a completed transfer with the format from stdin.
 ```
