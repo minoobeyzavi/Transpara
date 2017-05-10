@@ -1,4 +1,4 @@
-## Load and Query Batch Data
+## Batch Data
 
 
 #### Submit Loading Task
