@@ -10,15 +10,12 @@ cd druid-0.10.0
 curl -X 'POST' -H 'Content-Type:application/json' -d @quickstart/wikiticker-index.json localhost:8090/druid/indexer/v1/task
 ```
 
-http://localhost:8090/console.html displays status of your ingestion task.
-http://localhost:8081/#/ displays progress of loading data.
 Successful submission prints the task ID:
 
 ```
 {"task":"index_hadoop_wikiticker_2017-04-29T01:07:37.247Z"}
 ```
-This dataset is always going to be available when Druid services are running.
-
+This dataset is always going to be available when Druid services are running. If your dataset takes longer to load you can view status of your ingestion task at http://localhost:8090/console.html and progress of loading data at http://localhost:8081/#/.
 
 #### Submit Query
 
