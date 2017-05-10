@@ -1,5 +1,6 @@
 ## Load and Query Batch Data
 
+
 #### Submit Loading Task
 
 To load data into Druid, you can submit an ingestion task pointing to the file. <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> loads the <a href="https://raw.githubusercontent.com/vogievetsky/crossing-the-chasm/master/wikiticker-2015-09-12-sampled.json">wikiticker-2015-09-12-sampled.json</a> dataset. To submit this task, POST it to Druid in a new terminal window:
@@ -22,14 +23,15 @@ Refresh the console periodically, and you should see a "SUCCESS" status for the 
 Progress of loading data: http://localhost:8081/#/
 You should see datasource "wikiticker" with a blue circle indicating "fully available".
 
-#### Query Data
 
-Submit Query:
+#### Submit Query
 
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @quickstart/wikiticker-top-pages.json http://localhost:8082/druid/v2/?pretty
 ```
+
 The TopN query in <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in this Wikipedia dataset:
+
 ```
 {
     "edits" : 15,
@@ -73,6 +75,7 @@ The TopN query in <a href="https://raw.githubusercontent.com/druid-io/druid/mast
   }
   ```
 
+
 #### Query on Postman
 
 ```
@@ -85,6 +88,7 @@ Choose Files: wikiticker-top-pages.json
 <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in the <a href="https://github.com/druid-io/druid/raw/master/examples/quickstart/wikiticker-index.json">wikiticker-index.json</a> dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman.png"></img></div>
+
 
 #### Reference
 ```
