@@ -1,4 +1,4 @@
-## Retrieve Historcial Values
+## Lookup Historcial Values
 
 #### JSON-Based Query
 ```
