@@ -1,8 +1,8 @@
 ## Load and Query Batch Data
 
-#### Load Data
+#### Submit Loading Task
 
-In a new terminal window:
+To load data into Druid, you can submit an ingestion task pointing to the file. wikiticker-index.json loads the wikiticker-2015-09-12-sampled.json dataset. To submit this task, POST it to Druid in a new terminal window:
 
 ```
 cd druid-0.10.0
@@ -25,6 +25,7 @@ You should see datasource "wikiticker" with a blue circle indicating "fully avai
 #### Query Data
 
 Submit Query:
+
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @quickstart/wikiticker-top-pages.json http://localhost:8082/druid/v2/?pretty
 ```
