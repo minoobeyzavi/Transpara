@@ -38,7 +38,7 @@ Example:
   }
 ```
 
-To Start server:
+To start server:
 
 ```
 cd tranquility-distribution-0.8.0
