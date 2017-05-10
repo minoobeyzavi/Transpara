@@ -4,7 +4,7 @@ To load streaming data, we are going to push events into Druid over a simple HTT
 
 #### Start Tranquility
 
-Download:
+To download file:
 
 ```
 cd druid-0.10.0
@@ -12,7 +12,7 @@ curl -O http://static.druid.io/tranquility/releases/tranquility-distribution-0.8
 tar -xzf tranquility-distribution-0.8.0.tgz
 ```
 
-Prepare for pushing a stream to Druid by modifying the tranquility server <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">configuration file</a>:
+To prepare for pushing a stream of a new dataset to Druid, modifying the tranquility server <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">configuration file</a>:
 
     sudo nano conf-quickstart/tranquility/server.json
 
@@ -21,7 +21,20 @@ Prepare for pushing a stream to Druid by modifying the tranquility server <a hre
 3. "dimensions" field of the "dimensionsSpec": list of attributes with string values
 4. "metricsSpec" field: list of attributes with numeric values
 
-Start Server:
+Example:
+```
+ "timestampSpec": {
+       "format": "auto",
+       "column": "time"
+  }
+```
+```
+"dimensionsSpec": {
+       "dimensions": ["url", "user", "latencyMs"]
+  }
+```
+
+To Start server:
 
 ```
 cd tranquility-distribution-0.8.0
@@ -30,6 +43,7 @@ bin/tranquility server -configFile /home/...<path_to_druid_distribution>.../drui
 
 #### Load Data
 
+Example:
 ```
 {"time": "2017-05-08T19:42:52Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 32}
 {"time": "2017-05-08T19:42:53Z", "url": "/foo/bar", "user": "Alice", "latencyMs": 11}
