@@ -45,8 +45,7 @@ Update the timestamps in the JSON above, and save it to a file named pageviews.j
 ```
 curl -XPOST -H'Content-Type: application/json' --data-binary @pageviews.json http://localhost:8200/v1/post/pageviews
 ```
-
-Returns the following, indicating that the HTTP server received 25 events from you, and sent 25 to Druid:
+Output indicates that the HTTP server received 3 events from you, and sent 3 to Druid:
 
 ```
 {"result":{"received":3,"sent":3}}
