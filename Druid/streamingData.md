@@ -1,8 +1,10 @@
-## Load and Query Streaming Data
+## Streaming Data
 
 To load streaming data, we are going to push events into Druid over a simple HTTP API. To do this we will use Tranquility, a high level data producer library for Druid.
 
-#### Download Tranquility
+#### Start Tranquility
+
+Download:
 
 ```
 cd druid-0.10.0
@@ -14,19 +16,16 @@ Prepare for pushing a stream to Druid by modifying the tranquility server <a hre
 
     sudo nano conf-quickstart/tranquility/server.json
 
-    "dataSource": name of the dataset
-    "column" field of the "timestampSpec": name of the timestamp attribute
-    "dimensions" field of the "dimensionsSpec": list of attributes with string values
-    "metricsSpec" field: list of attributes with numeric values
+1. "dataSource": name of the dataset
+2. "column" field of the "timestampSpec": name of the timestamp attribute
+3. "dimensions" field of the "dimensionsSpec": list of attributes with string values
+4. "metricsSpec" field: list of attributes with numeric values
 
-#### Start Tranquility
+Start Server:
 
 ```
 cd tranquility-distribution-0.8.0
-bin/tranquility server -configFile <path_to_druid_distribution>/conf-quickstart/tranquility/server.json
-
-Example:
-bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
+bin/tranquility server -configFile /home/...<path_to_druid_distribution>.../druid-0.10.0/conf-quickstart/tranquility/server.json
 ```
 
 #### Load Data
