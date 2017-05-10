@@ -1,4 +1,4 @@
-## Retrieve Historcial Data
+## Retrieve Historcial Values
 
 #### JSON-Based Query
 ```
@@ -12,10 +12,10 @@
   "intervals": [
     "2017-05-08T20:22:27Z/2017-05-08T20:22:28Z"
   ],
-  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25}
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":1}
 }
 ```
-Finds Druid rows in the time interval specified (inculding the start date and before the end date) in the dataset which was loaded once into Druid in the above section for loading batch data and now is always available when Druid services are running.
+A Select Query finds Druid rows with the timestamp being in the interval specified (inculding the start date and before the end date). With threshold being set to 1, we would only receive one row with values corresponding to the start date of the interval.
 
 ```
 [ {
