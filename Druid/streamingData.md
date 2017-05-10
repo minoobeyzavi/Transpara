@@ -13,10 +13,10 @@ tar -xzf tranquility-distribution-0.8.0.tgz
 sudo nano conf-quickstart/tranquility/server.json
 ```
 
-Name of the dataset --> "datasources" and "dataSource"
-Name of the timestamp attribute --> "column" field of the "timestampSpec"
-List of attributes with string values --> "dimensions" field of the "dimensionsSpec"
-List of attributes with numeric values --> "metricsSpec"
+First value in "datasources" and "dataSource": Name of the dataset
+"column" field of the "timestampSpec": Name of the timestamp attribute
+"dimensions" field of the "dimensionsSpec": List of attributes with string values
+"metricsSpec": List of attributes with numeric values
 
 Example:
 ```
