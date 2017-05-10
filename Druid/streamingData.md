@@ -23,6 +23,13 @@ To prepare for pushing a stream of a new dataset to Druid, modifying the tranqui
 
 Example:
 ```
+"dataSources" : {
+      "pageviews" : {
+      "spec" : {
+        "dataSchema" : {
+          "dataSource" : "pageviews",
+```
+```
  "timestampSpec": {
        "format": "auto",
        "column": "time"
@@ -88,19 +95,16 @@ A select query displays raw Druid rows in the time interval specified.
 }
 ```
 
-Download JSON file:
+Download query and specify the timestamp interval according to your dataset:
 ```
 curl -O https://raw.githubusercontent.com/minoobeyzavi/Visual-KPI/master/JSON/selectQuery.json
-```
-Specify the timestamp interval according to your dataset:
-```
 sudo nano selectQuery.json
 ```
-POST the query:
+Post query:
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
 ```
-Sample output:
+Query result:
 ```
 
 [ {
@@ -167,6 +171,7 @@ Metrics         Values you can aggregate.
 -L              If server has been moved, redo request on the new location.
 -H              Extra header to include in the request.
 -X              Custom request method.
+-O              Write output to <file> instead of stdout.
 Post            Post request.
 --data-binary   Post data exactly as specified with no extra processing.
 @               What comes after @ is the file name.
