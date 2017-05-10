@@ -16,10 +16,10 @@ To prepare for pushing a stream of a new dataset to Druid, modifying the tranqui
 
     sudo nano conf-quickstart/tranquility/server.json
 
-1. "dataSource": name of the dataset
-2. "column" field of the "timestampSpec": name of the timestamp attribute
-3. "dimensions" field of the "dimensionsSpec": list of attributes with string values
-4. "metricsSpec" field: list of attributes with numeric values
+Name of the dataset --> "datasources" and "dataSource"
+Name of the timestamp attribute --> "column" field of the "timestampSpec"
+List of attributes with string values --> "dimensions" field of the "dimensionsSpec"
+List of attributes with numeric values --> "metricsSpec"
 
 Example:
 ```
