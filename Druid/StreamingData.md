@@ -1,6 +1,4 @@
-## Load Streaming Data to Druid on Linux :: Query with Postman on Windows
-
-#### Load Streaming Data
+## Load & Query Streaming Data
 
 To load streaming data, we are going to push events into Druid over a simple HTTP API. To do this we will use Tranquility, a high level data producer library for Druid.
 
@@ -12,7 +10,7 @@ cd tranquility-distribution-0.8.0
 ```
 Configuration file : <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a> as part of the Druid distribution for a metrics datasource.
 
-#### Start the Tranquility server process
+#### Start Tranquility
 
 ```
 bin/tranquility server -configFile <path_to_druid_distribution>/conf-quickstart/tranquility/server.json
@@ -30,21 +28,11 @@ bin/generate-example-metrics | curl -XPOST -H'Content-Type: application/json' --
 #### Load Your Own Streaming Data
 Prepare for pushing a stream to Druid by writing a custom Tranquility Server configuration similar to <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/conf-quickstart/tranquility/server.json">conf-quickstart/tranquility/server.json</a>.
 
-    What should the dataset be called? This is the "dataSource" field of the "dataSchema".
-    Which field should be treated as a timestamp? This belongs in the "column" field of the "timestampSpec".
-    Which fields should be treated as dimensions? This belongs in the "dimensions" field of the "dimensionsSpec".
-    Which fields should be treated as measures? This belongs in the "metricsSpec" field.
+    "dataSource": name of the dataset
+    "column" field of the "timestampSpec": name of the timestamp attribute
+    "dimensions" field of the "dimensionsSpec": list of attributes with string values
+    "metricsSpec" field: list of attributes with numeric values
 
-#### Restarting the server
-In a new terminal window, download <a href="https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/server.json">server.json</a> into druid-0.10.0/conf-quickstart/tranquility/: 
-
-```
-curl -O https://github.com/minoobeyzavi/Visual-KPI/blob/master/JSON/pageviews-server.json
-```
-
-```
-bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json
-```
 #### Sending Data
 
 ```
@@ -71,11 +59,10 @@ Returns the following, indicating that the HTTP server received 25 events from y
 {"result":{"received":3,"sent":3}}
 ```
 This dataset is always going to be available when Druid services are running.
+(If you see "sent":0 this likely means that your timestamps are not recent enough. Try adjusting your timestamps and re-sending your data.)
 
-#### JSON-Based Query
+#### Query
 
-Dimensions: attributes you can filter and split on.
-Metrics: values you can aggregate.
 ```
 {
   "queryType": "select",
@@ -91,7 +78,7 @@ Metrics: values you can aggregate.
 }
 ```
 
-To post the query on Linux:
+Download and post the query on Linux:
 ```
 curl -O https://raw.githubusercontent.com/minoobeyzavi/Visual-KPI/master/JSON/selectQuery.json
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @selectQuery.json http://localhost:8082/druid/v2/?pretty
@@ -158,6 +145,8 @@ Choose Files: selectQuery.json
 Depending on what druid.storage.type is set to, Druid will upload segments to some Deep Storage.
 Local disk is used as the default deep storage.
 
+Dimensions      Attributes you can filter and split on.
+Metrics         Values you can aggregate.
 -L              If server has been moved, redo request on the new location.
 -H              Extra header to include in the request.
 -X              Custom request method.
