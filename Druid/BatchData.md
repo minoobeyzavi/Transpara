@@ -1,17 +1,11 @@
-## Load Batch Data to Druid on Linux :: Query with Postman on Windows
+## Load & Query Batch Data
 
-#### Load batch data
+#### Load Data
 
 Submit an <i>ingestion</i> task in a new terminal window from the druid-0.10.0 directory:
 
 ```
 curl -X 'POST' -H 'Content-Type:application/json' -d @quickstart/wikiticker-index.json localhost:8090/druid/indexer/v1/task
-```
-(If required) to allow connection to Localhost port 8090 through the firewall:
-
-```
-sudo ufw disable
-sudo ufw allow 8090
 ```
 
 Successful submission prints the task ID:
@@ -19,7 +13,7 @@ Successful submission prints the task ID:
 ```
 {"task":"index_hadoop_wikiticker_2017-04-29T01:07:37.247Z"}
 ```
-[//]: # (<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/taskID.png"></div>)
+This dataset is always going to be available when Druid services are running.
 
 Status of your ingestion task: http://localhost:8090/console.html
 Refresh the console periodically, and you should see a "SUCCESS" status for the task.
@@ -27,19 +21,13 @@ Refresh the console periodically, and you should see a "SUCCESS" status for the 
 Progress of loading data: http://localhost:8081/#/
 You should see datasource "wikiticker" with a blue circle indicating "fully available".
 
-#### JSON-Based Query (testing on Linux)
+#### Query Data
 
-Basic format:
-```
-curl -X POST '<queryable_host>:<port>/druid/v2/?pretty' -H 'Content-Type:application/json' -d @<query_json_file>
-```
-Note: For further explanation see <b>Reference</b> at the bottom of the page.
-
-Example:
+Submit Query:
 ```
 curl -L -H'Content-Type: application/json' -XPOST --data-binary @quickstart/wikiticker-top-pages.json http://localhost:8082/druid/v2/?pretty
 ```
-Finds the most edited articles in this dataset:
+The TopN query in <a href="https://raw.githubusercontent.com/druid-io/druid/master/examples/quickstart/wikiticker-top-pages.json">wikiticker-top-pages.json</a> finds the most edited articles in this Wikipedia dataset:
 ```
 {
     "edits" : 15,
@@ -82,9 +70,8 @@ Finds the most edited articles in this dataset:
     "page" : "User:Valmir144/sandbox"
   }
   ```
-(Note: Upon completeing this experiment, make sure to Ctrl+C on each terminal window that is running a druid service to stop services before exiting server.)
 
-#### Postman Extension
+#### Query on Postman
 
 ```
 Base Address: http://172.0.1.8:8082/druid/v2/
