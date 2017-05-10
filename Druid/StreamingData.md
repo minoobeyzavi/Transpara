@@ -1,4 +1,4 @@
-## Load & Query Streaming Data
+## Load and Query Streaming Data
 
 To load streaming data, we are going to push events into Druid over a simple HTTP API. To do this we will use Tranquility, a high level data producer library for Druid.
 
