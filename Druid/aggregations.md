@@ -1,8 +1,8 @@
 ## Aggregations
 
-
+```
 -Ddruid.extensions.loadList='["druid-histogram"]' -Ddruid.extensions.directory=/opt/druid/extensions
-
+```
 
 #### Include druid-stats as an extension.
 
