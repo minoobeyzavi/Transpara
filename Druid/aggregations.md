@@ -55,6 +55,10 @@ To acquire standard deviation from variance, user can use "stddev" post aggregat
   "estimator": <string>
 }
 ```
+#### Config
+
+{ "type" : "variance", "name" : "latency_var", "fieldName" : "latencyMs", "estimator" : "population" }
+
 #### Restart Tranquility
 ```
 bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json -Ddruid.extensions.loadList='["druid-stats"]' -Ddruid.extensions.directory=/home/minoobeyzavi/druid-0.9.2/extensions
