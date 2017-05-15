@@ -18,6 +18,48 @@ druid.extensions.loadList=[..., "druid-stats",...]
 
 #### Average
 
+  "aggregations" : [{
+    {"type" : "count", "name" : "rows"},
+    {"type" : "hyperUnique", "name" : "unique_users", "fieldName" : "uniques"}
+  }],
+  "postAggregations" : [{
+    "type"   : "arithmetic",
+    "name"   : "average_users_per_row",
+    "fn"     : "/",
+    "fields" : [
+      { "type" : "hyperUniqueCardinality", "fieldName" : "unique_users" },
+      { "type" : "fieldAccess", "name" : "rows", "fieldName" : "rows" }
+    ]
+  }]
+  
+  
+  {
+  ...
+  "aggregations" : [
+    { "type" : "count", "name" : "rows" },
+    { "type" : "doubleSum", "name" : "tot", "fieldName" : "total" }
+  ],
+  "postAggregations" : [{
+    "type"   : "arithmetic",
+    "name"   : "average",
+    "fn"     : "*",
+    "fields" : [
+       { "type"   : "arithmetic",
+         "name"   : "div",
+         "fn"     : "/",
+         "fields" : [
+           { "type" : "fieldAccess", "name" : "tot", "fieldName" : "tot" },
+           { "type" : "fieldAccess", "name" : "rows", "fieldName" : "rows" }
+         ]
+       },
+       { "type" : "constant", "name": "const", "value" : 100 }
+    ]
+  }]
+  ...
+}
+  
+  
+
 #### Standard Deviation
 
 Pre-aggregating variance at ingestion time
