@@ -20,11 +20,12 @@ druid.extensions.loadList=[..., "druid-stats",...]
 
   "aggregations" : [{
     {"type" : "count", "name" : "rows"},
-    {"type" : "hyperUnique", "name" : "unique_users", "fieldName" : "uniques"}
+    {"type" : "hyperUnique", "name" : "unique_users", "fieldName" : "uniques"},
+    { "type" : "doubleSum", "name" : "tot", "fieldName" : "total" }
   }],
   "postAggregations" : [{
     "type"   : "arithmetic",
-    "name"   : "average_users_per_row",
+    "name"   : "average_latency",
     "fn"     : "/",
     "fields" : [
       { "type" : "hyperUniqueCardinality", "fieldName" : "unique_users" },
@@ -32,16 +33,7 @@ druid.extensions.loadList=[..., "druid-stats",...]
     ]
   }]
   
-  
-  {
-  ...
-  "aggregations" : [
-    { "type" : "count", "name" : "rows" },
-    { "type" : "doubleSum", "name" : "tot", "fieldName" : "total" }
-  ],
-  "postAggregations" : [{
-    "type"   : "arithmetic",
-    "name"   : "average",
+
     "fn"     : "*",
     "fields" : [
        { "type"   : "arithmetic",
@@ -55,8 +47,6 @@ druid.extensions.loadList=[..., "druid-stats",...]
        { "type" : "constant", "name": "const", "value" : 100 }
     ]
   }]
-  ...
-}
   
   
 
