@@ -18,6 +18,7 @@ druid.extensions.loadList=[..., "druid-stats",...]
 
 #### Average
 
+```
   "aggregations" : [{
     {"type" : "count", "name" : "rows"},
     {"type" : "hyperUnique", "name" : "unique_users", "fieldName" : "uniques"},
@@ -47,7 +48,7 @@ druid.extensions.loadList=[..., "druid-stats",...]
        { "type" : "constant", "name": "const", "value" : 100 }
     ]
   }]
-  
+```  
   
 
 #### Standard Deviation
