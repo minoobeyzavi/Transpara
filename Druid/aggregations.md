@@ -1,7 +1,14 @@
 ## Aggregations
 
+#### Config
 ```
--Ddruid.extensions.loadList='["druid-histogram"]' -Ddruid.extensions.directory=/opt/druid/extensions
+cd conf-quickstart/tranquility/server.json
+sudo nano sever.json
+"metricsSpec" : [
+ { "type" : "count", "name" : "views"},
+ { "type" : "doubleSum", "name" : "total_latency", "fieldName" : "latencyMs" },
+ { "type" : "variance", "name" : "latency_var", "fieldName" : "latencyMs", "estimator" : "population" }
+]
 ```
 
 #### Include druid-stats as an extension.
@@ -16,38 +23,44 @@ Add "druid-stats" to the list of extensions:
 druid.extensions.loadList=[..., "druid-stats",...]
 ```
 
+#### Restart Tranquility
+
+```
+bin/tranquility server -configFile /home/...<path_to_druid_distribution>.../druid-0.10.0/conf-quickstart/tranquility/server.json -Ddruid.extensions.loadList='["druid-stats"]' -Ddruid.extensions.directory=/home/minoobeyzavi/druid-0.9.2/extensions
+```
+We included the line below in the command to make Tranquility aware of the extensions.
+```
+-Ddruid.extensions.loadList='["druid-histogram"]' -Ddruid.extensions.directory=/opt/druid/extensions
+```
+
 #### Average
 
 ```
-  "aggregations" : [{
-    {"type" : "count", "name" : "rows"},
-    {"type" : "hyperUnique", "name" : "unique_users", "fieldName" : "uniques"},
-    { "type" : "doubleSum", "name" : "tot", "fieldName" : "total" }
-  }],
-  "postAggregations" : [{
-    "type"   : "arithmetic",
-    "name"   : "average_latency",
-    "fn"     : "/",
-    "fields" : [
-      { "type" : "hyperUniqueCardinality", "fieldName" : "unique_users" },
-      { "type" : "fieldAccess", "name" : "rows", "fieldName" : "rows" }
-    ]
-  }]
-  
-
-    "fn"     : "*",
-    "fields" : [
-       { "type"   : "arithmetic",
-         "name"   : "div",
-         "fn"     : "/",
-         "fields" : [
-           { "type" : "fieldAccess", "name" : "tot", "fieldName" : "tot" },
-           { "type" : "fieldAccess", "name" : "rows", "fieldName" : "rows" }
-         ]
-       },
-       { "type" : "constant", "name": "const", "value" : 100 }
-    ]
-  }]
+{
+  "queryType": "select",
+  "dataSource": "clicks",
+  "descending": "false",
+  "dimensions":[],
+  "metrics":[],
+  "granularity": "all",
+  "intervals": [
+    "2017-05-08T00:00:00Z/2017-05-09T00:00:00Z"
+  ],
+  "pagingSpec":{"pagingIdentifiers": {}, "threshold":25},
+  "aggregations" : [
+  { "type" : "count", "name" : "views"},
+  { "type" : "doubleSum", "name" : "total_latency", "fieldName" : "latencyMs" }
+],
+"postAggregations" : [{
+  "type"   : "arithmetic",
+  "name"   : "average_latency",
+  "fn"     : "/",
+  "fields" : [
+    { "type" : "fieldAccess", "fieldName" : "total_latency" },
+    { "type" : "fieldAccess", "fieldName" : "views" }
+  ]
+}]
+}
 ```  
   
 
@@ -87,12 +100,4 @@ To acquire standard deviation from variance, user can use "stddev" post aggregat
   "fieldName": "<aggregator_name>",
   "estimator": <string>
 }
-```
-#### Config
-
-{ "type" : "variance", "name" : "latency_var", "fieldName" : "latencyMs", "estimator" : "population" }
-
-#### Restart Tranquility
-```
-bin/tranquility server -configFile /home/minoobeyzavi/druid-0.10.0/conf-quickstart/tranquility/server.json -Ddruid.extensions.loadList='["druid-stats"]' -Ddruid.extensions.directory=/home/minoobeyzavi/druid-0.9.2/extensions
 ```
