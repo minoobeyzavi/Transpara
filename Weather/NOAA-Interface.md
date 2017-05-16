@@ -1,12 +1,9 @@
- ## Comments regarding NOAA
+ ## NOAA Interface
  
  1. Install new JSON Interface on Server.</br>
  2. Using [Postman](https://www.getpostman.com/docs/introduction):
  
  Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy".
- 
- ### Question:
- How to pass the results to our Visual KPI software using Postman?
  
  </br></br>
  3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
@@ -14,6 +11,9 @@
  ```
  Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
+ #### List of Data Categories:
+ https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
+ 
  
  ### Current Data
  (Data availability is varied per location and dates back to a recent date.)
@@ -43,7 +43,10 @@
  
  5. Test.
  6. Add corresponding KPIs to the designer.
- 
+
+### Question:
+How to pass the results to our Visual KPI software using Postman?
+
 ## NOAA Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
 </br>token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
