@@ -4,15 +4,16 @@
  2. Using [Postman](https://www.getpostman.com/docs/introduction):
  
  Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy".
- 
- </br></br>
+
  3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  4. Enter the following:</br>
  ```
  Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
  #### List of Data Categories:
+ ```
  https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
+ ```
  
  
  ### Current Data
