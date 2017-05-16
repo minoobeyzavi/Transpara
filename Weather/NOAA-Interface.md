@@ -10,8 +10,9 @@
  ```
  Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
+ Other useful addresses:
  ```
- Data Categories: https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
+ Data Categories: https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
  ```
  
  
