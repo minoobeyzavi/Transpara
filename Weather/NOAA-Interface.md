@@ -11,7 +11,7 @@
  Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
  ```
- List of Data Categories: https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
+ Data Categories: https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
  ```
  
  
