@@ -10,12 +10,6 @@
  ```
  Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
- Useful Addresses:
- ```
- Data Categories  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
- Locations with Daily Summaries  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
- ```
- 
  
  ### Current Data
  (Data availability is varied per location and dates back to a recent date.)
@@ -52,6 +46,12 @@ How to pass the results to our Visual KPI software using Postman?
 ## NOAA Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
 </br>token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
+
+ Useful Addresses:
+ ```
+ List of Datasets  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
+ Locations with Daily Summaries  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
+ ```
 
 #### datasetid 
 Required. Accepts a single valid dataset id. Data returned will be from the dataset specified e.g. GHCND.
