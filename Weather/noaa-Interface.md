@@ -8,11 +8,12 @@
  3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  4. Enter the following:</br>
  ```
- Base Address: https://www.ncdc.noaa.gov/cdo-web/api/v2/
+ Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
- Other useful addresses:
+ Useful Addresses:
  ```
- Data Categories: https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
+ Data Categories  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
+ Locations with Daily Summaries  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
  ```
  
  
