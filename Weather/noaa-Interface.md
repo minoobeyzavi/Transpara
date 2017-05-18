@@ -43,7 +43,7 @@
 ### Question:
 How to pass the results to our Visual KPI software using Postman?
 
-## NOAA Notes
+## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
 </br>token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
 
