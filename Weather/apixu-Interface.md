@@ -59,7 +59,7 @@ Timestamp Field: forecastday.date
  Search or Autocomplete API</br>
  Historical weather</br>
  
- <b>Examples</b>
+ Examples
  ```
  http://api.apixu.com/v1/current.json?key=<YOUR_API_KEY>&q=London
  http://api.apixu.com/v1/forecast.json?key=<YOUR_API_KEY>&q=07112&days=7
@@ -74,7 +74,7 @@ Timestamp Field: forecastday.date
  auto:ip IP lookup q=auto:ip</br>
  IP address q=100.0.0.1</br>
  
- <b>Details</b></br>
+ #### Details
  Forecast: 'dt' should be between today and next 10 day dt=2017-04-21.</br>
  History: 'dt' should be on or after dt=2015-01-01 or unixdt=1490227200.</br>
  History: 'end_dt' or 'unixend_dt' should be on or after dt=2015-01-01.</br>
@@ -82,12 +82,12 @@ Timestamp Field: forecastday.date
  Restricting forecast or history output to a specific hour in a given day: 5 pm -> hour=17</br>
  lang=fr -> French; returns 'condition:text'.
  
- <b>Current Weather</b></br>
+ #### Current Weather
  Current Object: last_updated, last_updated_epoch, temp_c, temp_f, feelslike_c	, feelslike_f,</br>
  condition:text	, condition:icon, condition:code, wind_mph, wind_kph, wind_degree, wind_dir, wind_degree,</br>
  pressure_mb, pressure_in, precip_mm, precip_in, humidity, cloud, feelslike_c, feelslike_f, is_day
  
- <b>Forcast & Hisotry</b></br>
+ #### Forcast & Hisotry
  Forecast Object: astronomy data, day weather forecast and hourly interval weather information for a given city.</br>
  forecastday: Parent element. forecastday -> day, forecastday -> astro, forecastday -> hour, date, date_epoch
  
@@ -101,6 +101,6 @@ Timestamp Field: forecastday.date
  feelslike_f, windchill_c, windchill_f, heatindex_c, heatindex_f, dewpoint_c, dewpoint_f, will_it_rain, will_it_snow,</br>
  is_day, vis_km, vis_miles
  
- <b>Search/Autocomplete</b></br>
+ #### Search/Autocomplete
  Returns matching cities/towns as an array of Location object w/o tz_id, localtime_epoch and localtime.</br>
  Location Object: lat, lon, name, region, country, tz_id, localtime_epoch, localtime
