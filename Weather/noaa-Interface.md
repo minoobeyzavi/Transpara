@@ -16,16 +16,16 @@
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:94103&units=standard&startdate={RECENTDATE}&enddate={RECENTDATE}
  Result Base Path: .results
- Value Field: {2}.value
- Timestamp Field: {2}.date
+ Value Field: [2].value
+ Timestamp Field: [2].date
   ```
   
  ### Forecast (Trend Data)
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:94103&units=standard&startdate={STARTDATE}&enddate={ENDDATE}
  Result Base Path: .results
- Value Field: {2}.value
- Timestamp Field: {2}.date
+ Value Field: [2].value
+ Timestamp Field: [2].date
  ```
  and enter start & end dates manually.
  
@@ -49,21 +49,19 @@ https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
 
  Useful Addresses:
  ```
- List of Datasets  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
- Locations with Daily Summaries  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
+ Datasets  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
+ Data Categories https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
+ Locations in GHCND Dataset  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
  ```
 
 #### datasetid 
 Required. Accepts a single valid dataset id. Data returned will be from the dataset specified e.g. GHCND.
 
-#### startdate
-Required. Accepts valid ISO formated date (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss). Data returned will be after the specified date. Annual and Monthly data will be limited to a ten year range while all other data will be limted to a one year range e.g. 1763-01-01.
-
-#### enddate
-Required. Accepts valid ISO formated date (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss). Data returned will be before the specified date. Annual and Monthly data will be limited to a ten year range while all other data will be limted to a one year range e.g. 2017-04-26.
+#### startdate & enddate
+Required. A valid ISO formated date (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss). Data returned will be after the specified date. Annual and Monthly data will be limited to a ten year range while all other data will be limted to a one year range e.g. 2017-04-26.
 
 #### locationid
-Optional. Accepts a valid location id or a chain of location ids seperated by ampersands. Data returned will contain data for the location(s) specified e.g. ZIP:94103. There are other location categories such as CITY however, data availablity is limited.
+Optional. A valid location id or a chain of location ids seperated by ampersands. Data returned will contain data for the location(s) specified e.g. ZIP:94103. There are other location categories such as CITY however, data availablity is limited.
 
 #### units
 Optional. Accepts the literal strings 'standard' or 'metric'. Data will be scaled and converted to the specified units. If a unit is not provided then no scaling nor conversion will take place.
