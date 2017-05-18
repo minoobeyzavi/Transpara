@@ -3,7 +3,7 @@
  1. Install new JSON Interface on Server.</br>
  2. Using [Postman](https://www.getpostman.com/docs/introduction):
  
- Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy".
+ Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from the [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
 
  3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  4. Enter the following:</br>
