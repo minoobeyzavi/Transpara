@@ -46,7 +46,7 @@ How to pass the results to our Visual KPI software using Postman?
 ## Notes
 https://developer.worldweatheronline.com/api/docs/historical-weather-api.aspx
 https://developer.worldweatheronline.com/my/analytics.aspx?key_id=156979
-</br>token:	651762108dd54dff808213705171805
+</br>Key:	651762108dd54dff808213705171805
 
  Useful Addresses:
  ```
