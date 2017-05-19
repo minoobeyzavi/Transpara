@@ -69,3 +69,12 @@ Exclude some number of data blocks from the API response. This is useful for red
 
 <b>time</b> required for historical data</br>
 A UNIX time or a string formatted as: [YYYY]-[MM]-[DD]T[HH]:[MM]:[SS][timezone]. timezone should either be omitted (to refer to local time for the location being requested), Z (referring to GMT time), or +[HH][MM] or -[HH][MM] for an offset from GMT in hours and minutes. The timezone is only used for determining the time of the request; the response will always be relative to the local time zone.
+
+<b>units=[units]</b> optional</br>
+Return weather conditions in the requested units. [units] should be one of the following:
+
+auto: automatically select units based on geographic location
+ca: same as si, except that windSpeed is in kilometers per hour
+uk2: same as si, except that nearestStormDistance and visibility are in miles and windSpeed is in miles per hour
+us: Imperial units (the default)
+si: SI units
