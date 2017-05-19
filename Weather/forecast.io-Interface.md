@@ -39,7 +39,7 @@
  Longitude -122.419416
  Epoch Time 1490005680
  
- Enter lookup parameters:
+ Enter lookup parameters as:
  37.774929|-122.419416|1490005680
  ```
  
