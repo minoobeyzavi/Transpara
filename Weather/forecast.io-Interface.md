@@ -11,7 +11,7 @@
  ```
  Request URI: {0},{1}?exclude=minutely,hourly,daily,alerts,flags
  Result Base Path: currently
- Value Field: .tempreture
+ Value Field: .temperature
  Timestamp Field: .time
  ```
  and enter latitude and longitude manually.
@@ -20,15 +20,15 @@
  ```
  Request URI: {0},{1}?exclude=currently,minutely,hourly,alerts,flags
  Result Base Path: daily.data
- Value Field: .tempretureMin
+ Value Field: .temperatureMin
  Timestamp Field: .time
  ```
  
  ### Historical Data
  ```
  Request URI: {0},{1},{2}?exclude=currently,hourly,flags
- Result Base Path: .daily.data
- Value Field: .tempretureMin
+ Result Base Path: daily.data
+ Value Field: .temperatureMin
  Timestamp Field: .time
  ```
  and enter latitude, longitude and time manually.
