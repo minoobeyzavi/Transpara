@@ -37,7 +37,7 @@
  Example:
  Latitude 37.774929
  Longitude -122.419416
- Time 1490005680
+ Epoch Time 1490005680
  ```
  
  5. Test.
