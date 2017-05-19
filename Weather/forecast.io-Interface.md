@@ -1,20 +1,16 @@
  ## forecast.io
  
  1. Install new JSON Interface on Server.</br>
- 2. Using [Postman](https://www.getpostman.com/docs/introduction):
- 
- Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from the [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
-
- 3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
+ 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
  4. Enter the following:</br>
  ```
- Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
+ Base Address  https://api.darksky.net/forecast/
  ```
  
  ### Current Data
  (Data availability is varied per location and dates back to a recent date.)
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={RECENTDATE}&enddate={RECENTDATE}
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}
  Result Base Path: .results
  Value Field: [2].value
  Timestamp Field: [2].date
@@ -53,15 +49,25 @@ https://darksky.net/dev/docs
  Data Categories https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
  Locations in GHCND Dataset  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
  ```
+<b>latitude</b> required
+The latitude of a location (in decimal degrees). Positive is north, negative is south.
 
-#### datasetid 
-Required. A single valid dataset id e.g. GHCND.
+<b>longitude</b> required
+The longitude of a location (in decimal degrees). Positive is east, negative is west.
+
+<b>exclude=[blocks]</b> optional
+Exclude some number of data blocks from the API response. This is useful for reducing latency and saving cache space. The value blocks should be a comma-delimeted list (without spaces) of any of the following:
+
+currently
+minutely
+hourly
+daily
+alerts
+flags
+
 
 #### startdate & enddate
 Required. (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss) format. Annual and Monthly data will be limited to a ten year range while all other data will be limited to a one year range.
-
-#### locationid
-Optional. A valid location id or a chain of location ids seperated by ampersands e.g. ZIP:94103.
 
 #### units
 Optional. Accepts 'standard' or 'metric'.
