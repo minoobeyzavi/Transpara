@@ -33,6 +33,13 @@
  ```
  and enter time manually.
  
+ ```
+ Example:
+ Latitude 37.774929
+ Longitude -122.419416
+ UNIX Time 1490005680
+ ```
+ 
  5. Test.
  6. Add corresponding KPIs to the designer.
 
