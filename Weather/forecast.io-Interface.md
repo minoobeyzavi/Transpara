@@ -42,7 +42,7 @@
 </br>Key:	ab264c5a62b09962844b4a22da0a4f01
 
 [Get Latitude and Longitude](http://www.latlong.net/)</br>
-[Convert to Unix Time Stamp](http://www.unixtimestamp.com/)
+[Convert to Unix Time Stamp](https://www.epochconverter.com/)
 
 <b>latitude</b> required</br>
 The latitude of a location (in decimal degrees). Positive is north, negative is south.
