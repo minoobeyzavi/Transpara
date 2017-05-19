@@ -38,10 +38,10 @@
 
 
 ## Notes
-https://darksky.net/dev/docs
+[API Docs](https://darksky.net/dev/docs)
 </br>Key:	ab264c5a62b09962844b4a22da0a4f01
 
-[Get Latitude and Longitude](http://www.latlong.net/)
+[Get Latitude and Longitude](http://www.latlong.net/)</br>
 [Convert to Unix Time Stamp](http://www.unixtimestamp.com/)
 
 <b>latitude</b> required</br>
