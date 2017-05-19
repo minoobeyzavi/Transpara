@@ -45,8 +45,8 @@
 
 
 ## Notes
-[API Docs](https://darksky.net/dev/docs)
-</br>Key ::	ab264c5a62b09962844b4a22da0a4f01
+[API Docs](https://darksky.net/dev/docs)</br>
+<b>Key</b>	ab264c5a62b09962844b4a22da0a4f01
 
 [Get Latitude and Longitude](http://www.latlong.net/)</br>
 [Convert to Unix Time Stamp](https://www.epochconverter.com/)
