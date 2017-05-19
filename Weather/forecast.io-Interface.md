@@ -9,7 +9,7 @@
  
  ### Current Data
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}?exclude=minutely,hourly,daily,alerts,flags
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1}?exclude=minutely,hourly,daily,alerts,flags
  Result Base Path: .currently
  Value Field: .tempreture
  Timestamp Field: .time
@@ -18,7 +18,7 @@
  
  ### Forecast (Trend Data)
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}?exclude=currently,minutely,hourly,alerts,flags
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1}?exclude=currently,minutely,hourly,alerts,flags
  Result Base Path: .daily.data
  Value Field: .tempretureMin
  Timestamp Field: .time
@@ -26,18 +26,21 @@
  
  ### Historical Data
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude},{time}?exclude=currently,hourly,flags
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1},{2}?exclude=currently,hourly,flags
  Result Base Path: .daily.data
  Value Field: .tempretureMin
  Timestamp Field: .time
  ```
- and enter time manually.
+ and enter latitude, longitude and time manually.
  
  ```
  Example:
  Latitude 37.774929
  Longitude -122.419416
  Epoch Time 1490005680
+ 
+ Enter lookup parameters:
+ 37.774929|-122.419416|1490005680
  ```
  
  5. Test.
