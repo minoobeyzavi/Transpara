@@ -73,8 +73,8 @@ A UNIX time or a string formatted as: [YYYY]-[MM]-[DD]T[HH]:[MM]:[SS][timezone].
 <b>units=[units]</b> optional</br>
 Return weather conditions in the requested units. [units] should be one of the following:
 
-auto: automatically select units based on geographic location
-ca: same as si, except that windSpeed is in kilometers per hour
-uk2: same as si, except that nearestStormDistance and visibility are in miles and windSpeed is in miles per hour
-us: Imperial units (the default)
-si: SI units
+* auto: automatically select units based on geographic location
+* ca: same as si, except that windSpeed is in kilometers per hour
+* uk2: same as si, except that nearestStormDistance and visibility are in miles and windSpeed is in miles per hour
+* us: Imperial units (the default)
+* si: SI units
