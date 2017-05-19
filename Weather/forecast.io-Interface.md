@@ -4,13 +4,13 @@
  2. Clear out Base Address and all fields related to Current Value, Trend Data and Historical Value.</br>
  4. Enter the following:</br>
  ```
- Base Address  https://api.darksky.net/forecast/
+ Base Address  https://api.darksky.net/forecast/ab264c5a62b09962844b4a22da0a4f01/{0},{1}
  ```
  
  ### Current Data
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1}?exclude=minutely,hourly,daily,alerts,flags
- Result Base Path: .currently
+ Request URI: ?exclude=minutely,hourly,daily,alerts,flags
+ Result Base Path: currently
  Value Field: .tempreture
  Timestamp Field: .time
  ```
@@ -18,15 +18,15 @@
  
  ### Forecast (Trend Data)
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1}?exclude=currently,minutely,hourly,alerts,flags
- Result Base Path: .daily.data
+ Request URI: ?exclude=currently,minutely,hourly,alerts,flags
+ Result Base Path: daily.data
  Value Field: .tempretureMin
  Timestamp Field: .time
  ```
  
  ### Historical Data
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{0},{1},{2}?exclude=currently,hourly,flags
+ Request URI: ,{2}?exclude=currently,hourly,flags
  Result Base Path: .daily.data
  Value Field: .tempretureMin
  Timestamp Field: .time
