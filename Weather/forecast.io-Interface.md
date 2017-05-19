@@ -8,47 +8,42 @@
  ```
  
  ### Current Data
- (Data availability is varied per location and dates back to a recent date.)
  ```
- Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}
- Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
-  ```
-  
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}?exclude=minutely,hourly,daily,alerts,flags
+ Result Base Path: .currently
+ Value Field: .tempreture
+ Timestamp Field: .time
+ ```
+ and enter latitude and longitude manually.
+ 
  ### Forecast (Trend Data)
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}
- Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude}?exclude=currently,minutely,hourly,alerts,flags
+ Result Base Path: .daily.data
+ Value Field: .tempretureMin
+ Timestamp Field: .time
  ```
- and enter start & end dates manually.
  
  ### Historical Data
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={TIMESTAMP}&enddate={TIMESTAMP}
- Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
+ Request URI: ab264c5a62b09962844b4a22da0a4f01/{latitude},{longitude},{time}?exclude=currently,hourly,flags
+ Result Base Path: .daily.data
+ Value Field: .tempretureMin
+ Timestamp Field: .time
  ```
+ and enter time manually.
  
  5. Test.
  6. Add corresponding KPIs to the designer.
 
-### Question:
-How to pass the results to our Visual KPI software using Postman?
 
 ## Notes
 https://darksky.net/dev/docs
 </br>Key:	ab264c5a62b09962844b4a22da0a4f01
 
- Useful Addresses:
- ```
- Datasets  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
- Data Categories https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
- Locations in GHCND Dataset  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
- ```
+[Get Latitude and Longitude](http://www.latlong.net/)
+[Convert to Unix Time Stamp](http://www.unixtimestamp.com/)
+
 <b>latitude</b> required</br>
 The latitude of a location (in decimal degrees). Positive is north, negative is south.
 
@@ -65,9 +60,5 @@ Exclude some number of data blocks from the API response. This is useful for red
 * alerts
 * flags
 
-
-#### startdate & enddate
-Required. (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss) format. Annual and Monthly data will be limited to a ten year range while all other data will be limited to a one year range.
-
-#### units
-Optional. Accepts 'standard' or 'metric'.
+<b>time</b> required for historical data</br>
+A UNIX time or a string formatted as: [YYYY]-[MM]-[DD]T[HH]:[MM]:[SS][timezone]. timezone should either be omitted (to refer to local time for the location being requested), Z (referring to GMT time), or +[HH][MM] or -[HH][MM] for an offset from GMT in hours and minutes. The timezone is only used for determining the time of the request; the response will always be relative to the local time zone.
