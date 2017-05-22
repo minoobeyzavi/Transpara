@@ -16,16 +16,16 @@
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={RECENTDATE}&enddate={RECENTDATE}
  Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
+ Value Field: temperatureMax.value
+ Timestamp Field: temperatureMax.value
   ```
   
  ### Forecast (Trend Data)
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}
  Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
+ Value Field: temperatureMax.value
+ Timestamp Field: temperatureMax.value
  ```
  and enter start & end dates manually.
  
@@ -33,8 +33,8 @@
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={TIMESTAMP}&enddate={TIMESTAMP}
  Result Base Path: .results
- Value Field: [2].value
- Timestamp Field: [2].date
+ Value Field: temperatureMax.value
+ Timestamp Field: temperatureMax.date
  ```
  
  5. Test.
