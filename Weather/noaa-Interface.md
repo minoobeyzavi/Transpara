@@ -16,7 +16,7 @@
  Value Field: .value
  Timestamp Field: .date
   ```
-and enter <u>the same DATE</u> for startdate and enddate and then DATATYPEID manually.
+and enter <b>the same DATE</b> for startdate and enddate and then DATATYPEID manually.
 
  ### Forecast (Trend Data)
  ```
