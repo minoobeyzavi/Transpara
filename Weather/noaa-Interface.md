@@ -1,12 +1,9 @@
  ## NOAA
  
- 1. Install new JSON Interface on Server.</br>
- 2. Using [Postman](https://www.getpostman.com/docs/introduction):
+ 1. Using [Postman](https://www.getpostman.com/docs/introduction):
  
- Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from the [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
+ Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
 
- 3. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
- 4. Enter the following:</br>
  ```
  Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
@@ -36,32 +33,29 @@
  Value Field: temperatureMax.value
  Timestamp Field: temperatureMax.date
  ```
- 
- 5. Test.
- 6. Add corresponding KPIs to the designer.
-
-### Question:
-How to pass the results to our Visual KPI software using Postman?
 
 ## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
 </br>token:	dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy
+[Token Request](https://www.ncdc.noaa.gov/cdo-web/token)
 
  Useful Addresses:
  ```
- Datasets  https://www.ncdc.noaa.gov/cdo-web/api/v2/datasets
- Data Categories https://www.ncdc.noaa.gov/cdo-web/api/v2/datacategories
  Locations in GHCND Dataset  https://www.ncdc.noaa.gov/cdo-web/api/v2/locations?datasetid=GHCND
+ Location Categories  https://www.ncdc.noaa.gov/cdo-web/api/v2/locationcategories
  ```
 
-#### datasetid 
-Required. A single valid dataset id e.g. GHCND.
+<b>datasetid</b>Required</br> 
+A single valid dataset id e.g. datasetid=GHCND.
 
-#### startdate & enddate
-Required. (YYYY-MM-DD) or date time (YYYY-MM-DDThh:mm:ss) format. Annual and Monthly data will be limited to a ten year range while all other data will be limited to a one year range.
+<b>startdate & enddate</b>Required</br>
+(YYYY-MM-DD) format e.g. startdate=2017-01-01. Annual and Monthly data will be limited to a ten year range while all other data will be limited to a one year range.
 
-#### locationid
-Optional. A valid location id or a chain of location ids seperated by ampersands e.g. ZIP:94103.
+<b>locationid</b>Optional</br>
+A valid location id or a chain of location ids seperated by ampersands e.g. ZIP:94103.
 
-#### units
-Optional. Accepts 'standard' or 'metric'.
+<b>units</b>Optional</br>
+Accepts 'standard' or 'metric'.
+
+<b>limit</b>Optional</br>
+Default is 25. Limits the number of results in the response. Maximum is 1000.
