@@ -11,30 +11,30 @@
  
  ### Current Data
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={RECENTDATE}&enddate={RECENTDATE}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
- Value Field: temperatureMax.value
- Timestamp Field: temperatureMax.value
+ Value Field: .value
+ Timestamp Field: .date
   ```
-  
+and enter <u>the same DATE</u> for startdate and enddate and then DATATYPEID manually.
+
  ### Forecast (Trend Data)
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
- Value Field: temperatureMax.value
- Timestamp Field: temperatureMax.value
+ Value Field: .value
+ Timestamp Field: .date
  ```
- and enter start & end dates manually.
+ and enter STARTDATE, ENDDATE and DATATYPEID manually.
  
  ### Historical Data
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={TIMESTAMP}&enddate={TIMESTAMP}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
- Value Field: temperatureMax.value
- Timestamp Field: temperatureMax.date
+ Value Field: .value
+ Timestamp Field: .date
  ```
-and enter <u>the same date</u> for start & end dates manually.
-
+and enter <u>the same DATE</u> for startdate and enddate and then DATATYPEID manually.
 
 ## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
