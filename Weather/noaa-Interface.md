@@ -12,7 +12,7 @@
  ### Current Data
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
- Result Base Path: .results
+ Result Base Path: results
  Value Field: .value
  Timestamp Field: .date
   ```
@@ -21,7 +21,7 @@
  ### Forecast (Trend Data)
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}&datatypeid={DATATYPEID}
- Result Base Path: .results
+ Result Base Path: results
  Value Field: .value
  Timestamp Field: .date
  ```
@@ -30,7 +30,7 @@
  ### Historical Data
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
- Result Base Path: .results
+ Result Base Path: results
  Value Field: .value
  Timestamp Field: .date
  ```
