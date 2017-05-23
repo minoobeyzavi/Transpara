@@ -11,30 +11,30 @@
  
  ### Current Data
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
  Value Field: .value
  Timestamp Field: .date
   ```
-Enter the same DATE for startdate and enddate and then DATATYPEID manually.
+ Enter ZIPCODE, the same DATE for startdate and enddate and then DATATYPEID manually.
 
  ### Forecast (Trend Data)
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}&datatypeid={DATATYPEID}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={STARTDATE}&enddate={ENDDATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
  Value Field: .value
  Timestamp Field: .date
  ```
- Enter STARTDATE, ENDDATE and DATATYPEID manually.
+ Enter ZIPCODE, STARTDATE, ENDDATE and DATATYPEID manually.
  
  ### Historical Data
  ```
- Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
+ Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
  Result Base Path: .results
  Value Field: .value
  Timestamp Field: .date
  ```
-Enter the same DATE for startdate and enddate and then DATATYPEID manually.
+ Enter ZIPCODE, the same DATE for startdate and enddate and then DATATYPEID manually.
 
 ## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
