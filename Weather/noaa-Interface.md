@@ -10,6 +10,7 @@
  ```
  
  ### Current Data
+ Availability per location is varied and most up-to-date data usually dates back to yesterday.
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{ZIPCODE}&units=standard&startdate={DATE}&enddate={DATE}&datatypeid={DATATYPEID}
  Result Base Path: results
