@@ -16,7 +16,7 @@
  Value Field: .value
  Timestamp Field: .date
   ```
-and enter <b>the same DATE</b> for startdate and enddate and then DATATYPEID manually.
+Enter the same DATE for startdate and enddate and then DATATYPEID manually.
 
  ### Forecast (Trend Data)
  ```
@@ -25,7 +25,7 @@ and enter <b>the same DATE</b> for startdate and enddate and then DATATYPEID man
  Value Field: .value
  Timestamp Field: .date
  ```
- and enter STARTDATE, ENDDATE and DATATYPEID manually.
+ Enter STARTDATE, ENDDATE and DATATYPEID manually.
  
  ### Historical Data
  ```
@@ -34,7 +34,7 @@ and enter <b>the same DATE</b> for startdate and enddate and then DATATYPEID man
  Value Field: .value
  Timestamp Field: .date
  ```
-and enter <u>the same DATE</u> for startdate and enddate and then DATATYPEID manually.
+Enter the same DATE for startdate and enddate and then DATATYPEID manually.
 
 ## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
