@@ -4,6 +4,7 @@
 
 <div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa.png"/></div>
 
+
  ```
  Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
@@ -58,5 +59,10 @@ A valid location id or a chain of location ids seperated by ampersands e.g. ZIP:
 <b>units</b> Optional</br>
 Accepts 'standard' or 'metric'.
 
+<b>datatypeid</b> Optional</br>
+For the GHCND dataset, available datatypes are PRCP, TMAX & TMIN.
+
 <b>limit</b> Optional</br>
 Default is 25. Limits the number of results in the response. Maximum is 1000.
+
+<div align=center><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa-trendData.png"/></div>
