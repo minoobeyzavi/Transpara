@@ -1,15 +1,14 @@
  ## NOAA
  
- 1. Using [Postman](https://www.getpostman.com/docs/introduction):
- 
- Add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
+ Using [Postman](https://www.getpostman.com/docs/introduction), add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
+
+<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa.png"/></div>
 
  ```
  Base Address  https://www.ncdc.noaa.gov/cdo-web/api/v2/
  ```
  
  ### Current Data
- (Data availability is varied per location and dates back to a recent date.)
  ```
  Request URI: data?datasetid=GHCND&locationid=ZIP:{1}&units=standard&startdate={RECENTDATE}&enddate={RECENTDATE}
  Result Base Path: .results
@@ -33,6 +32,8 @@
  Value Field: temperatureMax.value
  Timestamp Field: temperatureMax.date
  ```
+and enter <u>the same date</u> for start & end dates manually.
+
 
 ## Notes
 https://www.ncdc.noaa.gov/cdo-web/webservices/v2#data
