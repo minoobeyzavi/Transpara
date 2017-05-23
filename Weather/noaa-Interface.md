@@ -2,7 +2,7 @@
  
  Using [Postman](https://www.getpostman.com/docs/introduction), add a key to header as "token" with the value "dmvfhINKHBVgAWGFxEsicLiaMAhNKSgy" obtained from [Token Request Page](https://www.ncdc.noaa.gov/cdo-web/token).
 
-<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa.png"/></div>
+<div align="center"><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa.png"/></div></br>
 
 
  ```
@@ -64,5 +64,6 @@ For the GHCND dataset, available datatypes are PRCP, TMAX & TMIN.
 
 <b>limit</b> Optional</br>
 Default is 25. Limits the number of results in the response. Maximum is 1000.
+
 
 <div align=center><img src="https://github.com/minoobeyzavi/Visual-KPI/blob/master/Images/postman-noaa-trendData.png"/></div>
