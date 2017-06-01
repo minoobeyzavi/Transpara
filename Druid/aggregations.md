@@ -9,6 +9,12 @@ sudo nano sever.json
  { "type" : "doubleSum", "name" : "total_latency", "fieldName" : "latencyMs" },
  { "type" : "variance", "name" : "latency_var", "fieldName" : "latencyMs", "estimator" : "population" }
 ]
+
+.
+.
+.
+
+"druid.extensions.directory" : "extensions"
 ```
 
 #### Include druid-stats as an extension.
