@@ -20,6 +20,10 @@ Abstract a way around...
 Unified way to bring data...
 Do something intelligent with data in a uniform way. Website that screams value.
 
+#### Key Words
+
+Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The Inside API, Simulation
+
 #### Primary Questions
 ```
 Understand why that script needs to be there.
