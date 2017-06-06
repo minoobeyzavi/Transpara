@@ -16,6 +16,15 @@
  ```
  and enter latitude and longitude manually.
  
+ ### Current Minutely Forecast For The Next Hour(Where Available)
+ 
+ ```
+ Request URI: {0},{1}?exclude=currently,hourly,daily,alerts,flags
+ Result Base Path: minutely
+ Value Field: .temperature
+ Timestamp Field: .time
+ ```
+ 
  ### Forecast (Trend Data)
  ```
  Request URI: {0},{1}?exclude=currently,minutely,hourly,alerts,flags
