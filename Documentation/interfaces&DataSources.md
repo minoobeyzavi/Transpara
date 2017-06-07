@@ -1,5 +1,6 @@
 #### Interfaces & Data Sources
-Title could be "Create Interfaces with Data Sources" or "Visual KPI Interfaces"
+
+"Interfaces & Data Sources" sounds like a story title. It could be "Create Interfaces with Data Sources" which sounds like a manual or "Visual KPI Interfaces" which sounds more technical.
 Double digit subsections must be too many. 
 [Visual KPI Interace Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) should be a subsection fo another article.
 
