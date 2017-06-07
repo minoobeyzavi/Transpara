@@ -7,6 +7,7 @@ Double digit subsections must be too many.
 **2 Getting Started with Visual KPI Interfaces
 **3 Visual KPI Interface Prerequisites
 **4 Interface Security & Encryption
+
 5 Supported Data Sources
 6 Data Source Time Zones & Units
 7 JSON & XML Interfaces
