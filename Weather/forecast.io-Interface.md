@@ -16,16 +16,10 @@
  ```
  and enter latitude and longitude manually.
  
- ### Current Minutely Forecast For The Next Hour(Where Available)
+ ### Daily Forecast (Trend Data) For The Next Week
  
- ```
- Request URI: {0},{1}?exclude=currently,hourly,daily,alerts,flags
- Result Base Path: minutely
- Value Field: .temperature
- Timestamp Field: .time
- ```
+ Data is retrieved for the next week regardless of what is specified for Start and End Time in Test.
  
- ### Forecast (Trend Data)
  ```
  Request URI: {0},{1}?exclude=currently,minutely,hourly,alerts,flags
  Result Base Path: daily.data
@@ -33,7 +27,21 @@
  Timestamp Field: .time
  ```
  
+ ### Hourly Forecast (Trend Data) For The Next 48 Hours
+ 
+ Data is retrieved for the next hours regardless of what is specified for Start and End Time in Test.
+ 
+ ```
+ Request URI: {0},{1}?exclude=currently,daily,minutely,alerts,flags
+ Result Base Path: hourly.data
+ Value Field: .temperature
+ Timestamp Field: .time
+ ```
+ 
  ### Historical Data
+ 
+In Visual KPI Server Manager, make sure to use the Historical Data row for this query and not Historical Value. Data is retrieved for the Timestamp specified in {2} parameter in Unix or string format (see example parameters below), regardless of what is specified as Start and End Time in Test.
+ 
  ```
  Request URI: {0},{1},{2}?exclude=currently,hourly,flags
  Result Base Path: daily.data
@@ -46,10 +54,15 @@
  Example:
  Latitude 37.774929
  Longitude -122.419416
- Epoch Time 1490005680
+ Epoch Time 1483293600
+ String Time 2017-01-01T10:00:00
  
  Enter lookup parameters as:
- 37.774929|-122.419416|1490005680
+ 37.774929|-122.419416|1483293600
+ 
+ or
+ 
+ 37.774929|-122.419416|2017-01-01T10:00:00
  ```
  
  5. Test.
@@ -57,8 +70,9 @@
 
 
 ## Notes
-[API Docs](https://darksky.net/dev/docs)</br>
-<b>Key</b>	ab264c5a62b09962844b4a22da0a4f01
+[API Docs](https://darksky.net/dev/docs)</br> First 1000 calls per day are free.
+<b>Key</b>	ab264c5a62b09962844b4a22da0a4f01</br>
+<b>Backup Key</b>(In case you have reached the daily 1000-call-limit for the purposes of testing) 5d30be11e33410306a009d4578d042c1
 
 [Get Latitude and Longitude](http://www.latlong.net/)</br>
 [Convert to Unix Timestamp](https://www.epochconverter.com/)
