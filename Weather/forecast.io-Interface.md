@@ -16,7 +16,7 @@
  ```
  and enter latitude and longitude manually.
  
- ### Daily Forecast (Trend Data) For The Next Week
+ ### Daily Forecast (Trend Data)
  
  This returns data for the next week regardless of what is specified for Start and End Time in Test.
  
@@ -27,7 +27,7 @@
  Timestamp Field: .time
  ```
  
- ### Hourly Forecast (Trend Data) For The Next 48 Hours
+ ### Hourly Forecast (Trend Data)
  
  This returns data for the next 48 hours regardless of what is specified for Start and End Time in Test.
  
