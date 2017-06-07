@@ -70,9 +70,10 @@ In Visual KPI Server Manager, make sure to use the Historical Data row for this 
 
 
 ## Notes
-[API Docs](https://darksky.net/dev/docs)</br> 
-First 1000 calls per day are free.</br>
+[API Docs](https://darksky.net/dev/docs) - First 1000 calls per day are free.</br>
+
 <b>Key</b>	ab264c5a62b09962844b4a22da0a4f01</br>
+
 <b>Backup Key</b> (In case you have reached the daily 1000-call-limit for the purposes of testing) 5d30be11e33410306a009d4578d042c1
 
 [Get Latitude and Longitude](http://www.latlong.net/)</br>
