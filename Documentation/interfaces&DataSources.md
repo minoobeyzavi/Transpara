@@ -21,7 +21,7 @@ Double digit subsections must be too many.
 16 Working with OLAP Interfaces</br>
 17 Install and Configure OLAP Interface</br>
 18 Historian Interfaces</br>
-19 Install and Configure PI Interface</br>
+19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
 20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/)<b>-> Integrating Remote Context Services or Integrating with OSISoft PI</b></br>
 21 [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
 22 [Using Microsoft Excel as a Database](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface-tips/)</br>
