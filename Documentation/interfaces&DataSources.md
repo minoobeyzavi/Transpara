@@ -6,7 +6,7 @@ Double digit subsections must be too many.
 
 1 Interfacing Visual KPI with Data Sources</br>
 2 Getting Started with Visual KPI Interfaces</br>
-3 Visual KPI Interface Prerequisites</br>
+3 Visual KPI Interface Prerequisites<b>-> Not prerequisites, just part of the instrcutions</b></br>
 4 Interface Security & Encryption</br>
 5 Supported Data Sources</br>
 6 Data Source Time Zones & Units</br>
@@ -29,13 +29,13 @@ Double digit subsections must be too many.
 23 Working with a Microsoft Excel Interface</br>
 24 Install and Configure a Microsoft Excel Interface</br>
 25 Use Connect Strings with the Interfaces</br>
-26 Troubleshoot Interface Connection Errors</br>
+26 Troubleshoot Interface Connection Errors<b>-> Troubleshooting</b></br>
 
 ## Interfacing Visual KPI with Data Sources
 
-Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source. By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data.
+Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source. <b>"retrieve data from almost any data source."</b> By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data. <b>"Visual KPI can import select portions of the data."</b>
 
-A Visual KPI interface is a required component that acts as the data connector between the external databases and the Visual KPI server. The image below shows you the architecture of the various components of Visual KPI and how they interact.
+A Visual KPI interface is a required component that acts as the data connector </b>"A Visual KPI interface is a required component that acts as the data connector"</b> between the external databases and the Visual KPI server. The image below shows you the architecture of the various components of Visual KPI and how they interact.
 
  
 
