@@ -18,7 +18,7 @@
  
  ### Daily Forecast (Trend Data) For The Next Week
  
- Data is retrieved for the next week regardless of what is specified for Start and End Time in Test.
+ This returns data for the next week regardless of what is specified for Start and End Time in Test.
  
  ```
  Request URI: {0},{1}?exclude=currently,minutely,hourly,alerts,flags
@@ -29,7 +29,7 @@
  
  ### Hourly Forecast (Trend Data) For The Next 48 Hours
  
- Data is retrieved for the next hours regardless of what is specified for Start and End Time in Test.
+ This returns data for the next 48 hours regardless of what is specified for Start and End Time in Test.
  
  ```
  Request URI: {0},{1}?exclude=currently,daily,minutely,alerts,flags
@@ -40,7 +40,7 @@
  
  ### Historical Data
  
-In Visual KPI Server Manager, make sure to use the Historical Data row for this query and not Historical Value. Data is retrieved for the Timestamp specified in {2} parameter in Unix or string format (see example parameters below), regardless of what is specified as Start and End Time in Test.
+In Visual KPI Server Manager, make sure to use the Historical Data row for this query and not Historical Value. This returns data for the Timestamp specified in {2} parameter in Unix or string format (see example parameters below), regardless of what is specified as Start and End Time in Test.
  
  ```
  Request URI: {0},{1},{2}?exclude=currently,hourly,flags
@@ -70,9 +70,10 @@ In Visual KPI Server Manager, make sure to use the Historical Data row for this 
 
 
 ## Notes
-[API Docs](https://darksky.net/dev/docs)</br> First 1000 calls per day are free.
+[API Docs](https://darksky.net/dev/docs)</br> 
+First 1000 calls per day are free.</br>
 <b>Key</b>	ab264c5a62b09962844b4a22da0a4f01</br>
-<b>Backup Key</b>(In case you have reached the daily 1000-call-limit for the purposes of testing) 5d30be11e33410306a009d4578d042c1
+<b>Backup Key</b> (In case you have reached the daily 1000-call-limit for the purposes of testing) 5d30be11e33410306a009d4578d042c1
 
 [Get Latitude and Longitude](http://www.latlong.net/)</br>
 [Convert to Unix Timestamp](https://www.epochconverter.com/)
