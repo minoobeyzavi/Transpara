@@ -7,4 +7,4 @@ OPC actually comprises several standards, the first and most important of which 
 
 OPC is the interoperability standard for the secure and reliable exchange of data in the industrial automation space and in other industries. It is platform independent and ensures the seamless flow of information among devices from multiple vendors. 
 
-[OPC Connectivity](https://github.com/minoobeyzavi/Visual-KPI/blob/master/Weather/forecast.io-Interface.md)
+[OPC Connectivity](https://inmation.com/wiki/index.php?title=Sysdoc/OPC_Connectivity)
