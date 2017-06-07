@@ -1,12 +1,11 @@
 #### Interfaces & Data Sources
 
 "Interfaces & Data Sources" sounds like a story title. It could be "Create Interfaces with Data Sources" which sounds like a manual or "Visual KPI Interfaces" which sounds more technical.
-Double digit subsections must be too many. 
-[Visual KPI Interace Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) should be a subsection fo another article.
+Double digit subsections must be too many.
 
 1 Interfacing Visual KPI with Data Sources</br>
 2 Getting Started with Visual KPI Interfaces</br>
-3 Visual KPI Interface Prerequisites<b>-> Not prerequisites, just part of the instrcutions</b></br>
+3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/)<b>-> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</b></br>
 4 Interface Security & Encryption</br>
 5 Supported Data Sources</br>
 6 Data Source Time Zones & Units</br>
