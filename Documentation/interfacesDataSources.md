@@ -44,6 +44,8 @@ Visual KPI Product Architecture
 
 An interface specifies the type of technology used to communicate with the system (OLAP, JSON, SQL, etc.), any login credentials to the database, and the queries needed to extract the desired data. It establishes a connection to a database using a URL. An interface also specifies event logging levels and regional and time zone settings.
 
+<b>"An interface specifies the type of technology used to communicate with the system (JSON, SQL, etc.), login credentials to database, and the queries needed to extract desired data. It establishes a connection to the database using a URL. An interface also specifies event logging levels and time zone settings."</b>
+
 Interfaces read data from foreign systems in a read-only and lightweight fashion so there is no worry about impacting the original data.
 
 Once an interface is created, you should never have to go back to it for maintenance (except upgrading to a newer version of Visual KPI).
