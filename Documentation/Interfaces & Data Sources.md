@@ -3,7 +3,7 @@ Title could be "Create Interfaces with Data Sources" or "Visual KPI Interfaces"
 Double digit subsections must be too many. 
 [Visual KPI Interace Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) should be a subsection fo another article.
 
-[1 Interfacing Visual KPI with Data Sources](####1-Interfacing-Visual-KPI-with-Data-Sources)
+[1 Interfacing Visual KPI with Data Sources](####-1-interfacing-Visual-KPI-with-Data-Sources)
 2 Getting Started with Visual KPI Interfaces
 3 Visual KPI Interface Prerequisites
 4 Interface Security & Encryption
@@ -30,4 +30,4 @@ Double digit subsections must be too many.
 25 Use Connect Strings with the Interfaces
 26 Troubleshoot Interface Connection Errors
 
-(####1-Interfacing-Visual-KPI-with-Data-Sources)
+(####-1-interfacing-Visual-KPI-with-Data-Sources)
