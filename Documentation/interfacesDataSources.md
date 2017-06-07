@@ -32,7 +32,7 @@ Double digit subsections must be too many.
 
 ## Interfacing Visual KPI with Data Sources
 
-Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source. <b>"retrieve data from almost any data source."</b> By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data. <b>"Visual KPI can import select portions of the data."</b>
+Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source. <b>"from almost every data source."</b> By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data. <b>"Visual KPI can import select portions of the data."</b>
 
 A Visual KPI interface is a required component that acts as the data connector </b>"A Visual KPI interface is a required component that acts as the data connector"</b> between the external databases and the Visual KPI server. The image below shows you the architecture of the various components of Visual KPI and how they interact.
 
