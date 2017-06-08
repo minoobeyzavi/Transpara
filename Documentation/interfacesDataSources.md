@@ -1,7 +1,7 @@
 #### Interfaces & Data Sources
 
 "Interfaces & Data Sources" sounds like a story title. It could be "Create Interfaces with Data Sources" which sounds like a manual or "Visual KPI Interfaces" which sounds more technical.
-Double digit subsections must be too many. #5 & #6 chould be a subsection of 
+Double digit subsections must be too many. #5 & #6 chould be a subsection of another article.
 
 1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)<b> Links!</b></br>
 2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)<b> -> Fix the Links</b></br>
