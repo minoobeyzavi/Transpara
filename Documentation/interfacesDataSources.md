@@ -6,7 +6,7 @@ Links in each article should get fixed.
 
 1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)</br>
 2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)</br>
-3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</br>
+3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Could be a subsection of another article.</br>
 4 [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
 5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)</br>
 6 [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
@@ -23,7 +23,7 @@ Links in each article should get fixed.
 17 [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
 18 [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
 19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
-20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/) -> "Integrating Remote Context Services" or "Integrating with OSISoft PI"</br>
+20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/) -> "Integration of Remote Context Services", "Integration with OSIsoft PI"</br>
 21 [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
 22 [Using Microsoft Excel as a Database](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface-tips/)</br>
 23 [Working with a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface/)</br>
