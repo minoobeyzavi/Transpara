@@ -1,1 +1,16 @@
+#### Security
 
+1. [Visual KPI Security](http://betadocs.transpara.com/knowledge-base/visual-kpi-security/)
+2. [Security Inheritance in Visual KPI](http://betadocs.transpara.com/knowledge-base/security-inheritance-visual-kpi/)
+3. [Visual KPI Encryption](http://betadocs.transpara.com/knowledge-base/visual-kpi-encryption/)
+4. [Enable Encryption](http://betadocs.transpara.com/knowledge-base/enable-encryption/)
+5. [Enable Security for Visual KPI](http://betadocs.transpara.com/knowledge-base/enable-security/)
+6. [Enable Security in IIS Manager](http://betadocs.transpara.com/knowledge-base/enable-security-iis-manager/)
+7. [Decouple Directory Inheritance](http://betadocs.transpara.com/knowledge-base/decouple-directory-inheritance/)
+8. [Create Local Groups with Visual KPI Server Manager](http://betadocs.transpara.com/knowledge-base/security-create-local-groups/)
+9. [http://betadocs.transpara.com/knowledge-base/designer-admin-security/](http://betadocs.transpara.com/knowledge-base/designer-admin-security/)
+10. [Object-level Security for Visual KPI Websites](http://betadocs.transpara.com/knowledge-base/visual-kpi-object-level-security/)
+11. [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)
+12. [Enable and Assign Access for Object-level Security](http://betadocs.transpara.com/knowledge-base/object-level-security-access/)
+13. [Use Multiple Websites for Security](http://betadocs.transpara.com/knowledge-base/multiple-websites-security/)
+14. [Understand SQL Server Security](http://betadocs.transpara.com/knowledge-base/understand-sql-server-security/)
