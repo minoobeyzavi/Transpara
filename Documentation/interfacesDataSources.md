@@ -18,7 +18,7 @@ Double digit subsections must be too many. #5 & #6 chould be a subsection of
 13 [Connecting to SQL Databases](http://betadocs.transpara.com/knowledge-base/connect-sql-databases/)</br>
 14 [Working with ODBC Interfaces](http://betadocs.transpara.com/knowledge-base/odbc-interfaces/)</br>
 15 [Install and Configure ODBC Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
-16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)<b> -> Links are 404</br>
+16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)<b> -> Links</b></br>
 17 [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
 18 [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
 19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
