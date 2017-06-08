@@ -27,17 +27,8 @@ No historical data
 
 5. [The Weather Company](https://www.wunderground.com/weather/api/d/pricing.html)
 $20/month . 5000 calls per day . 3 day forecast summary
-two APIs for historical data with daily and hourly frequency and expanding to 1937; a standard data-base with gaps in data availability and a cleaned version.
-
-  For 1,000,000  total calls per month includes 100,000 calls for hourly historical data for the past 5 years.
-
-  FoD + CoD + Historical(Cleaned)  = $2,200 before discounting. 
-  Bundled Discount Total: $1980/month
-
-  FoD + CoD + Historical(Station-Based) = $1,900 before discounting.  
-  Bundle Discount Total: $1710/month
-
-  $700/month for 5000 calls/day to cleaned historical data
+$700/month for 5000 calls/day to cleaned historical data
+Daily and hourly historical data expanding to 1937; a standard data-base with gaps in data availability and a cleaned version.
 
 6. [forecast.io](https://darksky.net/dev/)
 0.0001 per forecast . 7 day hourly forecast
