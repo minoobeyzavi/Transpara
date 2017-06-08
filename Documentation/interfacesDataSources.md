@@ -3,11 +3,11 @@
 "Interfaces & Data Sources" sounds like a story title. It could be "Create Interfaces with Data Sources" which sounds like a manual or "Visual KPI Interfaces" which sounds more technical.
 Double digit subsections must be too many. #5 & #6 chould be a subsection of another article.
 
-1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)<b> Links!</b></br>
-2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)<b> -> Fix the Links</b></br>
-3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/)<b> -> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</b></br>
+1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/) Links</br>
+2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/) -> Fix the Links</br>
+3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</br>
 4 [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
-5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)<b> -> Links are 404</b></br>
+5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/) -> Links are 404</br>
 6 [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
 7 [JSON & XML Interfaces](http://betadocs.transpara.com/knowledge-base/json-xml-interface/)</br>
 8 [Working with a REST (JSON) Interface](http://betadocs.transpara.com/knowledge-base/rest-json-interface/)</br>
@@ -18,17 +18,17 @@ Double digit subsections must be too many. #5 & #6 chould be a subsection of ano
 13 [Connecting to SQL Databases](http://betadocs.transpara.com/knowledge-base/connect-sql-databases/)</br>
 14 [Working with ODBC Interfaces](http://betadocs.transpara.com/knowledge-base/odbc-interfaces/)</br>
 15 [Install and Configure ODBC Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
-16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)<b> -> Links</b></br>
+16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/) -> Links</br>
 17 [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
 18 [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
 19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
-20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/)<b>-> Integrating Remote Context Services or Integrating with OSISoft PI</b></br>
+20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/) -> Integrating Remote Context Services or Integrating with OSISoft PI</br>
 21 [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
 22 [Using Microsoft Excel as a Database](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface-tips/)</br>
 23 [Working with a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface/)</br>
 24 [Install and Configure a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/install-microsoft-excel-interface/)</br>
 25 [Use Connect Strings with the Interfaces](http://betadocs.transpara.com/knowledge-base/slug-interface-connect-strings/)</br>
-26 [Troubleshoot Interface Connection Errors](http://betadocs.transpara.com/knowledge-base/troubleshoot-interface-connection-errors/)<b>-> Troubleshooting</b></br>
+26 [Troubleshoot Interface Connection Errors](http://betadocs.transpara.com/knowledge-base/troubleshoot-interface-connection-errors/) -> Troubleshooting</br>
 
 ## Interfacing Visual KPI with Data Sources
 
