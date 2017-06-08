@@ -1,26 +1,26 @@
 #### Interfaces & Data Sources
 
 "Interfaces & Data Sources" sounds like a story title. It could be "Create Interfaces with Data Sources" which sounds like a manual or "Visual KPI Interfaces" which sounds more technical.
-Double digit subsections must be too many.
+Double digit subsections must be too many. #5 & #6 chould be a subsection of 
 
-1 Interfacing Visual KPI with Data Sources</br>
-2 Getting Started with Visual KPI Interfaces</br>
-3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/)<b>-> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</b></br>
-4 Interface Security & Encryption</br>
-5 Supported Data Sources</br>
-6 Data Source Time Zones & Units</br>
-7 JSON & XML Interfaces</br>
-8 Working with a REST (JSON) Interface</br>
-9 Install and Configure JSON Interface</br>
-10 Using Manual Data Entry Sources</br>
-11 Using Specialized Data Sources</br>
-12 SQL Interfaces</br>
-13 Connecting to SQL Databases</br>
-14 Working with ODBC Interfaces</br>
-15 Install and Configure ODBC Interface</br>
-16 Working with OLAP Interfaces</br>
-17 Install and Configure OLAP Interface</br>
-18 Historian Interfaces</br>
+1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)<b> Links!</b></br>
+2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)<b> -> Fix the Links</br>
+3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/)<b> -> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</b></br>
+4 [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
+5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)<b> -> Links are 404</b></br>
+6 [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
+7 [JSON & XML Interfaces](http://betadocs.transpara.com/knowledge-base/json-xml-interface/)</br>
+8 [Working with a REST (JSON) Interface](http://betadocs.transpara.com/knowledge-base/rest-json-interface/)</br>
+9 [Install and Configure JSON Interface](http://betadocs.transpara.com/knowledge-base/install-json-interface/)</br>
+10 [Using Manual Data Entry Sources](http://betadocs.transpara.com/knowledge-base/manual-interfaces/)</br>
+11 [Using Specialized Data Sources](http://betadocs.transpara.com/knowledge-base/specialized-data-interfaces/)</br>
+12 [SQL Interfaces](http://betadocs.transpara.com/knowledge-base/sql-interfaces/)</br>
+13 [Connecting to SQL Databases](http://betadocs.transpara.com/knowledge-base/connect-sql-databases/)</br>
+14 [Working with ODBC Interfaces](http://betadocs.transpara.com/knowledge-base/odbc-interfaces/)</br>
+15 [Install and Configure ODBC Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
+16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)<b> -> Links are 404</br>
+17 [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
+18 [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
 19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
 20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/)<b>-> Integrating Remote Context Services or Integrating with OSISoft PI</b></br>
 21 [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
