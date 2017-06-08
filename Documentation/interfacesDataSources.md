@@ -94,34 +94,3 @@ Learn more:
 Visual KPI Interface Prerequisites
 
 Getting Started with Visual KPI Interfaces
-
-## GETTING STARTED WITH VISUAL KPI INTERFACES
-
-Visual KPI Interfaces allow the Visual KPI Server to communicate with and retrieve data from external data sources, such as a PI Server, a SQL database, or a SmartSignal system. To access these systems, you must install an appropriate interface and define the system using the Visual KPI Designer.
-
-To access these systems, or create the interface: 
-
-Install an appropriate interface using Visual KPI Server Manager. A Visual KPI Interface defines how to retrieve the required data from the external data source.
-Define the interface using Visual KPI Designer. The Visual KPI Designer is used to define how to access the data source. 
-If the system is external to the Visual KPI Server, credentials may be required to access the system. You can specify the credentials when defining the Interfaces.
-
-INTERFACES TASK FLOW 
-Setting up a Visual KPI interface involves these common procedures, no matter what the data source:
-
-Install data source native client tools on Visual KPI Server. See Prerequisites and Downloads for links to the vendor drivers and other required software.
-PI: PI SDK
-SQL: SQL Management Studio or SQL connectivity driver. Note: The SQL interface feature is no longer available. It is included here for users that have existing SQL interfaces. Use ODBC interfaces instead. 
-Oracle: Oracle Drivers with ODAC and test them with Toad
-Wonderware: Wonderware SDK
-GE SDK
-Aspen: SQL driver
-Inmotion: No drivers
-JSON: Nodrivers
-Using Visual KPI Server Manager, install the interface
-Use Visual KPI Server Manager to onfigure the connection
-Verify the connection
-Test the connection
-Use the Visual KPI Designer to define an interface for a KPI
-See Interfaces & Data Sources for articles on how to install, configure, verify and test each type of Interface.
-
-
