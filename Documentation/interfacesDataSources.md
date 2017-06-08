@@ -33,7 +33,7 @@ Links in each article should get fixed.
 
 ## Interfacing Visual KPI with Data Sources
 
-Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source. <b>"from almost every data source."</b> By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data. <b>"Visual KPI can import select portions of the data."</b>
+Interfacing with data sources allows the Visual KPI Server to communicate with and retrieve data from almost any data source <b>-> "from almost every data source".</b> By connecting to various databases or third-party platforms, Visual KPI can import select portions of the source data <b>-> import select portions of the data".</b>
 
 A Visual KPI interface is a required component that acts as the data connector </b>"A Visual KPI interface is a required component that acts as the data connector"</b> between the external databases and the Visual KPI server. The image below shows you the architecture of the various components of Visual KPI and how they interact.
 
@@ -45,7 +45,7 @@ Visual KPI Product Architecture
 
 An interface specifies the type of technology used to communicate with the system (OLAP, JSON, SQL, etc.), any login credentials to the database, and the queries needed to extract the desired data. It establishes a connection to a database using a URL. An interface also specifies event logging levels and regional and time zone settings.
 
-<b>"An interface specifies the type of technology used to communicate with the system (JSON, SQL, etc.), login credentials to database, and the queries needed to extract desired data. It establishes a connection to the database using a URL. An interface also specifies event logging levels and time zone settings."</b>
+<b>-> "An interface specifies the type of technology used to communicate with the system (JSON, SQL, etc.), login credentials to database, and the queries needed to extract desired data. It establishes a connection to the database using a URL. An interface also specifies event logging levels and time zone settings."</b>
 
 Interfaces read data from foreign systems in a read-only and lightweight fashion so there is no worry about impacting the original data.
 
