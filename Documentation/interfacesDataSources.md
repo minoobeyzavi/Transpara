@@ -4,7 +4,7 @@
 Double digit subsections must be too many. #5 & #6 chould be a subsection of 
 
 1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)<b> Links!</b></br>
-2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)<b> -> Fix the Links</br>
+2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)<b> -> Fix the Links</b></br>
 3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/)<b> -> Not necessairly prerequisites, part of the instrcutions/requirements. Could be a subsection of another article.</b></br>
 4 [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
 5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)<b> -> Links are 404</b></br>
