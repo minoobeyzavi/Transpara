@@ -4,32 +4,32 @@ Title could be "Create Interfaces with Data Sources" or "Visual KPI Interfaces".
 #5 & #6 could be a subsection of another article.
 Links in each article should get fixed.
 
-1 [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)</br>
-2 [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)</br>
-3 [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Could be a subsection of another article.</br>
-4 [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
-5 [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)</br>
-6 [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
-7 [JSON & XML Interfaces](http://betadocs.transpara.com/knowledge-base/json-xml-interface/)</br>
-8 [Working with a REST (JSON) Interface](http://betadocs.transpara.com/knowledge-base/rest-json-interface/)</br>
-9 [Install and Configure JSON Interface](http://betadocs.transpara.com/knowledge-base/install-json-interface/)</br>
-10 [Using Manual Data Entry Sources](http://betadocs.transpara.com/knowledge-base/manual-interfaces/)</br>
-11 [Using Specialized Data Sources](http://betadocs.transpara.com/knowledge-base/specialized-data-interfaces/)</br>
-12 [SQL Interfaces](http://betadocs.transpara.com/knowledge-base/sql-interfaces/)</br>
-13 [Connecting to SQL Databases](http://betadocs.transpara.com/knowledge-base/connect-sql-databases/)</br>
-14 [Working with ODBC Interfaces](http://betadocs.transpara.com/knowledge-base/odbc-interfaces/)</br>
-15 [Install and Configure ODBC Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
-16 [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)</br>
-17 [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
-18 [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
-19 [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
-20 [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/) -> "Integration of Remote Context Services", "Integration with OSIsoft PI"</br>
-21 [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
-22 [Using Microsoft Excel as a Database](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface-tips/)</br>
-23 [Working with a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface/)</br>
-24 [Install and Configure a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/install-microsoft-excel-interface/)</br>
-25 [Use Connect Strings with the Interfaces](http://betadocs.transpara.com/knowledge-base/slug-interface-connect-strings/)</br>
-26 [Troubleshoot Interface Connection Errors](http://betadocs.transpara.com/knowledge-base/troubleshoot-interface-connection-errors/) -> Troubleshooting</br>
+1. [Interfacing Visual KPI with Data Sources](http://betadocs.transpara.com/knowledge-base/interfaces-data-sources/)</br>
+2. [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)</br>
+3. [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Could be a subsection of another article.</br>
+4. [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
+5. [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)</br>
+6. [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
+7. [JSON & XML Interfaces](http://betadocs.transpara.com/knowledge-base/json-xml-interface/)</br>
+8. [Working with a REST (JSON) Interface](http://betadocs.transpara.com/knowledge-base/rest-json-interface/)</br>
+9. [Install and Configure JSON Interface](http://betadocs.transpara.com/knowledge-base/install-json-interface/)</br>
+10. [Using Manual Data Entry Sources](http://betadocs.transpara.com/knowledge-base/manual-interfaces/)</br>
+11. [Using Specialized Data Sources](http://betadocs.transpara.com/knowledge-base/specialized-data-interfaces/)</br>
+12. [SQL Interfaces](http://betadocs.transpara.com/knowledge-base/sql-interfaces/)</br>
+13. [Connecting to SQL Databases](http://betadocs.transpara.com/knowledge-base/connect-sql-databases/)</br>
+14. [Working with ODBC Interfaces](http://betadocs.transpara.com/knowledge-base/odbc-interfaces/)</br>
+15. [Install and Configure ODBC Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
+16. [Working with OLAP Interfaces](http://betadocs.transpara.com/knowledge-base/olap-interfaces/)</br>
+17. [Install and Configure OLAP Interface](http://betadocs.transpara.com/knowledge-base/install-olap-interface/)</br>
+18. [Historian Interfaces](http://betadocs.transpara.com/knowledge-base/historian-interfaces/)</br>
+19. [Install and Configure PI Interface](http://betadocs.transpara.com/knowledge-base/install-pi-interface/)</br>
+20. [Integrate Visual KPI RCS with OSIsoft PI AF Attributes](http://betadocs.transpara.com/knowledge-base/integrate-osisoft-pi-af-attrubutes/) -> "Integration of Remote Context Services", "Integration with OSIsoft PI"</br>
+21. [Configure Interfaces for a KPI](http://betadocs.transpara.com/knowledge-base/designer-configure-interfaces/)</br>
+22. [Using Microsoft Excel as a Database](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface-tips/)</br>
+23. [Working with a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/microsoft-excel-interface/)</br>
+24. [Install and Configure a Microsoft Excel Interface](http://betadocs.transpara.com/knowledge-base/install-microsoft-excel-interface/)</br>
+25. [Use Connect Strings with the Interfaces](http://betadocs.transpara.com/knowledge-base/slug-interface-connect-strings/)</br>
+26. [Troubleshoot Interface Connection Errors](http://betadocs.transpara.com/knowledge-base/troubleshoot-interface-connection-errors/) -> Troubleshooting</br>
 
 ## Interfacing Visual KPI with Data Sources
 
