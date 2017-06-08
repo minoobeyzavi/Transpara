@@ -1,5 +1,5 @@
 #### Questions & Answers (FAQ)
-Tile could be just "FAQ"
+Title could be just "FAQ"
 
 1. [Why do I get a license key error message in Visual KPI Server Manager?](http://betadocs.transpara.com/knowledge-base/license-key-error/)
 2. [Can I share, open or link to a specific dashboard, regardless of what profile is currently selected?](http://betadocs.transpara.com/knowledge-base/can-share-open-link-specific-dashboard-regardless-profile-currently-selected/)
