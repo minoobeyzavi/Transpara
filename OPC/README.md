@@ -8,3 +8,9 @@ OPC actually comprises several standards, the first and most important of which 
 OPC is the interoperability standard for the secure and reliable exchange of data in the industrial automation space and in other industries. It is platform independent and ensures the seamless flow of information among devices from multiple vendors. 
 
 [OPC Connectivity](https://inmation.com/wiki/index.php?title=Sysdoc/OPC_Connectivity)
+
+[Omron OPC](http://www.ingeardrivers.com/products/opc-servers/omron-opc/?gclid=Cj0KEQjwyN7JBRCZn7LKgb3ki8kBEiQAaLEsqozaDIa83FcwwKRrfGkh56-EZfVVGfFkZ3CqCE7pd08aArfE8P8HAQ)
+
+[Rockwell Automation](https://rockwellautomation.custhelp.com/)
+
+[Application Performance Monitoring](https://cloud.oracle.com/en_US/application-performance-monitoring/documentation)
