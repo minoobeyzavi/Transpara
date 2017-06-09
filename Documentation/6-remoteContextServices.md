@@ -11,6 +11,6 @@ Title could be "Remote Context Services"
 7. [Remote Context Service KPI Keywords](http://betadocs.transpara.com/knowledge-base/remote-context-service-kpi-keywords/)
 8. [Remote Context Service Trend Keywords](http://betadocs.transpara.com/knowledge-base/remote-context-service-trend-keywords/)
 9. [Remote Context Service Table Keywords](http://betadocs.transpara.com/knowledge-base/af-remote-context-server-tables/)
-10. [http://betadocs.transpara.com/knowledge-base/remote-context-service-group-keywords/](http://betadocs.transpara.com/knowledge-base/remote-context-service-group-keywords/)
+10. [Remote Context Service Group Keywords](http://betadocs.transpara.com/knowledge-base/remote-context-service-group-keywords/)
 11. [Remote Context Service Value Keywords](http://betadocs.transpara.com/knowledge-base/remote-context-service-value-keywords/)
 
