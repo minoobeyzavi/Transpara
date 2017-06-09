@@ -8,7 +8,7 @@ Links in each article should get fixed.
 2. [Getting Started with Visual KPI Interfaces](http://betadocs.transpara.com/knowledge-base/interfaces-getting-started/)</br>
 3. [Visual KPI Interface Prerequisites](http://betadocs.transpara.com/knowledge-base/interface-prerequisites/) -> Could be a subsection of another article.</br>
 4. [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)</br>
-5. [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/)</br>
+5. [Supported Data Sources](http://betadocs.transpara.com/knowledge-base/interface-data-sources/) -> Could be a subsection of another article.</br>
 6. [Data Source Time Zones & Units](http://betadocs.transpara.com/knowledge-base/interface-time-zones-units/)</br>
 7. [JSON & XML Interfaces](http://betadocs.transpara.com/knowledge-base/json-xml-interface/)</br>
 8. [Working with a REST (JSON) Interface](http://betadocs.transpara.com/knowledge-base/rest-json-interface/)</br>
