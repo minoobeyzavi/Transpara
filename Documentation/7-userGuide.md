@@ -1,5 +1,7 @@
 #### User Guide
 
+Title could be "Dashboard & Notifications"
+
 1. [Get Started With Your Visual KPI Website](http://betadocs.transpara.com/knowledge-base/get-started-visual-kpi/)
 2. [The Visual KPI Interface](http://betadocs.transpara.com/knowledge-base/visual-kpi-interface/)
 3. [Visual KPI Data Visualizations](http://betadocs.transpara.com/knowledge-base/kpi-data-visualizations/)
@@ -17,4 +19,4 @@
 15. [Navigating KPIs & the KPI Tab](http://betadocs.transpara.com/knowledge-base/kpi-tab/)
 16. [Visual KPI Icons](http://betadocs.transpara.com/knowledge-base/visual-kpi-icons/)
 17. [Near Me Filter (Filtering by Distance)](http://betadocs.transpara.com/knowledge-base/near-me-filter/)
-18. [Relative Time Functions in Visual KPI](http://betadocs.transpara.com/knowledge-base/relative-time-functions/)
+18. [Relative Time Functions in Visual KPI](http://betadocs.transpara.com/knowledge-base/relative-time-functions/) -> Could be part of [Designer Configuration](https://github.com/minoobeyzavi/Visual-KPI/blob/master/Documentation/5-visualKPIDesignerConfiguration.md) section.
