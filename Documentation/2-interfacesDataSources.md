@@ -1,6 +1,6 @@
 #### Interfaces & Data Sources
 
-Title could be "Create Interfaces with Data Sources" or "Visual KPI Interfaces".
+Title could be "Create Interface with Data Sources" or "Visual KPI Interfaces".
 #5 & #6 could be a subsection of another article.
 Links in each article should get fixed.
 
