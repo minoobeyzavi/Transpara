@@ -1,6 +1,6 @@
 #### User Guide
 
-Title could be "Dashboard & Notifications"
+Title could be "Dashboard & Notifications" since the rest of documentation (e.g. Designer Configuration) are also User Guide.
 
 1. [Get Started With Your Visual KPI Website](http://betadocs.transpara.com/knowledge-base/get-started-visual-kpi/)
 2. [The Visual KPI Interface](http://betadocs.transpara.com/knowledge-base/visual-kpi-interface/)
