@@ -7,6 +7,6 @@ The structure and syntax of an ACF interface definition are identical to the IDL
 [ interface-attribute-list] interface interface-name {. . .}
 ```
  
-[ACF Attributes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366717(v=vs.85).aspx)
-[What is an ACF File?](https://www.lifewire.com/acf-file-2619468)
+[ACF Attributes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366717(v=vs.85).aspx)</br>
+[What is an ACF File?](https://www.lifewire.com/acf-file-2619468)</br>
 [Programs that can open .acf files](http://extension.nirsoft.net/acf)
