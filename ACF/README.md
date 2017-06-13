@@ -6,6 +6,7 @@ The structure and syntax of an ACF interface definition are identical to the IDL
 ```
 [ interface-attribute-list] interface interface-name {. . .}
 ```
-By default, the ACF interface name must match its name in the IDL definition. However, when you use the MIDL compiler option / acf to explicitly specify an ACF file name, the interface names do not have to match. This feature allows several interfaces to share a single ACF specification.
  
 [ACF Attributes](https://msdn.microsoft.com/en-us/library/windows/desktop/aa366717(v=vs.85).aspx)
+[What is an ACF File?](https://www.lifewire.com/acf-file-2619468)
+[Programs that can open .acf files](http://extension.nirsoft.net/acf)
