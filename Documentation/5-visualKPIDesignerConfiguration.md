@@ -11,7 +11,7 @@ Title could be "Designer Configurations"
 7. [Visual KPI Designer Object Types](http://betadocs.transpara.com/knowledge-base/designer-object-types/)
 8. [Visual KPI Designer Object Toolbar](http://betadocs.transpara.com/knowledge-base/designer-object-toolbar/)
 9. [Visual KPI Designer Site Settings](http://betadocs.transpara.com/knowledge-base/designer-site-settings/)
-10. [Session Record](http://betadocs.transpara.com/article-categories/configuration/)
+10. [Session Record](http://betadocs.transpara.com/knowledge-base/designer-session-record/)
 11. [Contextual Help](http://betadocs.transpara.com/knowledge-base/designer-contextual-help/)
 12. [Object-level Security for Visual KPI Websites](http://betadocs.transpara.com/knowledge-base/visual-kpi-object-level-security/)
 13. [Install Visual KPI Designer](http://betadocs.transpara.com/knowledge-base/install-visual-kpi-designer/)
