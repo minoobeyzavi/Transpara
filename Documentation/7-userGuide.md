@@ -11,7 +11,7 @@ Title could be "Dashboard & Notifications" since the rest of documentation (e.g.
 7. [Navigating Charts](http://betadocs.transpara.com/knowledge-base/navigating-charts/)
 8. [Status Filters](http://betadocs.transpara.com/knowledge-base/status-filters/)
 9. [KPI Scorecards](http://betadocs.transpara.com/knowledge-base/scorecards/)
-10. [KPI Roll-ups](http://betadocs.transpara.com/article-categories/user-guide/)
+10. [KPI Roll-ups](http://betadocs.transpara.com/knowledge-base/kpi-roll-ups/)
 11. [KPI Maps](http://betadocs.transpara.com/knowledge-base/kpi-maps/)
 12. [Group Maps](http://betadocs.transpara.com/knowledge-base/group-maps/)
 13. [Geo Maps](http://betadocs.transpara.com/knowledge-base/geo-maps/)
