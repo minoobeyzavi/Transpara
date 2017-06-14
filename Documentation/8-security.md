@@ -8,7 +8,7 @@
 6. [Enable Security in IIS Manager](http://betadocs.transpara.com/knowledge-base/enable-security-iis-manager/)
 7. [Decouple Directory Inheritance](http://betadocs.transpara.com/knowledge-base/decouple-directory-inheritance/)
 8. [Create Local Groups with Visual KPI Server Manager](http://betadocs.transpara.com/knowledge-base/security-create-local-groups/)
-9. [http://betadocs.transpara.com/knowledge-base/designer-admin-security/](http://betadocs.transpara.com/knowledge-base/designer-admin-security/)
+9. [Set Up Visual KPI Designer Admin Security](http://betadocs.transpara.com/knowledge-base/designer-admin-security/)
 10. [Object-level Security for Visual KPI Websites](http://betadocs.transpara.com/knowledge-base/visual-kpi-object-level-security/)
 11. [Interface Security & Encryption](http://betadocs.transpara.com/knowledge-base/interface-security/)
 12. [Enable and Assign Access for Object-level Security](http://betadocs.transpara.com/knowledge-base/object-level-security-access/)
