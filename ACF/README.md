@@ -23,6 +23,9 @@ INSTRUMENT HEALTH:  These signals can be read from the FTIR instrument inside th
 
 
 xx – is the grade number for the gasoline stream number (unfortunately, no leading zero)
+
 MMM – is three character month abbreviation
+
 dd – day (with leading zero)
+
 A – is a “shift” number if more than one of these files exists for a day, it will have B, C, D, etc. 
