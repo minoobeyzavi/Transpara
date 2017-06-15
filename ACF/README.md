@@ -20,3 +20,9 @@ ANALYZER RESULTS QUALITY : With each measurement, each of the results has two as
 ANALYZER / SAMPLE SYSTEM HEALTH: With each measurement, several analyzer / sample system “health” results are updated - ENERGY CELL1, Bubble Test CELL1, Cell 1 temperature, Cooling Water Temperature, Cell 1 Flow Low Alarm, Solvent Level Low Alarm, Toluene Level Low Alarm, Analyzer Cabinet Overtemp Alarm
 
 INSTRUMENT HEALTH:  These signals can be read from the FTIR instrument inside the analyzer as an indication of instrument health:  Positive 15V Supply, Negative 15V Supply, Positive 5V Supply, DCM Temperature, InterferogramPlus, InterferogramMinus, Laser1Magnitude, Laser2Magnitude,, SourceCurrent, SourceVoltage, CoilVoltage, CoilCurrent, Positive 12V Analog, Negative 12V Analog, Positive 5V Analog, Negative 5V Analog
+
+
+xx – is the grade number for the gasoline stream number (unfortunately, no leading zero)
+MMM – is three character month abbreviation
+dd – day (with leading zero)
+A – is a “shift” number if more than one of these files exists for a day, it will have B, C, D, etc. 
