@@ -9,7 +9,9 @@ This will be a typical gasoline blending demo application and the analyzer produ
 #### ANALYZER RESULTS
 The actual measurements the analyzer is making:  Grade#, RON, MON, T10, T50, T90, EP, E200, E300, AROMATICS, OLEFINS, BENZENE, API, RVPE10, TVLE10
 
-#### ANALYZER ALARMS For each measurement the following alarms are set or clear based on several criteria:
+#### ANALYZER ALARMS
+For each measurement the following alarms are set or clear based on several criteria:
+
 System Warning:  Analyzer needs attention, but data is valid (things like low toluene in the validation solvent tank)
 System Failure: Analyzer needs immediate attention, condition exists that renders data invalid ( like low flow)
 Data Valid: Conditions exists that renders data invalid (like a high outlier statistic)
