@@ -6,21 +6,20 @@ The difference between the lab results and the online results at the time the sa
  
 This will be a typical gasoline blending demo application and the analyzer produces the following data types over OPC:
 
-ANALYZER RESULTS: The actual measurements the analyzer is making:  Grade#, RON, MON, T10, T50, T90, EP, E200, E300, AROMATICS, OLEFINS, BENZENE, API, RVPE10, TVLE10
+<b>ANALYZER RESULTS:</b> The actual measurements the analyzer is making:  Grade#, RON, MON, T10, T50, T90, EP, E200, E300, AROMATICS, OLEFINS, BENZENE, API, RVPE10, TVLE10
 
-ANALYZER ALARMS: For each measurement the following alarms are set or clear based on several criteria:
+<b>ANALYZER ALARMS:</b> For each measurement the following alarms are set or clear based on several criteria:
 System Warning:  Analyzer needs attention, but data is valid (things like low toluene in the validation solvent tank)
 System Failure: Analyzer needs immediate attention, condition exists that renders data invalid ( like low flow)
 Data Valid: Conditions exists that renders data invalid (like a high outlier statistic)
 
-ANALYZER VALIDATION RESULTS: Periodically (typically once per day), the analyzer is automatically validated by measuring a solvent standard.  The result from this measurement must be below a limit to ensure the analyzer is operating properly.
+<b>ANALYZER VALIDATION RESULTS:</b> Periodically (typically once per day), the analyzer is automatically validated by measuring a solvent standard.  The result from this measurement must be below a limit to ensure the analyzer is operating properly.
 
-ANALYZER RESULTS QUALITY : With each measurement, each of the results has two associated “Outlier” statistics – Mean Squared Residual (MSR) and Mahalanobis Distance (MD).  A value over 1 indicates the current measurement is not well represented in the model and may not be valid. 
+<b>ANALYZER RESULTS QUALITY:</b> With each measurement, each of the results has two associated “Outlier” statistics – Mean Squared Residual (MSR) and Mahalanobis Distance (MD).  A value over 1 indicates the current measurement is not well represented in the model and may not be valid. 
 
-ANALYZER / SAMPLE SYSTEM HEALTH: With each measurement, several analyzer / sample system “health” results are updated - ENERGY CELL1, Bubble Test CELL1, Cell 1 temperature, Cooling Water Temperature, Cell 1 Flow Low Alarm, Solvent Level Low Alarm, Toluene Level Low Alarm, Analyzer Cabinet Overtemp Alarm
+<b>ANALYZER / SAMPLE SYSTEM HEALTH:</b> With each measurement, several analyzer / sample system “health” results are updated - ENERGY CELL1, Bubble Test CELL1, Cell 1 temperature, Cooling Water Temperature, Cell 1 Flow Low Alarm, Solvent Level Low Alarm, Toluene Level Low Alarm, Analyzer Cabinet Overtemp Alarm
 
-INSTRUMENT HEALTH:
-These signals can be read from the FTIR instrument inside the analyzer as an indication of instrument health:  Positive 15V Supply, Negative 15V Supply, Positive 5V Supply, DCM Temperature, InterferogramPlus, InterferogramMinus, Laser1Magnitude, Laser2Magnitude,, SourceCurrent, SourceVoltage, CoilVoltage, CoilCurrent, Positive 12V Analog, Negative 12V Analog, Positive 5V Analog, Negative 5V Analog
+<b>INSTRUMENT HEALTH:</b> These signals can be read from the FTIR instrument inside the analyzer as an indication of instrument health:  Positive 15V Supply, Negative 15V Supply, Positive 5V Supply, DCM Temperature, InterferogramPlus, InterferogramMinus, Laser1Magnitude, Laser2Magnitude,, SourceCurrent, SourceVoltage, CoilVoltage, CoilCurrent, Positive 12V Analog, Negative 12V Analog, Positive 5V Analog, Negative 5V Analog
 
 
 xx – is the grade number for the gasoline stream number (unfortunately, no leading zero)
