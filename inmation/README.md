@@ -33,3 +33,4 @@ Understand why that script needs to be there.
 ```
 How to run an inmation Remote Context Service (together with web service & interface)?
 ```
+[inmation wiki](https://inmation.com/wiki/index.php?title=Main_Page)
