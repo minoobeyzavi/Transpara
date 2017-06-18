@@ -37,7 +37,11 @@ dd – day (with leading zero)
 
 A – is a “shift” number if more than one of these files exists for a day, it will have B, C, D, etc. 
 
+2 different analyzers measuring the same stream. They might aslo add a virtual stream into analyzers.
+
 RON - Research Octane Number</br>
 MON - Motor Octane Number
 
-G, H6 & 7 report files are measurements from normal monitoring of gasoline stream. QC is for when they switch in once a day to measure the stream. H7 is automated & QC is human-entered. Limits for MON & RON are +/- 0.1 for the deviation. Limits for T50 are +/- 5 degrees.
+G, H6 & 7 report files are measurements from normal monitoring of gasoline stream. QC is for when they switch in once a day to measure the stream. H7 is automated & QC is human-entered. Limits for MON & RON are +/- 0.1 for the deviation. Limits for T50 are +/- 5 degrees. T10 means 10%. If MSR is less than 1, we're confident that results are valid; green line. Between 1 and 2 is yellow line; above 2, red line.
+
+Transference Value - Analyzer validation against a standard sample. This is the most important value to look at.
