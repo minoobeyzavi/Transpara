@@ -39,3 +39,5 @@ A – is a “shift” number if more than one of these files exists for a day, 
 
 RON - Research Octane Number</br>
 MON - Motor Octane Number
+
+G, H6 & 7 report files are measurements from normal monitoring of gasoline stream. QC is for when they switch in once a day to measure the stream.
