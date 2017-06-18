@@ -1,6 +1,3 @@
-RON - Research Octane Number
-MON - Motor Octane Number
-
 ## Analect Concentration File Format
 
 The difference between the lab results and the online results at the time the sample was taken are the primary performance measurement of the analyzer.  The closer they match, the better.   The lab reference data comes from the site lab information management system (LIMS) - not the analyzer, so would have to be mocked up somehow.
@@ -39,3 +36,6 @@ MMM – is three character month abbreviation
 dd – day (with leading zero)
 
 A – is a “shift” number if more than one of these files exists for a day, it will have B, C, D, etc. 
+
+RON - Research Octane Number</br>
+MON - Motor Octane Number
