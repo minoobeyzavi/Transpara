@@ -17,7 +17,7 @@ System Failure: Analyzer needs immediate attention, condition exists that render
 Data Valid: Conditions exists that renders data invalid (like a high outlier statistic)
 
 #### ANALYZER VALIDATION RESULTS
-Periodically (typically once per day), the analyzer is automatically validated by measuring a solvent standard.  The result from this measurement must be below a limit to ensure the analyzer is operating properly.
+Periodically (typically once a day), the analyzer is automatically validated by measuring a solvent standard.  The result from this measurement must be below a limit to ensure the analyzer is operating properly.
 
 #### ANALYZER RESULTS QUALITY
 With each measurement, each of the results has two associated “Outlier” statistics – Mean Squared Residual (MSR) and Mahalanobis Distance (MD).  A value over 1 indicates the current measurement is not well represented in the model and may not be valid. 
