@@ -29,8 +29,4 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 Understand why that script needs to be there.
 ```
 
-#### Secondary Questions
-```
-How to run an inmation Remote Context Service (together with web service & interface)?
-```
 [inmation wiki](https://inmation.com/wiki/index.php?title=Main_Page)
