@@ -1,0 +1,21 @@
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/SiteA/		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/SiteB/		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/SiteB/		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/SiteA/Demo1		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/SiteB/Demo1		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/SiteB/Demo2		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/SiteA/Demo3		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/SiteB/Demo4		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/SiteB/Demo4/GrpA/GrpB/GrpC		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/SiteB/Demo4/GrpA/GrpB/GrpC		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/SiteB/Demo4/GrpA/GrpB/GrpC		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/STS/		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/STS/		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/TIK/		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/TIK/		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/Cancun/Beach		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/Cancun/Beach		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/Cancun/Beach		
+A	Desc A	%	0	100	1000	10	15	20	55	80	90	95	/Enterprise/Houston/ET		
+B	Desc B	m3	0	10000	10000				8000		9000	9500	/Enterprise/Houston/ET		
+C	Desc C	m3	-100	100	5000	-80	-60	-20					/Enterprise/Houston/ET		
