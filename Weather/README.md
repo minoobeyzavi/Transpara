@@ -31,7 +31,7 @@ $700/month for 5000 calls/day to cleaned historical data
 Daily and hourly historical data expanding to 1937; a standard data-base with gaps in data availability and a cleaned version.
 
 6. [forecast.io](https://darksky.net/dev/)
-0.0001 per forecast . 7 day hourly forecast
+The first 1,000 forecasts per day are free. Then, $0.0001 per forecast . 7 day hourly forecast
 Decades of hourly and daily historical data 
 
 7. [earthnetworks](https://www.earthnetworks.com/product/data-analytical-model-delivery/sferic-api/)
