@@ -1,6 +1,6 @@
-## Aggregations
+# Aggregations
 
-#### Config
+## Config
 ```
 cd conf-quickstart/tranquility/server.json
 sudo nano sever.json
@@ -39,7 +39,7 @@ We included the line below in the command to make Tranquility aware of the exten
 -Ddruid.extensions.loadList='["druid-histogram"]' -Ddruid.extensions.directory=/opt/druid/extensions
 ```
 
-#### Average
+## Average
 
 ```
 {
@@ -70,7 +70,7 @@ We included the line below in the command to make Tranquility aware of the exten
 ```  
   
 
-#### Standard Deviation
+## Standard Deviation
 
 Pre-aggregating variance at ingestion time
 To use this feature, an "variance" aggregator must be included at indexing time. The ingestion aggregator can only apply to numeric values. If you use "variance" then any input rows missing the value will be considered to have a value of 0.
