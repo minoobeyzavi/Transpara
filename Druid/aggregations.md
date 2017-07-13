@@ -1,6 +1,6 @@
-#### Aggregations
+### Aggregations (This is a draft!)
 
-## Config
+#### Config
 ```
 cd conf-quickstart/tranquility/server.json
 sudo nano sever.json
