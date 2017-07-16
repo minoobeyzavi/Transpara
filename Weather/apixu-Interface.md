@@ -1,4 +1,5 @@
 ## Interface Instructions
+#### (Update: instructions below may no longer be valid)
 
 1. Install new JSON Interface on Server.</br>
 2. Clear out Base Address and all fields related to Current Value, Trend Data, Historical Value, Historcial Data.</br>
