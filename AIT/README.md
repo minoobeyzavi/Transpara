@@ -1,8 +1,6 @@
 ## Analect Concentration File Format
 
-The difference between the lab results and the online results at the time the sample was taken are the primary performance measurement of the analyzer.  The closer they match, the better.   The lab reference data comes from the site lab information management system (LIMS) - not the analyzer, so would have to be mocked up somehow.
-
-
+The difference between the lab results and the online results at the time the sample was taken are the primary performance measurement of the analyzer.  The closer they match, the better.   The lab reference data comes from the site Lab Information Management System (LIMS) - not the analyzer, so would have to be mocked up somehow.
  
 This will be a typical gasoline blending demo application and the analyzer produces the following data types over OPC:
 
@@ -48,5 +46,3 @@ High Limit 1:
 High High Limit: 2
 
 Transference Value - Analyzer validation against a standard sample. This is the most important value to look at.
-
-Schneider Electric -> Customers
