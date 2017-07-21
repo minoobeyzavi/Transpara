@@ -26,3 +26,11 @@ Do something intelligent with data in a uniform way. Website that screams value.
 Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The Inside API, Simulation
 
 [inmation wiki](https://inmation.com/wiki/index.php?title=Main_Page)
+
+#### Questions
+
+Why is default do not persist in persisting mode.
+
+#### Suggestions
+
+Default colors shouldn’t be the same in object properties.
