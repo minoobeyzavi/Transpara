@@ -31,6 +31,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 Why is default do not persist in persisting mode.
 
-#### Suggestions
+#### Suggestions for Improvement
 
 Default colors shouldn’t be the same in object properties.
+There should be a way to close all tabs per window ( e.g. all history trends) at once.
