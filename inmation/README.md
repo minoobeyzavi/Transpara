@@ -30,8 +30,45 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 #### Questions
 
 Why is default do not persist in persisting mode.
+Why does Stefan’s script set values to NA at connector restart.
 
 #### Suggestions for Improvement
 
 Default colors shouldn’t be the same in object properties.
 There should be a way to close all tabs per window ( e.g. all history trends) at once.
+
+#### Data Overlap Outline
+
+QC -> Analect HSS Hydrocarbon System
+
+Transference
+MSR
+Pathlength
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 STOPPED
+Solv Level
+Tol Level
+Azr Encl
+
+RRX -> Analect HSS Analyzer
+
+Positive 15v Supply
+DCM Temp
+Interferogram
+Laser Magnitude
+Source Current
+Coil Voltage
+
+H7 -> Analect HSS Hydrocarbon Smart System
+
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 Flow
+Solv Level
+Tol Level
+Azr Encl Overtemp
