@@ -37,7 +37,7 @@ Why does Stefan’s script set values to NA at connector restart.
 Default colors shouldn’t be the same in object properties.
 There should be a way to close all tabs per window ( e.g. all history trends) at once.
 
-#### Data Overlap Outline
+#### Correction of Data Overlap in Stefan's Script
 
 QC -> Analect HSS Hydrocarbon System
 
