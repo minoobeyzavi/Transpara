@@ -1,4 +1,4 @@
-#### Notes
+#### What inmation does:
 
 Mathematical Operations on Data
   * Execute Simple calculation e.g. add tow inputs to create a new value.
@@ -41,34 +41,34 @@ There should be a way to close all tabs per window ( e.g. all history trends) at
 
 QC -> Analect HSS Hydrocarbon System
 
-Transference
-MSR
-Pathlength
-E Cell 1
-B T Cell 1
-Cell 1 temp
-Water temp
-Cell 1 STOPPED
-Solv Level
-Tol Level
+Transference</br>
+MSR</br>
+Pathlength</br>
+E Cell 1</br>
+B T Cell 1</br>
+Cell 1 temp</br>
+Water temp</br>
+Cell 1 STOPPED</br>
+Solv Level</br>
+Tol Level</br>
 Azr Encl
 
 RRX -> Analect HSS Analyzer
 
-Positive 15v Supply
-DCM Temp
-Interferogram
-Laser Magnitude
-Source Current
+Positive 15v Supply</br>
+DCM Temp</br>
+Interferogram</br>
+Laser Magnitude</br>
+Source Current</br>
 Coil Voltage
 
 H7 -> Analect HSS Hydrocarbon Smart System
 
-E Cell 1
-B T Cell 1
-Cell 1 temp
-Water temp
-Cell 1 Flow
-Solv Level
-Tol Level
+E Cell 1</br>
+B T Cell 1</br>
+Cell 1 temp</br>
+Water temp</br>
+Cell 1 Flow</br>
+Solv Level</br>
+Tol Level</br>
 Azr Encl Overtemp
