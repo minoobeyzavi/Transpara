@@ -34,9 +34,10 @@ Why does Stefan’s script set values to NA at connector restart.
 
 #### Michael's Suggestions for Improvement
 
-Default colors shouldn’t be the same in object properties.
-There should be a way to close all tabs per window ( e.g. all history trends) at once.
-inmation shouldn’t generate data to create an interpolate that looks like steps.
+** Significant memory management is required to make all functions within the software run faster.
+** Default colors shouldn’t be the same in object properties.
+** There should be a way to close all tabs per window ( e.g. all history trends) at once.
+** inmation shouldn’t generate data to create an interpolate that looks like steps.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
