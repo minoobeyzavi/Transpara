@@ -38,6 +38,7 @@ Why does Stefan’s script set values to NA at connector restart.
 ** Default colors shouldn’t be the same in object properties.
 ** There should be a way to close all tabs per window ( e.g. all history trends) at once.
 ** inmation shouldn’t generate data to create an interpolate that looks like steps.
+** Aggregate column in History Trend should default to Raw Data instead of Average.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
