@@ -31,6 +31,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 Why is default do not persist in persisting mode.
 Why does Stefan’s script set values to NA at connector restart.
+Can hierarchy be non-alphabetical?
 
 #### Michael's Suggestions for Improvement
 
