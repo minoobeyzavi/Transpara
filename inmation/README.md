@@ -45,7 +45,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 #### QC -> Analect HSS Hydrocarbon System
 
-'''
+```
 Transference</br>
 MSR</br>
 Pathlength</br>
@@ -57,20 +57,20 @@ Cell 1 STOPPED</br>
 Solv Level</br>
 Tol Level</br>
 Azr Encl
-'''
+```
 #### RRX -> Analect HSS Analyzer
 
-'''
+```
 Positive 15v Supply</br>
 DCM Temp</br>
 Interferogram</br>
 Laser Magnitude</br>
 Source Current</br>
 Coil Voltage
-'''
+```
 #### H7 -> Analect HSS Hydrocarbon Smart System
 
-'''
+```
 E Cell 1</br>
 B T Cell 1</br>
 Cell 1 temp</br>
@@ -79,4 +79,4 @@ Cell 1 Flow</br>
 Solv Level</br>
 Tol Level</br>
 Azr Encl Overtemp
-'''
+```
