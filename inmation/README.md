@@ -29,17 +29,17 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 #### Questions
 
-** Why is default do not persist in persisting mode?
-** Why does Stefan’s script set values to NA at connector restart?
-** Can hierarchy be non-alphabetical?
+* Why is default do not persist in persisting mode?
+* Why does Stefan’s script set values to NA at connector restart?
+* Can hierarchy be non-alphabetical?
 
 #### Michael's Suggestions for Improvement
 
-** Significant memory management is required to make all functions within the software run faster.
-** Default colors shouldn’t be the same in object properties.
-** There should be a way to close all tabs per window ( e.g. all history trends) at once.
-** inmation shouldn’t generate data to create an interpolate that looks like steps.
-** Aggregate column in History Trend should default to Raw Data instead of Average.
+* Significant memory management is required to make all functions within the software run faster.
+* Default colors shouldn’t be the same in object properties.
+* There should be a way to close all tabs per window ( e.g. all history trends) at once.
+* inmation shouldn’t generate data to create an interpolate that looks like steps.
+* Aggregate column in History Trend should default to Raw Data instead of Average.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
