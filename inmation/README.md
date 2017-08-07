@@ -15,11 +15,11 @@ Scripts are hosted by properties of objects.
 ```
 They should clearly and simply articulate on a high level what inmation is and what they do.
 ```
-Software infrastructure... allow you to aggregate... wrap your hardware around the world...
+"Software infrastructure... allow you to aggregate... wrap your hardware around the world...
 Do big data analytics around operational assets.
 Abstract a way around...
 Unified way to bring data...
-Do something intelligent with data in a uniform way. Website that screams value.
+Do something intelligent with data in a uniform way. Website that screams value."
 
 #### Key Words
 
