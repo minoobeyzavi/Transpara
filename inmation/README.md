@@ -38,7 +38,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 ```
 
-#### Suggestions for Improvement
+#### Requests for Improvement
 
 * Significant memory management is required to make all functions within the software run faster.
 * Default colors shouldn’t be the same in object properties.
