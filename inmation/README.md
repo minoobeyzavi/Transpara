@@ -33,6 +33,11 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 * Why does Stefan’s script set values to NA at connector restart?
 * Can hierarchy be non-alphabetical?
 
+#### Correction Necessary to KPI Model Script
+```
+kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
+```
+
 #### Suggestions for Improvement
 
 * Significant memory management is required to make all functions within the software run faster.
