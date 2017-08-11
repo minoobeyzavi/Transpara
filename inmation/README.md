@@ -45,6 +45,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * There should be a way to close all tabs per window ( e.g. all history trends) at once.
 * inmation shouldn’t generate data to create an interpolate that looks like steps.
 * Aggregate column in History Trend should default to Raw Data instead of Average.
+* IO model should stay open in the same hierarchy after being refreshed.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
