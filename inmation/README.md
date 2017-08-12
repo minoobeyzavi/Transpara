@@ -46,6 +46,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * inmation shouldn’t generate data to create an interpolate that looks like steps.
 * Aggregate column in History Trend should default to Raw Data instead of Average.
 * IO model should stay open in the same hierarchy after being refreshed.
+* "Right-Click -> Add Children to History Trend" feature should be in working order.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
