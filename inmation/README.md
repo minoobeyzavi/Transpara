@@ -47,6 +47,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * Aggregate column in History Trend should default to Raw Data instead of Average.
 * IO model should stay open in the same hierarchy after being refreshed.
 * "Right-Click -> Add Children to History Trend" feature should be in working order.
+* Software should open with the most recently used workspace by default.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
