@@ -9,7 +9,7 @@ Configuration operations on system: inmation
 
 Both functions to run more complicated tasks.
 
-Scripts are attached to objects that exist in the difference models.
+Scripts are attached to objects that exist in the different models.
 Scripts are hosted by properties of objects.
 
 ```
