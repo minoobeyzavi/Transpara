@@ -7,8 +7,6 @@ Mathematical Operations on Data
 Configuration operations on system: inmation
   * Create/Update/Delete objects in all system:inmation model trees.
 
-Both functions to run more complicated tasks.
-
 Scripts are attached to objects that exist in the different models.
 Scripts are hosted by properties of objects.
 
