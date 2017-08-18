@@ -23,7 +23,8 @@ Do something intelligent with data in a uniform way. Website that screams value.
 
 Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The Inside API, Simulation
 
-[inmation wiki](https://inmation.com/wiki/index.php?title=Main_Page)
+[inmation Wiki](https://inmation.com/wiki/index.php?title=Main_Page)
+[Industries Animation](https://www.inmation.com/industries_animations/energy_and_utilities/energy_and_utilities.html)
 
 #### Questions
 
