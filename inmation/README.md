@@ -47,6 +47,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * IO model should stay open in the same hierarchy after being refreshed.
 * "Right-Click -> Add Children to History Trend" feature should be in working order.
 * Software should open with the most recently used workspace by default.
+* History Trend should default to Max Resolution.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
