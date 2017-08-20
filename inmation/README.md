@@ -48,6 +48,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * "Right-Click -> Add Children to History Trend" feature should be in working order.
 * Software should open with the most recently used workspace by default.
 * History Trend should default to Max Resolution.
+* The Visiblity column under History Trend chart should be next to the Names column or be the first column.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
