@@ -39,7 +39,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 
 #### Requests for Improvement
 
-* Significant memory management is required to make all functions within the software run faster.
+*  All functions within the software must run much faster for the software to remain responisve. Significant memory management is likely to be required.
 * Default colors shouldn’t be the same in object properties.
 * There should be a way to close all tabs per window ( e.g. all history trends) at once.
 * inmation shouldn’t generate data to create an interpolate that looks like steps.
