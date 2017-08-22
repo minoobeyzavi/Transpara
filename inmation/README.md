@@ -37,7 +37,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 ```
 
-#### Requests for Improvement
+#### Suggested Improvements
 
 *  All functions within the software must run much faster for the software to remain responisve. Significant memory management is likely to be required.
 * Default colors shouldn’t be the same in object properties.
@@ -49,6 +49,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * Software should open with the most recently used workspace by default.
 * History Trend should default to Max Resolution.
 * The Visiblity column under History Trend chart should be next to the Names column or be the first column.
+* Types of objects or Class Names such as "Enterprise", "Division", etc. should be have more generic names.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
