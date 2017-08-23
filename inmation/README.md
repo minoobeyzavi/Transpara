@@ -28,7 +28,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 #### Questions
 
-* Why is persisting mode set to "do not persist" by default?
+* Why is persistency mode set to "do not persist" by default?
 * Why does Stefan’s script set values to NA at connector restart?
 * Can hierarchy be non-alphabetical?
 
