@@ -30,7 +30,6 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 
 * Why is persistency mode set to "do not persist" by default?
 * Why does Stefan’s script set values to NA at connector restart?
-* Can hierarchy be non-alphabetical?
 
 #### Correction Necessary to KPI Model Script
 ```
@@ -50,6 +49,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * History Trend should default to Max Resolution.
 * The Visiblity column under History Trend chart should be next to the Names column or be the first column.
 * Types of objects or Class Names such as "Enterprise", "Division", etc. should be have more generic names.
+* KPI model hierarchy could be designed manually and according to industrial importane as opposed to alphabetical sorting.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
