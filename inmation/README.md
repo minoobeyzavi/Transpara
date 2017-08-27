@@ -49,7 +49,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * History Trend should default to Max Resolution.
 * The Visiblity column under History Trend chart should be next to the Names column or be the first column.
 * Types of objects or Class Names such as "Enterprise", "Division", etc. should be have more generic names.
-* KPI model hierarchy could be designed manually and according to industrial importane as opposed to alphabetical sorting.
+* KPI model hierarchy could be designed manually and ordered according to importance as opposed to sorted alphabetically.
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
