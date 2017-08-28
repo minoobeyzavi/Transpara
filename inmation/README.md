@@ -56,37 +56,37 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 #### QC -> Analect HSS Hydrocarbon System
 
 ```
-Transference</br>
+Transference
 MSR</br>
-Pathlength</br>
-E Cell 1</br>
-B T Cell 1</br>
-Cell 1 temp</br>
-Water temp</br>
-Cell 1 STOPPED</br>
-Solv Level</br>
-Tol Level</br>
+Pathlength
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 STOPPED
+Solv Level
+Tol Level
 Azr Encl
 ```
 #### RRX -> Analect HSS Analyzer
 
 ```
-Positive 15v Supply</br>
-DCM Temp</br>
-Interferogram</br>
-Laser Magnitude</br>
-Source Current</br>
+Positive 15v Supply
+DCM Temp
+Interferogram
+Laser Magnitude
+Source Current
 Coil Voltage
 ```
 #### H7 -> Analect HSS Hydrocarbon Smart System
 
 ```
-E Cell 1</br>
-B T Cell 1</br>
-Cell 1 temp</br>
-Water temp</br>
-Cell 1 Flow</br>
-Solv Level</br>
-Tol Level</br>
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 Flow
+Solv Level
+Tol Level
 Azr Encl Overtemp
 ```
