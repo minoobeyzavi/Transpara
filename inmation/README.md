@@ -53,6 +53,9 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 
 ## Correction of Data Overlap in Stefan's Custom Script
 
+Current folder name is instrument ID.
+App ID may have other meta data in it.
+
 #### QC -> Analect HSS Hydrocarbon System
 
 ```
