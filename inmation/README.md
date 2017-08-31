@@ -38,7 +38,7 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 
 #### Suggested Improvements
 
-*  All functions within the software must run much faster for the software to remain responisve. Significant memory management is likely to be required.
+*  All functions within the software must run significantly faster for the software to remain responisve. Proper memory management is required.
 * Default colors shouldn’t be the same in object properties.
 * There should be a way to close all tabs per window ( e.g. all history trends) at once.
 * inmation shouldn’t generate data to create an interpolate that looks like steps.
