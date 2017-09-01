@@ -1,3 +1,47 @@
+## Correction of Data Overlap in Stefan's Custom Script
+
+Current folder name is instrument ID.
+App ID may have other meta data in it.
+
+#### QC -> Analect HSS Hydrocarbon System
+
+```
+Transference
+MSR</br>
+Pathlength
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 STOPPED
+Solv Level
+Tol Level
+Azr Encl
+```
+#### RRX -> Analect HSS Analyzer
+
+```
+Positive 15v Supply
+DCM Temp
+Interferogram
+Laser Magnitude
+Source Current
+Coil Voltage
+```
+#### H7 -> Analect HSS Hydrocarbon Smart System
+
+```
+E Cell 1
+B T Cell 1
+Cell 1 temp
+Water temp
+Cell 1 Flow
+Solv Level
+Tol Level
+Azr Encl Overtemp
+```
+
+
 #### What inmation does:
 
 Mathematical Operations on Data
@@ -50,46 +94,3 @@ kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 * The Visiblity column under History Trend chart should be next to the Names column or be the first column.
 * Types of objects or Class Names such as "Enterprise", "Division", etc. should be have more generic names.
 * KPI model hierarchy could be designed manually and ordered according to importance as opposed to sorted alphabetically.
-
-## Correction of Data Overlap in Stefan's Custom Script
-
-Current folder name is instrument ID.
-App ID may have other meta data in it.
-
-#### QC -> Analect HSS Hydrocarbon System
-
-```
-Transference
-MSR</br>
-Pathlength
-E Cell 1
-B T Cell 1
-Cell 1 temp
-Water temp
-Cell 1 STOPPED
-Solv Level
-Tol Level
-Azr Encl
-```
-#### RRX -> Analect HSS Analyzer
-
-```
-Positive 15v Supply
-DCM Temp
-Interferogram
-Laser Magnitude
-Source Current
-Coil Voltage
-```
-#### H7 -> Analect HSS Hydrocarbon Smart System
-
-```
-E Cell 1
-B T Cell 1
-Cell 1 temp
-Water temp
-Cell 1 Flow
-Solv Level
-Tol Level
-Azr Encl Overtemp
-```
