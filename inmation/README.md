@@ -1,4 +1,4 @@
-## system:inmation
+## inmation
 
 ### Correction of Data Overlap in Stefan's Custom Script
 
