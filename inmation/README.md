@@ -1,7 +1,6 @@
-## Correction of Data Overlap in Stefan's Custom Script
+# inmation
 
-Current folder name is instrument ID.
-App ID may have other meta data in it.
+### Correction of Data Overlap in Stefan's Custom Script
 
 #### QC -> Analect HSS Hydrocarbon System
 
@@ -41,6 +40,8 @@ Tol Level
 Azr Encl Overtemp
 ```
 
+Current folder name is instrument ID.
+App ID may have other meta data in it.
 
 #### What inmation does:
 
