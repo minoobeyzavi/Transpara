@@ -2,7 +2,7 @@
 
 ### Correction of Data Overlap in Stefan's Custom Script
 
-Allocation of data from file to corresponding I/O elements is outlined below:
+Allocation of data from AIT files to the right I/O elements in inmation is outlined below:
 
 #### QC -> Analect HSS Hydrocarbon System
 
