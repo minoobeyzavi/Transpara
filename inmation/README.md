@@ -2,6 +2,8 @@
 
 ### Correction of Data Overlap in Stefan's Custom Script
 
+Allocation of data from file to corresponding I/O elements is outlined below:
+
 #### QC -> Analect HSS Hydrocarbon System
 
 ```
