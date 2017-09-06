@@ -1,6 +1,4 @@
-## inmation
-
-### Correction of Data Overlap in Stefan's Custom Script
+## Correction of Data Overlap in Stefan's Custom Script
 
 Allocation of data from AIT files to the right I/O elements in inmation is outlined below:
 
@@ -45,7 +43,8 @@ Azr Encl Overtemp
 Current folder name is instrument ID.
 App ID may have other meta data in it.
 
-#### What inmation does:
+
+## What inmation does:
 
 Mathematical Operations on Data
   * Execute Simple calculation e.g. add tow inputs to create a new value.
