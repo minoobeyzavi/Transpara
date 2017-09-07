@@ -1,6 +1,6 @@
 ## Correction of Data Overlap in Stefan's Custom Script
 
-Allocation of data from AIT files to the right I/O elements in inmation is outlined below:
+Allocation of data from AIT files to the right I/O elements in inmation is outlined below. Values with the same name in QC and H7 should be placed in different I/O elements.
 
 #### QC -> Analect HSS Hydrocarbon System
 
