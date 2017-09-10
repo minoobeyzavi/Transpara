@@ -78,6 +78,7 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 * Why does Stefan’s script set values to NA at connector restart?
 
 #### Correction Necessary to KPI Model Script
+
 ```
 kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
 ```
