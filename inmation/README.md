@@ -44,6 +44,13 @@ Current folder name is instrument ID.
 App ID may have other meta data in it.
 
 
+#### Correction Necessary to KPI Model Script
+
+```
+kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
+```
+
+
 ## What inmation does:
 
 Mathematical Operations on Data
@@ -77,11 +84,6 @@ Contextualize, Consolidate, Standardize, Historization, Aggregation, Trends, The
 * Why is persistency mode set to "do not persist" by default?
 * Why does Stefan’s script set values to NA at connector restart?
 
-#### Correction Necessary to KPI Model Script
-
-```
-kpiobj.kpiDisplaySettings.EngineeringUnit = EUU
-```
 
 #### Requested Improvements
 
